@@ -71,17 +71,7 @@ body{
     margin: 0 0.5vw;
 
 }
-.navbtn1{
-    height: 1.5vw;
-    width: 4vw;
-    margin: 0 0.5vw;
-    border: none;
-    border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
-    font-size: 0.7em;
 
-}
 .navbtn2{
     height: 2vw;
     width: 7vw;
@@ -93,12 +83,44 @@ body{
     align-items: center;
     justify-content: center;
 }
-.navbtn2>img{
-    border: 1px solid black;
-    width: 1vw;
-    height: 1vw;
-    /* margin: 0 0.5vw; */
+
+
+
+
+
+/* CSS */
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 35px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 70%;
+  min-width: 100px;
+  padding: 10px 20px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
 }
-.navbtn2 span{
-    margin-left: 0.3vw;
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
 }
