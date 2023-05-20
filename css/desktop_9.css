@@ -372,6 +372,10 @@ nav {
     justify-content: space-between;
     width: 60%;
     margin-top: 10px;
+
+}
+.icon:hover{
+    transform: translateY(-0.25rem);
 }
 
 .video{
