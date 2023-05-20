@@ -15,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 1.5vw;
 }
 .icons img{
     height: 1.5vw;
@@ -30,22 +31,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 1.5vw;
 }
 .email{
     border: 1px solid rgba(255, 255, 255, 0.258);
     background-color: #7333df;
     height: 1.5vw;
     border-radius: 0.2vw;
+    padding: 0vw 0.7vw;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    margin-top: 2.5vw;
 }
 .box2btn{
     background-color: #aa77ff;
     border: none;
-    font-size: 0.6em;
+    font-size: 0.7vw;
     height: 1.5vw;
     width: 5vw;
     border-radius: 0.2vw;
     margin-left: 0.4vw;
-    color: rgba(255, 255, 255, 0.53);
+    color: rgb(255, 255, 255);
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box3{
@@ -53,6 +59,7 @@
     height: 7vw;
     width: 20vw;
     display: flex;
+    font-size: 1.5vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;

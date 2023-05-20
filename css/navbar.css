@@ -16,7 +16,7 @@ body{
 
 .navbar {
     width: 100vw;
-    height: 80px;
+    height: 10vw;
     left: 0px;
     top: 0px;
     display: flex;
@@ -27,7 +27,7 @@ body{
 .navs1{
     /* border: 1px solid black; */
     width: 15vw;
-    height: 80px;
+    height: 10vw;
     display: flex;
     align-items: center;
     margin-left: 3.5vw;
@@ -40,12 +40,12 @@ body{
 }
 .span1{
     margin-left: 1vw;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bold;
     color: #7D41E2;
 }
 .span2{
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bolder;
     color: #7D41E2;
 }
@@ -59,10 +59,10 @@ body{
 .navs2{
     /* border: 1px solid black; */
     width: 25vw;
-    height: 80px;
+    height: 10vw;
     display: flex;
     align-items: center;
-    margin-right: 1vw;
+    margin-right: 5vw;
 }
 .navs2>img{
     border: 1px solid black;
@@ -72,26 +72,27 @@ body{
 
 }
 .navbtn1{
-    height: 1.5vw;
-    width: 4vw;
+    height: 2vw;
+    width: 10vw;
     margin: 0 0.5vw;
     border: none;
     border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
+    border: 0.1vw solid #2a95f6;
     background-color: white;
-    font-size: 0.7em;
+    font-size: 1vw;
 
 }
 .navbtn2{
     height: 2vw;
-    width: 7vw;
-    margin: 0 1.3vw;
-    border-radius: 0.5vw;
+    width: 10vw;
+    margin: 0 0.5vw;
+    border-radius: 0.3vw;
     border: none;
     background-color: #2a95f6;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1vw;
 }
 .navbtn2>img{
     border: 1px solid black;

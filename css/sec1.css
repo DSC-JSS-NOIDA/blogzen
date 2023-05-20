@@ -15,7 +15,7 @@
     position: relative;
     top: 1.3vw;
     left: 37vw;
-    font-size: 2.7em;
+    font-size: 3.2vw;
     font-weight: bold;
     color: white;
 }
@@ -25,21 +25,27 @@
     border-radius: 2vw;
     position: relative;
     left: 33vw;
-    top: -4.5vw;
+    top: 0vw;
     background-color: white;
-    border: none;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
+    text-align: left;
+    padding: 0vw 2vw;
+    border-width: 0.05vw;
+    border-color: rgb(158, 158, 158);
+    box-shadow: 0.3vw 0.3vw 0.15vw rgba(0, 0, 0, 0.155);
+    font-size: 1.5vw;
     color: rgba(0, 0, 0, 0.148);
 }
+
 .s1part2{
     /* border: 1px solid black; */
     height: 5vw;
     width: 40vw;
     position: relative;
-    left: 33vw;
-    bottom: 3vw;
+    left: 30vw;
+    bottom: -1vw;
     display: flex;
     align-items: center;
+    font-size: 1.5vw;
 }
 .s1btn1{
     height: 2.4vw;

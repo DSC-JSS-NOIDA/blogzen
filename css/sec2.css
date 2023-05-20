@@ -13,10 +13,10 @@
     margin: 0 1.3vw;
     border-radius: 1vw;
     border: none;
-    border: 1px solid #ff765d;
+    border: 0.1vw solid #ff765d;
     background-color: white;
     margin: 0 1vw;
-    font-size: 0.8em;
+    font-size: 1vw;;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{
