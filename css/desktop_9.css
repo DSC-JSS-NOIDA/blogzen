@@ -199,7 +199,7 @@ nav {
     margin-top: 40px;
 }
 
-.other_blogs{
+.other_blogs {
     margin-left: 6.5%;
 }
 
@@ -335,9 +335,11 @@ nav {
     border: none;
     height: 30px;
     padding-left: 10px;
-    border: 1px solid #AA77FF;
+    border: 2px solid #AA77FF;
     background-color: transparent;
     color: #ffffff;
+    font-family: 'poppins';
+    border-radius: 5px;
 }
 
 ::placeholder {
@@ -346,11 +348,13 @@ nav {
 
 .newsletter form button {
     width: 30%;
+    font-family: 'poppins';
     background-color: #AA77FF;
     border: none;
     height: 30px;
     color: #ffffff;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .contact h2 {
@@ -361,7 +365,7 @@ nav {
     margin-top: 10px;
 }
 
-.contact h2 a{
+.contact h2 a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -372,11 +376,16 @@ nav {
     justify-content: space-between;
     width: 60%;
     margin-top: 10px;
+    transition: transform 0.3s ease;
 }
 
-.video{
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.video {
     margin-left: 4rem;
-     width: 90%;
-     height: 50%;
-     border-radius: 2rem;
+    width: 90%;
+    height: 50%;
+    border-radius: 2rem;
 }
