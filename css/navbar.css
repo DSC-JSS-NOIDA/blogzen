@@ -1,104 +1,115 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    overflow-x: hidden;
-    font-family: "Baloo Bhaina 2", cursive;
-    font-family: "Roboto", sans-serif;
-}
-
-.navbar {
-    width: 100vw;
-    height: 80px;
-    left: 0px;
-    top: 0px;
+header{
+    width: 100%;
+    height: 50px;
+    background: #F8F8F8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.navs1{
-    /* border: 1px solid black; */
-    width: 15vw;
-    height: 80px;
+.Logo{
+    color:rgb(44,44,44);
+    font-size: 1.5em;
+}
+.nav{
     display: flex;
     align-items: center;
-    margin-left: 3.5vw;
 }
-.navs1 img{
-    /* border: 1px solid black; */
-    width: 3vw;
-    height: 3vw;
-    border-radius: 10vw;
+
+.nav ol{
+    display: flex;
+    list-style: none;
 }
-.span1{
-    margin-left: 1vw;
+.nav ol li{ margin: 1em;}
+.nav ol li a{
+    text-decoration: none;
+    padding: 0.2em 1.2em 0.9em;
+    color: rgb(39,39,39);
+    border-radius: 10px 10px 0;
+    transition: all 0.4s;
+    position:relative;
+    z-index: 1;
+}
+
+.nav ol li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left :0;
+    width: 100%;
+    height: 41px;
+    border-radius: 10px 10px 0;
+    background: #853333;
+    transform-origin: bottom;
+    background: linear-gradient(to right,#2C5364,#203A43,#0F2027);
+    z-index: -1;
+    transition: all 0.4s;
+    transform: scaleY(0.05);
+}
+
+.nav ol li a:hover::before{transform: scaleY(1.1);}
+.nav ol li a:hover{color:white;}
+.btn{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: none;
+}
+.btn::before{
+    content: 'f0c9';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
     font-size: 2em;
-    font-weight: bold;
-    color: #7D41E2;
-}
-.span2{
-    font-size: 2em;
-    font-weight: bolder;
-    color: #7D41E2;
 }
 
+@media(max-width:1200px){
+    .btn{
+        display: flex;
+        z-index: 100;
+    }
+    header{
+        justify-content: space-between;
+        padding: 0 2em;
 
-
-
-
-
-/* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.navs2{
-    /* border: 1px solid black; */
-    width: 25vw;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    margin-right: 1vw;
+    }
+    .nav{
+        width:100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        background: #F8F8F8;
+        transform: translateY(-110%);
+        transition: all 0.4s;
+    }
+    input:checked ~ .nav{
+        transform: translateY(0%);
+    }
+    input:checked::before{
+        content: '\f00d';
+    }
 }
-.navs2>img{
-    border: 1px solid black;
-    width: 1.5vw;
-    height: 1.5vw;
-    margin: 0 0.5vw;
 
-}
-.navbtn1{
-    height: 1.5vw;
-    width: 4vw;
-    margin: 0 0.5vw;
-    border: none;
-    border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
-    font-size: 0.7em;
-
-}
-.navbtn2{
-    height: 2vw;
-    width: 7vw;
-    margin: 0 1.3vw;
-    border-radius: 0.5vw;
-    border: none;
-    background-color: #2a95f6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.navbtn2>img{
-    border: 1px solid black;
-    width: 1vw;
-    height: 1vw;
-    /* margin: 0 0.5vw; */
-}
-.navbtn2 span{
-    margin-left: 0.3vw;
+@media(max-width:700px){
+    .nav ol{
+        flex-direction: column;
+        text-align: center;
+    }
 }
