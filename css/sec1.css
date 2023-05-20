@@ -23,9 +23,10 @@
     height: 3vw;
     width: 34vw;
     border-radius: 2vw;
+    text-align: center;
     position: relative;
     left: 33vw;
-    top: -4.5vw;
+    top: -2.5vw;
     background-color: white;
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
@@ -55,4 +56,7 @@
     margin: 0 0.7vw;
     text-decoration: none;
     color: black;
+}
+input.search {
+    color:rgb(14, 1, 1);
 }
