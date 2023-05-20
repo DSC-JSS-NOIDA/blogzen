@@ -57,3 +57,7 @@
     align-items: center;
     justify-content: center;
 }
+.s4box3 span a{
+    text-decoration: none;
+    color: white;
+}
