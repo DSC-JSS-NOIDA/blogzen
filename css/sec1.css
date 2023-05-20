@@ -20,14 +20,19 @@
     color: white;
 }
 .search{
-    height: 3vw;
+    height: 4vw;
     width: 34vw;
+    text-align: center;
+    font-size: 1.3vw;
+    text-transform: uppercase;
     border-radius: 2vw;
+    border:1px solid black;
     position: relative;
     left: 33vw;
-    top: -4.5vw;
+    top: -1.5vw;
+    margin-bottom:20px ;
     background-color: white;
-    border: none;
+    /* border: none; */
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
 }
