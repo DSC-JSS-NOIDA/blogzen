@@ -29,17 +29,24 @@
     background-color: white;
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
-    color: rgba(0, 0, 0, 0.148);
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+}
+.search::placeholder{
+    color: black;
 }
 .s1part2{
     /* border: 1px solid black; */
     height: 5vw;
-    width: 40vw;
+    width: 100%;
     position: relative;
-    left: 33vw;
+    justify-content: center;
     bottom: 3vw;
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 .s1btn1{
     height: 2.4vw;
@@ -49,10 +56,15 @@
     border-radius: 1vw;
     background-color: #ff765d;
     color: white;
-    
 }
-.s1part2 a{
-    margin: 0 0.7vw;
-    text-decoration: none;
-    color: black;
+
+.sec1Btn{
+    padding: 10px;
+    border-radius: 1vw;
+    border: none;
+}
+
+.active{
+    background-color: #ff765d;
+    color: white;
 }
