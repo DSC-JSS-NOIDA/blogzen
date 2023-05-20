@@ -16,7 +16,7 @@ body{
 
 .navbar {
     width: 100vw;
-    height: 80px;
+    height: 10vw;
     left: 0px;
     top: 0px;
     display: flex;
@@ -27,7 +27,7 @@ body{
 .navs1{
     /* border: 1px solid black; */
     width: 15vw;
-    height: 80px;
+    height: 10vw;
     display: flex;
     align-items: center;
     margin-left: 3.5vw;
@@ -59,7 +59,7 @@ body{
 .navs2{
     /* border: 1px solid black; */
     width: 25vw;
-    height: 80px;
+    height: 10vw;
     display: flex;
     align-items: center;
     margin-right: 5vw;
@@ -77,7 +77,7 @@ body{
     margin: 0 0.5vw;
     border: none;
     border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
+    border: 0.1vw solid #2a95f6;
     background-color: white;
     font-size: 1vw;
 
