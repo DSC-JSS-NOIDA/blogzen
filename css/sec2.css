@@ -16,7 +16,7 @@
     border: 1px solid #ff765d;
     background-color: white;
     margin: 0 1vw;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{
@@ -31,7 +31,7 @@
 .sec2content>img{
     border: 1px solid green;
     height: 23vw;
-    width: 29vw;
+    width: 30vw;
     margin: 0 5vw;
     border-radius: 2vw;
 }

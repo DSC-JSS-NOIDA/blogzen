@@ -34,18 +34,18 @@ body{
 }
 .navs1 img{
     /* border: 1px solid black; */
-    width: 3vw;
-    height: 3vw;
+    width: 4vw;
+    height: 4vw;
     border-radius: 10vw;
 }
 .span1{
     margin-left: 1vw;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 2.5em;
+    font-weight: bolder;
     color: #7D41E2;
 }
 .span2{
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bolder;
     color: #7D41E2;
 }
@@ -72,14 +72,15 @@ body{
 
 }
 .navbtn1{
-    height: 1.5vw;
-    width: 4vw;
-    margin: 0 0.5vw;
-    border: none;
-    border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
-    font-size: 0.7em;
+  height: 45px;  
+  width: 100px;
+  margin:  0 0.5vw;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid #ff765d;
+  background-color: #ff765d;
+  color: #ffffff;
+  font-size: medium;
 
 }
 .navbtn2{

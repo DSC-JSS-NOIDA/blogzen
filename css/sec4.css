@@ -1,20 +1,23 @@
 .sec4{
-    height: 13vw;
+    height: 15vw;
     display: flex;
     align-items: center;
     background-color: #7333df;
     color: white;
+    padding: 0.5em;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box1{
     /* border: 1px solid black; */
     height: 7vw;
     width: 20vw;
-    margin-left: 7vw;
+    margin-left: 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: large;
+
 }
 .icons img{
     height: 1.5vw;
@@ -25,8 +28,9 @@
     /* border: 1px solid black; */
     height: 7vw;
     width: 24vw;
-    margin: 0 10vw;
+    margin: 0 15vw;
     display: flex;
+    font-size: large;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -35,7 +39,7 @@
     border: 1px solid rgba(255, 255, 255, 0.258);
     background-color: #7333df;
     height: 1.5vw;
-    border-radius: 0.2vw;
+    border-radius: 0.9vw;
 }
 .box2btn{
     background-color: #aa77ff;
@@ -56,4 +60,5 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: large;
 }
