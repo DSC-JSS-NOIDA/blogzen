@@ -56,3 +56,6 @@
     text-decoration: none;
     color: black;
 }
+input.search {
+    color:rgb(14, 1, 1);
+}
