@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #7333df;
     color: white;
+    margin-top: 100px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box1{
@@ -32,20 +33,28 @@
     justify-content: center;
 }
 .email{
-    border: 1px solid rgba(255, 255, 255, 0.258);
+    border: 1px solid rgba(243, 239, 239, 0.836);
     background-color: #7333df;
     height: 1.5vw;
     border-radius: 0.2vw;
+    padding-left: 10px;
+}
+.email::placeholder{
+    color: aliceblue;
 }
 .box2btn{
     background-color: #aa77ff;
     border: none;
     font-size: 0.6em;
-    height: 1.5vw;
+    height: 1.7vw;
     width: 5vw;
     border-radius: 0.2vw;
     margin-left: 0.4vw;
     color: rgba(255, 255, 255, 0.53);
+    transition: all 0.5s;
+}
+.box2btn:hover{
+    background-color: #8e71bb; 
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box3{

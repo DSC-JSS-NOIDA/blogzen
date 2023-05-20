@@ -58,9 +58,40 @@ console.log("jsonData")
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  var buttons = {
+    All: false,
+    Technology: false,
+    Branding: false,
+    News: false,
+    AI: false,
+    Management: false,
+    Design: false
+  };
 
+  var previousButtonId = null;
 
+  // Add event listeners to each button
+  Object.keys(buttons).forEach(function(buttonId) {
+    var button = document.getElementById(buttonId);
 
+    button.addEventListener('click', function() {
+      if (previousButtonId) {
+        var previousButton = document.getElementById(previousButtonId);
+        previousButton.classList.remove('highlighted');
+      }
+
+      buttons[previousButtonId] = false;
+
+      buttons[buttonId] = true;
+      console.log('Button clicked:', buttonId);
+
+      button.classList.add('highlighted');
+
+      previousButtonId = buttonId;
+    });
+  });
+});
 
 document.addEventListener("DOMContentLoaded", function() {
   var tbody = document.getElementById("tbody");
@@ -71,9 +102,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // fetch("http://localhost:3000/blogs")
     .then(res => res.json())
     .then(json => {
-      console.log("data1", json);
       json.blogs.map(data => {
-        console.log("data1", data);
         // tbody.innerHTML += td_fun(data);
         tbody.append(td_fun(data));
         
@@ -96,7 +125,7 @@ function td_fun(item) {
         <div class="boxdiv">${item.tags}</div></a>
         <a href="../blog.html?id=${item.id}"><h1>${item.title}</h1></a>
         <a href="../blog.html?id=${item.id}"><p style="font-size: 0.7em;">
-        ${item.content.slice(0,180)}
+        ${item.content.slice(0,50)}<h6>Read More</h6>
         </p></a>
         <div class="boxauthor">
           <img src=${item.img0} alt="" class="boxauthorimg" />

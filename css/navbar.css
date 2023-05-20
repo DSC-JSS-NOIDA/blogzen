@@ -27,10 +27,11 @@ body{
 .navs1{
     /* border: 1px solid black; */
     width: 15vw;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     margin-left: 3.5vw;
+    cursor:pointer;
 }
 .navs1 img{
     /* border: 1px solid black; */
@@ -59,39 +60,64 @@ body{
 .navs2{
     /* border: 1px solid black; */
     width: 25vw;
-    height: 80px;
+    height: 150px;
     display: flex;
     align-items: center;
     margin-right: 1vw;
+    margin-bottom: 20px;
 }
 .navs2>img{
     border: 1px solid black;
     width: 1.5vw;
     height: 1.5vw;
     margin: 0 0.5vw;
-
 }
 .navbtn1{
-    height: 1.5vw;
-    width: 4vw;
+    height: 3vw;
+    width: 8vw;
     margin: 0 0.5vw;
     border: none;
     border-radius: 0.3vw;
     border: 1px solid #2a95f6;
     background-color: white;
     font-size: 0.7em;
-
+    cursor: pointer;
+    transition: all 0.5s ;
+}
+.navbtn1:hover{
+    background-color: #2a95f6;
 }
 .navbtn2{
-    height: 2vw;
-    width: 7vw;
+    height: 3vw;
+    width: 8vw;
+    margin: 0 0.5vw;
+    border: none;
+    border-radius: 0.3vw;
+    border: 1px solid #2a95f6;
+    background-color: #2a95f6;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.navbtn2:hover{
+    background-color:#59adfc;
+}
+.navbtn3{
+    height: 3vw;
+    width: 8vw;
     margin: 0 1.3vw;
     border-radius: 0.5vw;
     border: none;
+    border: 1px solid #2a95f6;
     background-color: #2a95f6;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.navbtn3:hover{
+    background-color: #59adfc;
 }
 .navbtn2>img{
     border: 1px solid black;
