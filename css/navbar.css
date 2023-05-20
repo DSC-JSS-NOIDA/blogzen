@@ -78,8 +78,9 @@ body{
     border: none;
     border-radius: 0.3vw;
     border: 1px solid #2a95f6;
-    background-color: white;
+   background-color: #2a95f6;
     font-size: 0.7em;
+
 
 }
 .navbtn2{
@@ -101,4 +102,7 @@ body{
 }
 .navbtn2 span{
     margin-left: 0.3vw;
+}
+a{
+    text-decoration: none
 }
