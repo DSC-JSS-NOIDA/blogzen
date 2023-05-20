@@ -30,6 +30,7 @@
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
+    padding-left: 70px;
 }
 .s1part2{
     /* border: 1px solid black; */
@@ -41,14 +42,19 @@
     display: flex;
     align-items: center;
 }
-.s1btn1{
+.one{
+    margin: 10px;
+    cursor: pointer;
+}
+#All{
     height: 2.4vw;
     width: 3.8vw;
     margin: 0 0.7vw;
     border: none;
     border-radius: 1vw;
-    background-color: #ff765d;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .s1part2 a{
@@ -56,3 +62,17 @@
     text-decoration: none;
     color: black;
 }
+.highlighted {
+    background-color:#7D41E2;
+    height: 2.4vw;
+    width:fit-content;
+    margin: 0 0.7vw;
+    border: none;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /* Add any other styles you want to apply */
+  }
+  

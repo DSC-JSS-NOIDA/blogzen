@@ -15,8 +15,9 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
   </head>
   <body>
-    <!-- Navbar ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="navbar">
+   <div class="wrapper" style="width: 100vw;">
+     <!-- Navbar ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+     <div class="navbar">
       <div class="navs1">
         <img src="img/final logo 1.png" alt="" />
         <div class="span1">blog</div>
@@ -24,12 +25,12 @@
       </div>
 
       <div class="navs2">
-        <img src="" alt="" />
+        <img src="img/favicon.ico" alt="" />
         <button class="navbtn1">Log In</button>
-        <button class="navbtn1" style="background-color: #2a95f6">
+        <button class="navbtn2">
           Sign Up
         </button>
-        <button class="navbtn2">
+        <button class="navbtn3">
           <img src="" alt="" />
           <span>Calendar</span>
         </button>
@@ -42,15 +43,15 @@
       <div class="s1part1">
         <span>Blog</span>
       </div>
-      <input class="search" placeholder="search"></input>
+      <input class="search" placeholder="Search"></input>
       <div class="s1part2">
-        <button class="s1btn1">All</button>
-        <a href="">Technology</a>
-        <a href="">Branding</a>
-        <a href="">News</a>
-        <a href="">AI</a>
-        <a href="">Management</a>
-        <a href="">Design</a>
+        <div class="one" id="All">All</div>
+        <div class="one" id="Technology">Technology</div>
+        <div class="one" id="Branding">Branding</div>
+        <div class="one" id="News">News</div>
+        <div class="one" id="AI">AI</div>
+        <div class="one" id="Management">Management</div>
+        <div class="one" id="Design">Design</div>
       </div>
     </div>
 
@@ -76,7 +77,7 @@
 
 
 
-    <div id="tbody" class="flex">
+    <div id="tbody" class="flex" style="margin-left: 50px;">
 
         
      
@@ -93,28 +94,29 @@
         <div>
             <h3 style="margin-bottom: 0.5vw;" >Follow us on our socials</h3>
             <div class="icons">
-                <img src="./assests/instagram.svg" alt="">
-                <img src="./assests/twitter.svg" alt="" style="margin: 0 1vw;" >
-                <img src="./assests//spotify.svg" alt="">
+                <img src="./assests/instagram.svg" alt="" style="cursor:pointer;">
+                <img src="./assests/twitter.svg" alt="" style="margin: 0 1vw;cursor:pointer" >
+                <img src="./assests//spotify.svg" alt="" style="cursor:pointer;">
             </div>
         </div>
       </div>
       <div class="s4box2">
         <div>
             <h3 style="margin-bottom: 0.5vw;" >Subscribe to our newsletter</h3>
-            <div class="box2email">
+            <div class="box2email" style="display: flex;">
                 <input type="text" class="email" placeholder="Email">
-                <button class="box2btn">Subscribe</button>
+                <button class="box2btn" style="cursor:pointer;">Subscribe</button>
             </div>
         </div>
       </div>
       <div class="s4box3">
         <div>
-            <h3 style="margin-bottom: 0.5vw;" >Contact Us</h3>
-            <span>Blogzen@gmail.com</span>
+            <h3 style="margin-bottom: 0.5vw; cursor: pointer;" >Contact Us</h3>
+            <span style="cursor:pointer;">Blogzen@gmail.com</span>
         </div>
       </div>
     </div>
+   </div>
   </body>
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
 </html>

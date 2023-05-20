@@ -1,19 +1,18 @@
 .sec3{
     /* border: 2px solid red; */
-    height: 62vw;
+    height:500px;
+
 }
 .s3boxes{
     /* border: 1px solid black; */
-    height: 26vw;
+    height: 50vw;
     width: 90vw;
     display: flex;
-    margin-left: 6vw;
-    margin-bottom: 3vw;
 }
 .box1{
     /* border: 1px solid green; */
-    height: 27vw;
-    width: 25vw;
+    height: 65vh;
+    width: 28vw;
     margin: 0 2vw;
     display: flex;
     flex-direction: column;
@@ -21,10 +20,15 @@
 }
 .box1>img{
     border: 1px solid green;
-    height: 15vw;
-    width: 23vw;
+    height: 200px;
+    width: 28vw;
     /* margin: 0 5vw; */
     border-radius: 1vw;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.box1>img:hover{
+    box-shadow: 5px 5px rgb(77, 76, 76);
 }
 .flex{
     display: flex;
@@ -39,19 +43,18 @@
 
 .boxtext{
     /* border: 1px solid green; */
-    height: 11vw;
-    width: 20vw;
-    margin-left: 1vw;
+    height: 50vh;
+    width: 25vw;
+    margin:10px 0 5px 0;
 }
 .boxdiv{
-    margin: 0.4vw 0;
     font-size: 0.8em;
 }
 .boxtext h1{
-    margin: 0.5vw 0;
-    font-size: 1.8em;
-    width: 15vw;
+    font-size: 1.5em;
+    width: 25vw;
     font-size: 1em;
+    margin:10px 0 5px 0;
 }
 .author{
     display: flex;
