@@ -1,59 +1,33 @@
-.sec4{
-    height: 13vw;
-    display: flex;
-    align-items: center;
-    background-color: #7333df;
-    color: white;
+.footer {
+  background-color: #7333df;
+  color: #ffffff;
+  padding: 20px 0;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box1{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 20vw;
-    margin-left: 7vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.footer h3 {
+  margin-bottom: 10px;
 }
-.icons img{
-    height: 1.5vw;
-    width: 1.5vw;
+
+.footer .icons img {
+  width: 30px;
+  margin-right: 10px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box2{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 24vw;
-    margin: 0 10vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.footer .box2email {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
-.email{
-    border: 1px solid rgba(255, 255, 255, 0.258);
-    background-color: #7333df;
-    height: 1.5vw;
-    border-radius: 0.2vw;
+
+.footer .email {
+  flex: 1;
+  margin-right: 10px;
 }
-.box2btn{
-    background-color: #aa77ff;
-    border: none;
-    font-size: 0.6em;
-    height: 1.5vw;
-    width: 5vw;
-    border-radius: 0.2vw;
-    margin-left: 0.4vw;
-    color: rgba(255, 255, 255, 0.53);
+
+.footer .contact-info {
+  margin-top: 10px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box3{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.footer .contact-info a {
+  color: #ffffff;
 }
