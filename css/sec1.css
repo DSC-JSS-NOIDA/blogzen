@@ -1,78 +1,123 @@
-.sec1{
-    height: 20vw;
+.sec1 {
+  height: 20vw;
 }
 
-.s1part1{
-    height: 7vw;
-    width: 80vw;
-    margin: 3.2vw auto;
-    border-radius: 2vw;
-    box-sizing: border-box;
-    box-decoration-break: clone;
-    box-shadow: inset;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2vw;
-    text-align: center;
-    background-color: #56388a;
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
+.s1part1 {
+  height: 7vw;
+  width: 80vw;
+  margin: 3.2vw auto;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-decoration-break: clone;
+  box-shadow: inset;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  text-align: center;
+  background-color: #56388a;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
+}
+.s1part1 p {
+  position: center;
+  top: 1.3vw;
+  left: 37vw;
+  font-size: 2.7em;
+  font-weight: bold;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+}
+.s1part1 .search {
+  height: 3vw;
+  width: 700px;
+  border-radius: 12vw;
+  position: center;
+  left: 33vw;
+  top: -4.5vw;
+  background-color: white;
+  border: none;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
+  color: rgba(0, 0, 0, 0.148);
+  text-align: center;
+  text-size-adjust: 5px;
+  font-size: 2vw;
+  font-weight: bold;
+  box-sizing: content-box;
+  box-decoration-break: unset;
+}
+.s1part2 {
+  /* border: 1px solid black; */
+  height: 5vw;
+  width: relative;
+  position: center;
+  top: 2vw;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
+  border-radius: 2vw;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+  text-size-adjust: 5px;
+  box-sizing: content-box;
+  box-decoration-break: unset;
+}
+.s1btn1 {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  border-radius: 1vw;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
 
+.s1btn1 span {
+  cursor: pointer;
+  display:inline-flex;
+  position: relative;
+  transition: 0.5s;
+  
 }
-.s1part1 p{
-    position: center;
-    top: 1.3vw;
-    left: 37vw;
-    font-size: 2.7em;
-    font-weight: bold;
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-}
-.s1part1 .search{
-    height: 3vw;
-    width: 700px;
-    border-radius: 12vw;
-    position: center;
-    left: 33vw;
-    top: -4.5vw;
-    background-color: white;
-    border: none;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
-    color: rgba(0, 0, 0, 0.148);
-    text-align: center;
-    text-size-adjust: 5px;
-    font-size: 2vw;
-    font-weight: bold;
-    box-sizing: content-box;
-    box-decoration-break:unset;
 
+.s1btn1 span:after {
+  content: "\00bb";
+  position:absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-.s1part2{
-    /* border: 1px solid black; */
-    height: 5vw;
-    width: 40vw;
-    position: relative;
-    left: 33vw;
-    bottom: 3vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
+.s1btn1:hover span {
+  padding-right: 35px;
 }
-.s1btn1{
-    height: 2.4vw;
-    width: 3.8vw;
-    margin: 0 0.7vw;
-    border: none;
-    border-radius: 1vw;
-    background-color: #ff765d;
-    color: white;
-    
+
+.s1btn1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
-.s1part2 a{
-    margin: 0 0.7vw;
-    text-decoration: none;
-    color: black;
+
+.s1part2 a {
+  margin: 0 0.7vw;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(245, 232, 232);
 }
