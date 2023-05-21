@@ -30,12 +30,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color:white;
 }
 .email{
     border: 1px solid rgba(255, 255, 255, 0.258);
     background-color: #7333df;
     height: 1.5vw;
     border-radius: 0.2vw;
+    color: white;
+    text-indent: 3%;
 }
 .box2btn{
     background-color: #aa77ff;
@@ -45,7 +48,8 @@
     width: 5vw;
     border-radius: 0.2vw;
     margin-left: 0.4vw;
-    color: rgba(255, 255, 255, 0.53);
+    color: white;
+    cursor: pointer;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box3{

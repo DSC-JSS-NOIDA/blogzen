@@ -6,7 +6,9 @@
 .sec2buttons{
     width: 20vw;
     margin-left: 9.5vw;
+    
 }
+
 .sec2btn2{
     height: 2.5vw;
     width: 7.2vw;
@@ -17,6 +19,13 @@
     background-color: white;
     margin: 0 1vw;
     font-size: 0.8em;
+}
+
+.sec2btn2:hover{
+    border: 1px solid white;
+    background-color: #ff765d;
+    color:white;
+    cursor:pointer;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{

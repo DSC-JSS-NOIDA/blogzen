@@ -23,6 +23,10 @@ body{
     justify-content: space-between;
 }
 
+.navbtn1 {
+    background-color: #7D41E2;
+}
+
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs1{
     /* border: 1px solid black; */
