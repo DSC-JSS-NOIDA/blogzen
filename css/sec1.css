@@ -19,12 +19,21 @@
     font-weight: bold;
     color: white;
 }
+.search-section{
+   text-align: center;
+    margin-top: 50px;
+}
+.Search{
+     margin-bottom: 25px;
+     margin-left: 250px;
+
+}
 .search{
     height: 3vw;
     width: 34vw;
     border-radius: 2vw;
     position: relative;
-    left: 33vw;
+    left: 30vw;
     top: -4.5vw;
     background-color: white;
     border: none;
