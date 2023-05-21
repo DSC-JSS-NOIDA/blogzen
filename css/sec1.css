@@ -1,25 +1,121 @@
+/* NEW STYLE */
+
 .sec1{
-    height: 20vw;
+    margin:5rem 0;
+    height:20vw;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.s1part1{
+.sec1 .title{
+    font-size: 2em;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+#search-bar{
+    margin: 1.5rem;
+}
+
+#search-bar input{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 25px;
+    border:none;
+    height: 6vh;
+    border-radius: 25px;
+    text-transform: uppercase;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+
+ ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;  
+    font-weight: bold;  
+}
+
+ul li{
+    padding: 1rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: orangered;
+
+}
+
+
+/* Hover Styling on elements*/
+
+.underline-on-hover {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s ease;
+  }
+
+  .underline-on-hover::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left:0;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .underline-on-hover:hover {
+    text-decoration: none;
+  }
+
+  .underline-on-hover:hover::after {
+    transform: scaleX(1);
+  }
+
+
+
+
+
+/* 
+
+.sec1{
+    height: 20vw;
+} */
+
+/* .s1part1{
     height: 7vw;
     width: 80vw;
     margin: 3.2vw auto;
     border-radius: 2vw;
-    background-color: #7D41E2;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
+    background-color: #7D41E2;
 
-}
-.s1part1 span{
+} */
+/* .s1part1 span{
     position: relative;
     top: 1.3vw;
     left: 37vw;
     font-size: 2.7em;
     font-weight: bold;
     color: white;
-}
-.search{
+} */
+/* .search{
     height: 3vw;
     width: 34vw;
     border-radius: 2vw;
@@ -30,9 +126,9 @@
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
-}
-.s1part2{
-    /* border: 1px solid black; */
+} */
+/* .s1part2{
+    border: 1px solid black;
     height: 5vw;
     width: 40vw;
     position: relative;
@@ -40,8 +136,8 @@
     bottom: 3vw;
     display: flex;
     align-items: center;
-}
-.s1btn1{
+} */
+/* .s1btn1{
     height: 2.4vw;
     width: 3.8vw;
     margin: 0 0.7vw;
@@ -55,4 +151,4 @@
     margin: 0 0.7vw;
     text-decoration: none;
     color: black;
-}
+} */
