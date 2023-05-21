@@ -74,11 +74,11 @@ body{
 .navbtn1{
     height: 1.5vw;
     width: 4vw;
-    margin: 0 0.5vw;
+    margin: 0 0.7vw;
     border: none;
-    border-radius: 0.3vw;
+    border-radius: 0.4vw;
     border: 1px solid #2a95f6;
-    background-color: white;
+    background-color:#2a95f6 ;
     font-size: 0.7em;
 
 }
@@ -101,4 +101,14 @@ body{
 }
 .navbtn2 span{
     margin-left: 0.3vw;
+}
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#212121;
+}
+#icon{
+    width:20px;
+    cursor:pointer;
+    border-color: aliceblue;
+
 }
