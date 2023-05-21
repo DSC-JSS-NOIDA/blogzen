@@ -101,24 +101,16 @@ body {
 }
 
 .navbtn2 {
-    height: 2vw;
-    width: 7vw;
-    margin: 0 1.3vw;
-    border-radius: 0.5vw;
+    height: 4vw;
+    width: -1vw;
+    margin: 0 1.4vw;
     border: none;
-    background-color: #2a95f6;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.navbtn2>img {
-    border: 1px solid black;
-    width: 1vw;
-    height: 1vw;
-    /* margin: 0 0.5vw; */
-}
-
-.navbtn2 span {
+/* .navbtn2 span {
     margin-left: 0.3vw;
-}
+} */
