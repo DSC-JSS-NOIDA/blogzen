@@ -10,6 +10,12 @@
     margin-left: 6vw;
     margin-bottom: 3vw;
 }
+
+#tbody{
+   align-items: center;
+   margin: auto;
+}
+
 .box1{
     /* border: 1px solid green; */
     height: 27vw;
