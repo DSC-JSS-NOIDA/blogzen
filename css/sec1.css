@@ -1,58 +1,68 @@
-.sec1{
-    height: 20vw;
-}
-
-.s1part1{
-    height: 7vw;
-    width: 80vw;
-    margin: 3.2vw auto;
-    border-radius: 2vw;
-    background-color: #7D41E2;
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
-
-}
-.s1part1 span{
-    position: relative;
-    top: 1.3vw;
-    left: 37vw;
-    font-size: 2.7em;
-    font-weight: bold;
-    color: white;
-}
-.search{
-    height: 3vw;
-    width: 34vw;
-    border-radius: 2vw;
-    position: relative;
-    left: 33vw;
-    top: -4.5vw;
-    background-color: white;
-    border: none;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
-    color: rgba(0, 0, 0, 0.148);
-}
-.s1part2{
-    /* border: 1px solid black; */
-    height: 5vw;
-    width: 40vw;
-    position: relative;
-    left: 33vw;
-    bottom: 3vw;
-    display: flex;
-    align-items: center;
-}
-.s1btn1{
-    height: 2.4vw;
-    width: 3.8vw;
-    margin: 0 0.7vw;
-    border: none;
-    border-radius: 1vw;
-    background-color: #ff765d;
-    color: white;
+    .sec1 {
+        height: 20vw;
+    }
     
-}
-.s1part2 a{
-    margin: 0 0.7vw;
-    text-decoration: none;
-    color: black;
-}
+    .s1part1 {
+        height: 7vw;
+        width: 80vw;
+        margin: 3.2vw auto;
+        border-radius: 1vw;
+        background-color: #7D41E2;
+        box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.199);
+    }
+    
+    .s1part1 span {
+        position: relative;
+        top: 1.3vw;
+        left: 37vw;
+        font-size: 2.7em;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .search {
+        position: relative;
+        height: 1.3vw;
+        width: 32vw;
+        border-radius: 1.2rem;
+        position: relative;
+        padding: .5rem;
+        left: 33vw;
+        top: -1vw;
+        background-color: white;
+        border: none;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.155);
+        color: black;
+        font-size: 14px;
+        box-shadow: 2px 2px 5px 1px;
+        border: darkblue;
+        margin-bottom: 2rem;
+        outline: none;
+    }
+    
+    .s1part2 {
+        /* border: 1px solid black; */
+        height: 5vw;
+        width: 40vw;
+        position: relative;
+        left: 32vw;
+        bottom: 3vw;
+        display: flex;
+        align-items: center;
+    }
+    
+    .s1btn1 {
+        height: 2.4vw;
+        width: 3.8vw;
+        margin: 0 0.7vw;
+        border: none;
+        border-radius: 1vw;
+        background-color: #ff765d;
+        color: white;
+    }
+    
+    .s1part2 a {
+        margin: 0 0.7vw;
+        text-decoration: none;
+        color: black;
+    }
