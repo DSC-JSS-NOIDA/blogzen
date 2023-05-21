@@ -18,8 +18,10 @@
     font-size: 2.7em;
     font-weight: bold;
     color: white;
+    
 }
 .search{
+    text-indent: 4%;
     height: 3vw;
     width: 34vw;
     border-radius: 2vw;
