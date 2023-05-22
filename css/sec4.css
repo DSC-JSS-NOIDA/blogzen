@@ -16,10 +16,41 @@
     align-items: center;
     justify-content: center;
 }
-.icons img{
+/* .icons i{
+     
     height: 1.5vw;
-    width: 1.5vw;
-}
+    width: 3vw;
+} */
+.fa {
+    padding: 10px;
+    font-size: 500px;
+    width: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-instagram {
+    background: #7333df;
+    color: white;
+  
+  }
+  .fa-twitter {
+    background: #7333df;
+    color: white;
+  }
+  .fa-spotify {
+    background: #7333df;
+    color: white;
+  }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box2{
     /* border: 1px solid black; */
@@ -32,20 +63,23 @@
     justify-content: center;
 }
 .email{
-    border: 1px solid rgba(255, 255, 255, 0.258);
+    border: 1px solid #faf8fa33;
     background-color: #7333df;
     height: 1.5vw;
-    border-radius: 0.2vw;
+    border-radius: 1vw;
+    color: white;
+
 }
+
 .box2btn{
     background-color: #aa77ff;
     border: none;
-    font-size: 0.6em;
+    font-size: 0.8em;
     height: 1.5vw;
     width: 5vw;
     border-radius: 0.2vw;
     margin-left: 0.4vw;
-    color: rgba(255, 255, 255, 0.53);
+    color: white;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box3{
@@ -56,4 +90,5 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
 }
