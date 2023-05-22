@@ -25,6 +25,8 @@
     border-radius: 2vw;
     position: relative;
     left: 33vw;
+    text-align: left;
+    padding-left: 1vw;
     top: -4.5vw;
     background-color: white;
     border: none;
