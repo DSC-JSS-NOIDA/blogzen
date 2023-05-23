@@ -380,3 +380,29 @@ nav {
      height: 50%;
      border-radius: 2rem;
 }
+@media (max-width: 1024px) {
+  /* Styles for laptops and tablets */
+  .title_container {
+    margin-left: 60px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets and mobile devices */
+  .title_container {
+    margin-left: 30px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+@media (max-width: 480px) {
+  /* Styles for mobile devices */
+  .title_container {
+    margin-left: 10px;
+  }
+
+  /* Adjust other styles as needed */
+}

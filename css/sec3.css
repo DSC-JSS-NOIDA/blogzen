@@ -1,74 +1,222 @@
-.sec3{
-    /* border: 2px solid red; */
+.sec3 {
     height: 62vw;
-}
-.s3boxes{
-    /* border: 1px solid black; */
+  }
+  
+  .s3boxes {
     height: 26vw;
     width: 90vw;
     display: flex;
     margin-left: 6vw;
     margin-bottom: 3vw;
-}
-.box1{
-    /* border: 1px solid green; */
+  }
+  
+  .box1 {
     height: 27vw;
     width: 25vw;
     margin: 0 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.box1>img{
+  }
+  
+  .box1 > img {
     border: 1px solid green;
     height: 15vw;
     width: 23vw;
-    /* margin: 0 5vw; */
     border-radius: 1vw;
-}
-.flex{
+  }
+  
+  .flex {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-}
-
-.flex a{
+  }
+  
+  .flex a {
     color: black;
     text-decoration: none;
-}
-
-.boxtext{
-    /* border: 1px solid green; */
+  }
+  
+  .boxtext {
     height: 11vw;
     width: 20vw;
     margin-left: 1vw;
-}
-.boxdiv{
+  }
+  
+  .boxdiv {
     margin: 0.4vw 0;
     font-size: 0.8em;
-}
-.boxtext h1{
+  }
+  
+  .boxtext h1 {
     margin: 0.5vw 0;
     font-size: 1.8em;
     width: 15vw;
     font-size: 1em;
-}
-.author{
+  }
+  
+  .author {
     display: flex;
     align-items: center;
     margin-top: 1.5vw;
-}
-.boxauthor{
+  }
+  
+  .boxauthor {
     display: flex;
     margin-top: 0.5vw;
-}
-.boxauthor>img{
+  }
+  
+  .boxauthor > img {
     height: 2vw;
     width: 2vw;
     border-radius: 10vw;
     border: 1px solid yellow;
-}
-.boxauthorsname{
+  }
+  
+  .boxauthorsname {
     margin-left: 0.5vw;
     font-size: 0.8vw;
-}
+  }
+  
+  /* Responsive Styles for Laptops and Tablets */
+  @media (max-width: 1024px) {
+    .s3boxes {
+      height: auto;
+      width: 90vw;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 2vw;
+      margin-bottom: 3vw;
+    }
+  
+    .box1 {
+      height: auto;
+      width: 45vw;
+      margin: 2vw 2vw;
+    }
+  
+    .box1 > img {
+      height: auto;
+      width: 35vw;
+    }
+  
+    .boxtext {
+      height: auto;
+      width: 45vw;
+      margin-left: 1vw;
+    }
+  
+    .boxtext h1 {
+      width: 40vw;
+      font-size: 1.5em;
+    }
+  
+    .boxauthor > img {
+      height: 1.5vw;
+      width: 2.5vw;
+    }
+  
+    .boxauthorsname {
+      font-size: 1vw;
+    }
+  }
+  
+  /* Responsive Styles for Phones */
+  @media (max-width: 480px) {
+    .sec3 {
+      height: auto;
+    }
+  
+    .s3boxes {
+      height: auto;
+      width: 90vw;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 2vw;
+      margin-bottom: 3vw;
+    }
+  
+    .box1 {
+      height: auto;
+      width: 80vw;
+      margin: 2vw 2vw;
+    }
+  
+    .box1 > img {
+      height: auto;
+      width: 80vw;
+    }
+  
+    .boxtext {
+      height: auto;
+      width: 80vw;
+      margin-left: 1vw;
+    }
+  
+    .boxtext h1 {
+        margin: 0.5vw 0;
+        font-size: 1.8em;
+        width: 15vw;
+        font-size: 1em;
+      }
+      
+      .author {
+        display: flex;
+        align-items: center;
+        margin-top: 1.5vw;
+      }
+      
+      .boxauthor {
+        display: flex;
+        margin-top: 0.5vw;
+      }
+      
+      .boxauthor > img {
+        height: 2vw;
+        width: 2vw;
+        border-radius: 10vw;
+        border: 1px solid yellow;
+      }
+      
+      .boxauthorsname {
+        margin-left: 0.5vw;
+          font-size: 0.8vw;
+      }
+    }
+
+      
+      /* Responsive Styles for Laptops and Tablets */
+      @media (max-width: 1024px) {
+        .boxtext h1 {
+          width: 40vw;
+          font-size: 1.5em;
+        }
+      
+        .boxauthor > img {
+          height: 2.5vw;
+          width: 2.5vw;
+        }
+      
+        .boxauthorsname {
+          font-size: 1vw;
+        }
+      }
+      
+      /* Responsive Styles for Phones */
+      @media (max-width: 480px) {
+        .boxtext h1 {
+          width: 70vw;
+          font-size: 1.2em;
+        }
+      
+        .boxauthor > img {
+          height: 3vw;
+          width: 3vw;
+        }
+      
+        .boxauthorsname {
+          font-size: 1.2vw;
+        }
+      }
+      
+    
