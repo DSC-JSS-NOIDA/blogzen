@@ -3,6 +3,76 @@
 console.log("jsonData")
 
 
+function sort_by_trending(){
+  var trending_button = document.querySelector("#trending_button");
+  var recent_button  = document.querySelector("#recent_button");
+  var tbody = document.getElementById("tbody");
+  var tmain = document.getElementById("sec2");
+
+  // fetch function
+  trending_button.style.color="color: white"
+  trending_button.style.backgroundColor="#ff765d"
+
+  recent_button.style.color="unset"
+  recent_button.style.backgroundColor="unset"
+
+  fetch("../database/jsonData.json")
+  // fetch("http://localhost:3000/blogs")
+    .then(res => res.json())
+    .then(json => {
+      console.log("data1", json);
+      tbody.innerHTML ="";
+      json.blogs.map(data => {
+        console.log("data1", data);
+        // tbody.innerHTML += td_fun(data);
+        
+        tbody.append(td_fun(data));
+        
+      });
+      tmain.innerHTML ="";
+      tmain.append(td_fun1(json));
+    })
+
+}
+
+
+function sort_by_recent(){
+  var trending_button = document.querySelector("#trending_button");
+  var recent_button  = document.querySelector("#recent_button");
+  var tbody = document.getElementById("tbody");
+  var tmain = document.getElementById("sec2");
+
+  // fetch function
+  recent_button.style.color="color: white"
+  recent_button.style.backgroundColor="#ff765d"
+
+  trending_button.style.color="unset"
+  trending_button.style.backgroundColor="unset"
+
+  fetch("../database/jsonData.json")
+  // fetch("http://localhost:3000/blogs")
+    .then(res => res.json())
+    .then(json => {
+      console.log("data1", json);
+      tbody.innerHTML ="";
+      json.blogs.sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateA - dateB;
+      }).map(data => {
+        console.log("data1", data);
+        // tbody.innerHTML += td_fun(data);
+        
+        tbody.append(td_fun(data));
+        
+      });
+      tmain.innerHTML ="";
+      tmain.append(td_fun1(json));
+    })
+  
+  }
+
+
 
 
 // let tbody = document.getElementById("tbody")
