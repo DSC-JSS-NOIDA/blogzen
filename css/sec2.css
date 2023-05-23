@@ -30,6 +30,7 @@
 }
 .sec2content>img{
     border: 1px solid green;
+    align-items: center;
     height: 23vw;
     width: 29vw;
     margin: 0 5vw;
