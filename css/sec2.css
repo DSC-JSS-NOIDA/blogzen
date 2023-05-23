@@ -13,7 +13,7 @@
     margin: 0 1.3vw;
     border-radius: 1vw;
     border: none;
-    border: 1px solid #ff765d;
+    border: 1px solid #74c9cf;
     background-color: white;
     margin: 0 1vw;
     font-size: 0.8em;
@@ -29,7 +29,7 @@
     margin-left: 5vw;
 }
 .sec2content>img{
-    border: 1px solid green;
+    border: 1px solid #74c9cf;
     height: 23vw;
     width: 29vw;
     margin: 0 5vw;
@@ -59,7 +59,7 @@
     height: 3vw;
     width: 3vw;
     border-radius: 10vw;
-    border: 1px solid yellow;
+    border: 1px solid #74c9cf;
 }
 .authorsname{
     margin-left: 1vw;

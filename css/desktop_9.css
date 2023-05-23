@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.body
+{
+    background-color: #000000;
+}
 nav {
     height: 80px;
     display: flex;
@@ -50,7 +54,7 @@ nav {
 .profile a {
     display: flex;
     text-decoration: none;
-    color: #FF765D;
+    color: #74c9cf;
 }
 
 .profile_name {
@@ -67,7 +71,7 @@ nav {
     margin-left: 60px;
     margin-right: 40px;
     height: 30px;
-    background-color: #208FF4;
+    background-color: #AA77F4;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
