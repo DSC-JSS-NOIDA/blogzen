@@ -20,7 +20,7 @@
     align-items: center;
 }
 .box1>img{
-    border: 1px solid green;
+    border: 1px solid #74c9cf;
     height: 15vw;
     width: 23vw;
     /* margin: 0 5vw; */
@@ -66,7 +66,7 @@
     height: 2vw;
     width: 2vw;
     border-radius: 10vw;
-    border: 1px solid yellow;
+    border: 1px solid #74c9cf;
 }
 .boxauthorsname{
     margin-left: 0.5vw;
