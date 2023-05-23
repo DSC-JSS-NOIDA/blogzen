@@ -24,6 +24,9 @@ body{
     justify-content: space-between;
 }
 
+.logo {
+    text-decoration: none;
+}
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs1{
     /* border: 1px solid black; */
