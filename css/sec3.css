@@ -17,7 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    
+    justify-content: center;
 }
 .box1{
     /* border: 1px solid green; */
