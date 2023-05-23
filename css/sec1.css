@@ -19,9 +19,15 @@
     font-weight: bold;
     color: white;
 }
+
+.s1part2:hover{
+    background-color: #ff765d;
+}
+
 .search{
     height: 3vw;
     width: 34vw;
+    border: 2px solid black;
     border-radius: 2vw;
     position: relative;
     left: 33vw;
