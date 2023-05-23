@@ -19,6 +19,10 @@
 .icons img{
     height: 1.5vw;
     width: 1.5vw;
+    
+}
+.icons img:hover{
+    transform: translateY(-0.25rem);
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box2{
@@ -36,6 +40,7 @@
     background-color: #7333df;
     height: 1.5vw;
     border-radius: 0.2vw;
+    text-align: center;
 }
 .box2btn{
     background-color: #aa77ff;
