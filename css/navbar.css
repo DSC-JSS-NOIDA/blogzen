@@ -1,17 +1,18 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     overflow-x: hidden;
-    font-family: "Baloo Bhaina 2", cursive;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Baloo Bhaina 2", cursive;
+    font-family: "Roboto", sans-serif; */
+    font-family: 'poppins';
 }
 
 .navbar {
@@ -21,10 +22,14 @@ body{
     top: 0px;
     display: flex;
     justify-content: space-between;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+
 }
 
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.navs1{
+.navs1 {
     /* border: 1px solid black; */
     width: 15vw;
     height: 80px;
@@ -32,19 +37,22 @@ body{
     align-items: center;
     margin-left: 3.5vw;
 }
-.navs1 img{
+
+.navs1 img {
     /* border: 1px solid black; */
     width: 3vw;
     height: 3vw;
     border-radius: 10vw;
 }
-.span1{
+
+.span1 {
     margin-left: 1vw;
     font-size: 2em;
     font-weight: bold;
     color: #7D41E2;
 }
-.span2{
+
+.span2 {
     font-size: 2em;
     font-weight: bolder;
     color: #7D41E2;
@@ -56,7 +64,7 @@ body{
 
 
 /* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.navs2{
+.navs2 {
     /* border: 1px solid black; */
     width: 25vw;
     height: 80px;
@@ -64,25 +72,28 @@ body{
     align-items: center;
     margin-right: 1vw;
 }
-.navs2>img{
+
+.navs2>img {
     border: 1px solid black;
     width: 1.5vw;
     height: 1.5vw;
     margin: 0 0.5vw;
 
 }
-.navbtn1{
-    height: 1.5vw;
-    width: 4vw;
-    margin: 0 0.5vw;
+
+.navbtn1 {
+    padding: 10px 25px;
+    margin: 0px 10px;
+    background-color: #7D41E2;
     border: none;
-    border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
-    font-size: 0.7em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'poppins';
 
 }
-.navbtn2{
+
+/* .navbtn2{
     height: 2vw;
     width: 7vw;
     margin: 0 1.3vw;
@@ -92,13 +103,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.navbtn2 {
+    padding: 9px;
+    background-color: #7D41E2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'poppins';
+
 }
-.navbtn2>img{
+
+.navbtn2>img {
     border: 1px solid black;
     width: 1vw;
     height: 1vw;
     /* margin: 0 0.5vw; */
 }
-.navbtn2 span{
+
+.navbtn2 span {
     margin-left: 0.3vw;
 }

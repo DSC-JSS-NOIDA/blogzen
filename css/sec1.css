@@ -22,6 +22,7 @@
 .search{
     height: 3vw;
     width: 34vw;
+    padding: 0px 10px;
     border-radius: 2vw;
     position: relative;
     left: 33vw;
@@ -42,8 +43,9 @@
     align-items: center;
 }
 .s1btn1{
-    height: 2.4vw;
-    width: 3.8vw;
+    height: 100;
+    width: 100%;
+    padding: 10px;
     margin: 0 0.7vw;
     border: none;
     border-radius: 1vw;
