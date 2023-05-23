@@ -77,7 +77,7 @@ body{
     margin: 0 0.5vw;
     border: none;
     border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
+    border: 1px solid #bdaef3;
     background-color: white;
     font-size: 0.7em;
 
@@ -88,7 +88,7 @@ body{
     margin: 0 1.3vw;
     border-radius: 0.5vw;
     border: none;
-    background-color: #2a95f6;
+    background-color: #bdaef3;
     display: flex;
     align-items: center;
     justify-content: center;
