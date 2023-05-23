@@ -20,9 +20,6 @@
     color: white;
 }
 
-.s1part2:hover{
-    background-color: #ff765d;
-}
 
 .search{
     height: 3vw;
@@ -46,6 +43,12 @@
     bottom: 3vw;
     display: flex;
     align-items: center;
+}
+
+.s1part2 a:hover{
+    transform: scale(1.8);
+    background-color: #ff765d;
+    border-radius: 1vw;
 }
 .s1btn1{
     height: 2.4vw;
