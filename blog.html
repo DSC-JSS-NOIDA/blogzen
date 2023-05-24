@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="./css/desktop_9.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="./js/blog.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Blogzen</title>
 </head>
 
 <body>
-    <nav> 
+    <nav>
         <div class="logo_container">
             <a href="">
                 <div class="logo_image"><img src="/assests/blogzen_logo.svg" alt=""></div>
                 <div class="logo_text"><img src="/assests/blogzen_text.svg" alt=""></div>
             </a>
         </div>
+        
         <div class="profile">
             <div class="profile_image_nav"><img src="/assests/profile_image_large.png" alt=""></div>
             <a href="">
@@ -35,65 +36,77 @@
                 <div class="calendar_text">Calendar</div>
             </a>
         </div>
+
+
+        <!-- dark mode button -->
+        <div>
+            <input type="checkbox" class="checkbox" id="checkbox">
+
+            <label for="checkbox" class="label">
+                <i class="material-symbols-outlined moon">dark_mode</i>
+                <i class="material-symbols-outlined sun"> clear_day</i>
+                <div class="material-symbols-outlined  ball" style="font-size:28px;">circle</div>
+            </label>
+        </div>
     </nav>
 
-<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 
     <div id="blog">
-    
+
     </div>
 
-        <!-- ------------------------------------------------------------------------------------------------------------------->
-       <div class="other_blogs">
-            <div class="title_related_blogs">Other blogs related to this category</div>
-            <div class="blogs_related">
-                <!-- <button><img src="assests/left_arrow.png" alt=""></button> -->
-                <div class="blog">
-                    <img src="/assests/Rectangle 20.png" alt="">
-                    <h4>Technology</h4>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus consequat orci vitae
-                        hendrerit.</p>
-                    <div class="profile_section">
-                        <img src="/assests/profile_image_large.png" alt="">
-                        <div class="profile_details">
-                            <h4>Author Name</h4>
-                            <h5>XX.XX.XXXX</h5>
-                        </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------->
+    <div class="other_blogs">
+        <div class="title_related_blogs">Other blogs related to this category</div>
+        <div class="blogs_related">
+            <!-- <button><img src="assests/left_arrow.png" alt=""></button> -->
+            <div class="blog">
+                <img src="/assests/Rectangle 20.png" alt="">
+                <h4>Technology</h4>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus consequat orci vitae
+                    hendrerit.</p>
+                <div class="profile_section">
+                    <img src="/assests/profile_image_large.png" alt="">
+                    <div class="profile_details">
+                        <h4>Author Name</h4>
+                        <h5>XX.XX.XXXX</h5>
                     </div>
                 </div>
-                <div class="blog">
-                    <img src="/assests/Rectangle 21.png" alt="">
-                    <h4>Technology</h4>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus consequat orci vitae
-                        hendrerit.</p>
-                    <div class="profile_section">
-                        <img src="/assests/profile_image_large.png" alt="">
-                        <div class="profile_details">
-                            <h4>Author Name</h4>
-                            <h5>XX.XX.XXXX</h5>
-                        </div>
+            </div>
+            <div class="blog">
+                <img src="/assests/Rectangle 21.png" alt="">
+                <h4>Technology</h4>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus consequat orci vitae
+                    hendrerit.</p>
+                <div class="profile_section">
+                    <img src="/assests/profile_image_large.png" alt="">
+                    <div class="profile_details">
+                        <h4>Author Name</h4>
+                        <h5>XX.XX.XXXX</h5>
                     </div>
                 </div>
-               
-                <div class="blog">
-                    <img src="/assests/Rectangle 20.png" alt="">
-                    <h4>Technology</h4>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus consequat orci vitae
-                        hendrerit.</p>
-                    <div class="profile_section">
-                        <img src="/assests/profile_image_large.png" alt="">
-                        <div class="profile_details">
-                            <h4>Author Name</h4>
-                            <h5>XX.XX.XXXX</h5>
-                        </div>
+            </div>
+
+            <div class="blog">
+                <img src="/assests/Rectangle 20.png" alt="">
+                <h4>Technology</h4>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus consequat orci vitae
+                    hendrerit.</p>
+                <div class="profile_section">
+                    <img src="/assests/profile_image_large.png" alt="">
+                    <div class="profile_details">
+                        <h4>Author Name</h4>
+                        <h5>XX.XX.XXXX</h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- </div> -->
     <div class="footer">
         <div class="socials">
             <div class="footer_title">Follow us on our socials</div>
@@ -115,6 +128,8 @@
             <h2><a href="mailto:Blogzen@gmail.com">Blogzen@gmail.com</a></h2>
         </div>
     </div>
+
+    <script src="./js/blog.js"></script>
 </body>
 
 </html>

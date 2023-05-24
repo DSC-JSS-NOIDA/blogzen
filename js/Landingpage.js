@@ -18,7 +18,7 @@ console.log("jsonData")
 //       console.log("data1",data)
 //       // tbody.append(td_fun(data));
 //       tbody.innerHTML += td_fun(data);
-      
+
 //     })
 //   }) .catch(error => {
 //     console.error('Error:', error);
@@ -55,20 +55,20 @@ console.log("jsonData")
 // }
 
 
+//Dark mode
+const checkbox = document.getElementById('checkbox')
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark')
+})
 
 
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var tbody = document.getElementById("tbody");
   var tmain = document.getElementById("sec2");
 
   // fetch function
   fetch("../database/jsonData.json")
-  // fetch("http://localhost:3000/blogs")
+    // fetch("http://localhost:3000/blogs")
     .then(res => res.json())
     .then(json => {
       console.log("data1", json);
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("data1", data);
         // tbody.innerHTML += td_fun(data);
         tbody.append(td_fun(data));
-        
+
       });
       tmain.append(td_fun1(json));
     })
@@ -96,8 +96,9 @@ function td_fun(item) {
       <div class="boxtext">
         <div class="boxdiv">${item.tags}</div>
         <a href="../blog.html?id=${item.id}"><h1>${item.title}</h1></a>
-        <a href="../blog.html?id=${item.id}"><p class="boxContent">
-        ${item.content.slice(0,180)}
+
+        <a href="../blog.html?id=${item.id}"><p style="font-size: 0.7em;">
+        ${item.content.slice(0, 180)}
         </p></a>
         <div class="boxauthor">
           <img src=${item.img0} alt="" class="boxauthorimg" />
@@ -116,7 +117,7 @@ function td_fun(item) {
 function td_fun1(item) {
   let data = item.blogs[0]
   console.log("item-mini", item.blogs[0]);
-  console.log("item-mini", item ,item.index);
+  console.log("item-mini", item, item.index);
   let div = document.createElement('div');
   div.innerHTML = `
      <div class="sec2content">

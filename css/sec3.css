@@ -44,8 +44,13 @@
     justify-content: center;
 }
 
+.dark .flex a{
+    background-color: black;
+    color: white;
+}
+
 .flex a{
-    color: black;
+    color: rgb(3, 3, 3);
     text-decoration: none;
 }
 
@@ -54,6 +59,7 @@
     height: 11vw;
     width: 20vw;
     margin-left: 1vw;
+  
 }
 .boxdiv{
     margin: 0.4vw 0;
@@ -72,17 +78,6 @@
     color: #000000;
     width: 15vw;
     font-size: 1em;
-}
-.boxContent{
-    font-size: 0.7em;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    line-height: 21px;
-    color: rgba(0, 0, 0, 0.8);
-
-
-
 }
 .author{
     display: flex;
