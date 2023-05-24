@@ -37,7 +37,15 @@
     color: rgba(0, 0, 0, 0.148);
 }
 
-.s1part2 {
+
+.search[placeholder]{
+    color: black;
+    padding-left: 1rem;
+}
+
+.s1part2{
+    /* border: 1px solid black; */
+
     height: 5vw;
     width: 40vw;
     position: relative;
@@ -47,6 +55,11 @@
     align-items: center;
     color: white;
 }
+
+.s1part2 a:hover{
+    text-decoration: underline;
+}
+
 .s1btn1{
     height: 2.4vw;
     width: 3.8vw;

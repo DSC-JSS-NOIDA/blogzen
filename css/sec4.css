@@ -19,6 +19,7 @@
 .icons img{
     height: 1.5vw;
     width: 1.5vw;
+    cursor: pointer;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box2{
@@ -37,15 +38,21 @@
     height: 1.5vw;
     border-radius: 0.2vw;
 }
+.email[placeholder]{
+    padding-left: 0.3rem;
+}
 .box2btn{
     background-color: #aa77ff;
     border: none;
-    font-size: 0.6em;
+    font-size: 0.7em;
     height: 1.5vw;
     width: 5vw;
     border-radius: 0.2vw;
     margin-left: 0.4vw;
-    color: rgba(255, 255, 255, 0.53);
+    color: rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+    position: relative;
+    bottom: 0.1rem;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box3{
@@ -56,4 +63,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.s4box3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.s4box3 a:hover{
+    text-decoration: underline;
 }
