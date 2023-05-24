@@ -25,7 +25,7 @@
     border-radius: 2vw;
     position: relative;
     left: 33vw;
-    top: -4.5vw;
+    top: -2.5vw;
     background-color: white;
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
@@ -54,7 +54,7 @@
 
 .s1btn1{
     height: 2.4vw;
-    width: 3.8vw;
+    width: 5vw;
     margin: 0 0.7vw;
     border: none;
     border-radius: 1vw;
@@ -62,8 +62,91 @@
     color: white;
     
 }
+.s1btn2{
+    height: 2.4vw;
+    width: 5vw;
+    margin: 0 0.7vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    
+}
+.s1btn3{
+    height: 2.4vw;
+    width: 5vw;
+    margin: 0 0.7vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    
+}
+.s1btn4{
+    height: 2.4vw;
+    width: 5vw;
+    margin: 0 0.7vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    
+}
+.s1btn5{
+    height: 2.4vw;
+    width: 5vw;
+    margin: 0 0.7vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    
+}
+.s1btn6{
+    height: 2.4vw;
+    width: 5vw;
+    margin: 0 0.7vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    
+}
+.s1btn7{
+    height: 2.4vw;
+    width: 5vw;
+    margin: 0 0.7vw;
+    border: black;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;   
+}
 .s1part2 a{
     margin: 0 0.7vw;
     text-decoration: none;
     color: black;
+}
+.s1btn2:hover{
+    background-color: #ff765d;
+    color:white;
+}
+.s1btn3:hover{
+    background-color: #ff765d;
+    color:white;
+}
+.s1btn4:hover{
+    background-color: #ff765d;
+    color:white;
+}
+.s1btn5:hover{
+    background-color: #ff765d;
+    color:white;
+}
+.s1btn6:hover{
+    background-color: #ff765d;
+    color:white;
+}
+.s1btn7:hover{
+    background-color: #ff765d;
+    color:white;
 }
