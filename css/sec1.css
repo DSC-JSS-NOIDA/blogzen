@@ -31,6 +31,12 @@
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
 }
+
+.search[placeholder]{
+    color: black;
+    padding-left: 1rem;
+}
+
 .s1part2{
     /* border: 1px solid black; */
     height: 5vw;
@@ -41,6 +47,11 @@
     display: flex;
     align-items: center;
 }
+
+.s1part2 a:hover{
+    text-decoration: underline;
+}
+
 .s1btn1{
     height: 2.4vw;
     width: 3.8vw;
