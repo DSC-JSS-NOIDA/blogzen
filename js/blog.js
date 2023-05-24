@@ -1,4 +1,13 @@
 
+//Dark mode
+const checkbox = document.getElementById('checkbox')
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark')
+})
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var tbody = document.getElementById("blog");
   
