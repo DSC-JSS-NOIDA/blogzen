@@ -63,8 +63,20 @@
     border-radius: 1vw;
     border: none;
 }
+.sec1Btn a{
+    text-decoration: none;
+    
+}
+.wordLink {
+    color: black;
+}
 
 .active{
     background-color: #ff765d;
     color: white;
 }
+.WordActive{
+    color: white;
+}
+    
+
