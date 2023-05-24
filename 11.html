@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(loginpagebackground.jpeg);
+     
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+      height: 80vh;
+      border: 2px solid red;
+      justify-content: center;
+      align-items: center;
+    }
+    .container::before {
+      content: "";
+      background: url(/loginpagebackground.jpeg) no-repeat center center/cover;
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      opacity: 0.995;
+    }
+    #item1 {
+      display: flex;
+      border: 2px solid red;
+      width: 30vw;
+      height: 55vh;
+      justify-content: center;
+      font-size: 1.4em;
+      margin: 1.2vw;
+    }
+    #item1 input {
+      display: flex;
+      margin: 2vw;
+    }
+    .inputtags {
+      height: 4vh;
+      width: 19vw;
+      padding: 0.2vw;
+      text-align: center;
+      border-radius: 0.5vw;
+      font-size: 1.1vw;
+      background-color:cornsilk;
+    }
+    #loginbtn {
+      height: 6vh;
+      width: 10vw;
+      border-radius: 10px;
+      background-color:skyblue;
+    }
+    #loginbtn:hover {
+      height: 6vh;
+      width: 10vw;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color:rgb(129, 153, 203);
+    }
+   
+  </style>
+  <body>
+    <div class="container">
+      <div>
+        <h2>Login Form</h2>
+      </div>
+      <div id="item1">
+        <form action="/2.html" id="loginpage" method="post">
+          <label for="name"
+            >Name :
+            <div>
+              <input
+                type="text"
+                class="inputtags"
+                name="name"
+                id="name"
+                placeholder="enter your Name"
+               />
+            </div>
+          </label>
+          <label for="email"
+            >Email :
+            <div>
+              <input
+                type="email"
+                class="inputtags"
+                name="email"
+                id="email"
+                placeholder="enter your Email "
+              />
+            </div>
+          </label>
+          <label for="password"
+            >Password :
+            <div>
+              <input
+                type="password"
+                class="inputtags"
+                name="password"
+                id="password"
+                placeholder="enter your Password"
+              />
+            </div>
+          </label>
+        </form>
+      </div>
+      <div class="btn">
+        
+          <!-- <input type="submit" value="Login" id="loginbtn" onclick="validatepage()"/> -->
+         
+          <button id="loginbtn" onclick="validateloginpage()">Login</button>
+        
+        
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  
+  function validateloginpage(){
+    
+    let namevalue=document.getElementById("name").value.trim()
+    let emailvalue=document.getElementById("email").value.trim()
+    let passwordvalue=document.getElementById("password").value.trim()
+    if(namevalue===""){
+      alert("please enter the name,this field is required")
+      return 
+    }
+    if(emailvalue===""){
+      alert("enter the email")
+      return 
+    }
+    if(passwordvalue===""){
+      alert("enter the password field")
+      return 
+    }
+    if(!isValidName(namevalue)){
+      alert("name should contain only alphabets")
+      return
+    }
+    if(!isValidEmail(emailvalue)){
+      alert("enter the valid email address")
+      return 
+    }
+    if(!isValidPassword(passwordvalue)){
+      alert("enter the valid password and it should contain at least one lowercase, special character, uppercase and a number")
+      return 
+    }
+else{
+  window.location.replace("http://127.0.0.1:5500/2.html")
+}
+  }
+  function isValidEmail(emailvalue) {
+    const emailexp = /\S+@\S+\.\S+/;
+    return emailexp.test(emailvalue);
+  }
+  function isValidPassword(passwordvalue) {
+    const passwordRegex = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+    return passwordRegex.test(passwordvalue);
+  }
+  function isValidName(namevalue){
+    const nameregex = /^[A-Za-z\s]+$/
+    return nameregex.test(namevalue)
+  }
+  
+
+</script>
