@@ -2,9 +2,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
-
-
-
+.header{
+    background-color: #000000;
+}
+.toggler{
+    margin: auto;
+    width: 200px;
+  }
+  .switch {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: absolute;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1a1a2e;
+    transition: .4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color: #ffbd69;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1a1a2e;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider {
+    border-radius: 34px;
+  }  
+  .slider:before {
+    border-radius: 50%;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -27,11 +80,11 @@ body{
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs1{
     /* border: 1px solid black; */
-    width: 15vw;
+    width: 70vw;
     height: 80px;
     display: flex;
     align-items: center;
-    margin-left: 3.5vw;
+    margin-left: -106vw;
 }
 .navs1 img{
     /* border: 1px solid black; */

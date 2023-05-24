@@ -139,3 +139,29 @@ function td_fun1(item) {
   `;
   return div;
 }
+$(document).ready(function(){
+  $('.mode').change(function(){
+    if($(this).prop('checked')){
+      $('.header').css('background-color', "white");
+      $('.s1part2 a').css('color', "black");
+      $('.s2text').css('color', "black");
+      $('.s2text h1').css('color', "black");
+      $('.s2text p').css('color', "black");
+      $('.div').css('color', "black");
+    }
+    else{
+      $('.header').css('background-color', "black");
+      $('.s1part2 a').css('color', "white");
+      $('.s2text').css('color', "white");
+      $('.s2text h1').css('color', "white");
+      $('.s2text p').css('color', "white");
+      $('.div').css('color', "white");
+    }
+  });
+});
+$('.navbar-toggler-icon').click(function(){
+  var get = $('.map');
+  var gett = $('.maplink');
+  get.remove();
+  gett.remove();
+  });

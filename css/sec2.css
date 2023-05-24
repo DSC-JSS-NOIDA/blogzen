@@ -41,6 +41,7 @@
     /* border: 1px solid green; */
     height: 23vw;
     width: 45vw;
+    color: rgb(248, 248, 248);
     /* margin: 0 3vw; */
 }
 .div{
@@ -50,7 +51,7 @@
     font-weight: 600;
     font-size: 0.9em;
     line-height: 30px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(248, 248, 248);
 }
 .s2text h1{
     margin: 1vw 0;
@@ -60,7 +61,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 42px;
-    color: #000000;
+    color: rgb(248, 248, 248);
 }
 .s2text p{
     font-family: 'Poppins';
@@ -68,7 +69,7 @@
     font-weight: 500;
     font-size: 1.2em;
     line-height: 30px;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(248, 248, 248);
 
 }
 .author{
