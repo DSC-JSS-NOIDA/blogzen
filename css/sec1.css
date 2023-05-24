@@ -55,9 +55,7 @@
     gap: 15px;
 }
 
-.s1part2 a:hover{
-    text-decoration: underline;
-}
+
 
 .s1btn1{
     height: 2.4vw;
@@ -80,6 +78,8 @@
 }
 .wordLink {
     color: black;
+    text-decoration: none;
+
 }
 
 .active{
@@ -88,6 +88,7 @@
 }
 .WordActive{
     color: white;
+    text-decoration: none;
 }
     
 
