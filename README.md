@@ -162,6 +162,9 @@ Pulling from Your Remote
 $ git pull upstream main
 ```
 
+## Design
+- The Prospective design of this project is here [Blogzen - Flutter](https://www.figma.com/file/lTsgJbWw8MRxWLa3c0PwWh/Blog-Project?type=design&node-id=0%3A1&t=9fkc7cb59hN4TlHW-1) 
+	
 ## Resources
 
 - **Git and Github**: [Git and Github for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk)
