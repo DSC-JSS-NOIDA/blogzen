@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     transition: 0.5s linear;
 }
@@ -58,6 +59,7 @@ body.dark {
 
 
 
+
 .logo_container {
     display: flex;
     text-align: center;
@@ -99,7 +101,7 @@ body.dark {
 .profile a {
     display: flex;
     text-decoration: none;
-    color: #1b1b1a;
+    color: #079f8f;
 }
 
 .profile_name {
@@ -280,7 +282,7 @@ body.dark {
 
 .title_related_blogs {
     margin-top: 80px;
-    color: #000000;
+    /* color: #b36969; */
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
 }
@@ -297,14 +299,14 @@ body.dark {
 }
 
 .blog h4 {
-    color: #808080;
+    /* color: #09704b; */
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     margin-left: 10px;
 }
 
 .blog h3 {
-    color: #000000;
+    /* color: #09704b; */
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin-left: 10px;
@@ -312,7 +314,7 @@ body.dark {
 }
 
 .blog p {
-    color: #000000a8;
+    /* color: #09704b; */
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin-left: 10px;
@@ -336,16 +338,15 @@ body.dark {
     flex-direction: column;
     margin: auto 0;
     margin-left: 10px;
+   
 }
 
 .profile_details h4 {
-    color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
 
 .profile_details h5 {
-    color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
