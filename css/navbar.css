@@ -24,17 +24,6 @@ body {
     justify-content: space-between;
 }
 
-/* .dark-mode {
-    background-color: black;
-    color: white;
-}
-
-.material-symbols-outlined{
-    background: transparent;
-    border: none;
-    color: red;
-} */
-
 
 body.dark{
     background-color: #111;
