@@ -1,6 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 
 
@@ -8,10 +9,27 @@
     margin: 0;
     padding: 0;
 }
+
+
 body{
     overflow-x: hidden;
-    font-family: "Baloo Bhaina 2", cursive;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+    
+}
+.darktheme{
+    --element-color:white;
+    --element1-color:#9DB2BF;
+    --element2-color: #DDE6ED;
+    background-color: black;
+    color: white;
+
+}
+
+#themeImg{
+    width: 25px;
+    height: 25px;
+    border: none;
 }
 
 .navbar {
@@ -80,6 +98,7 @@ body{
     border: 1px solid #2a95f6;
     background-color: white;
     font-size: 0.7em;
+    
 
 }
 .navbtn2{
