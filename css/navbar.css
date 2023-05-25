@@ -9,10 +9,27 @@
     margin: 0;
     padding: 0;
 }
+
+
 body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
     
+}
+.darktheme{
+    --element-color:white;
+    --element1-color:#9DB2BF;
+    --element2-color: #DDE6ED;
+    background-color: black;
+    color: white;
+
+}
+
+#themeImg{
+    width: 25px;
+    height: 25px;
+    border: none;
 }
 
 .navbar {
@@ -81,6 +98,7 @@ body{
     border: 1px solid #2a95f6;
     background-color: white;
     font-size: 0.7em;
+    
 
 }
 .navbtn2{

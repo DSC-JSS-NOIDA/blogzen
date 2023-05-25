@@ -1,3 +1,13 @@
+:root{
+    --element-color: black;
+    --element1-color:rgba(0, 0, 0, 0.5);
+    --element2-color:rgba(0, 0, 0, 0.8);
+
+
+}
+
+
+
 .sec1{
     height: 20vw;
 }
@@ -74,6 +84,7 @@
 }
 .sec1Btn a{
     text-decoration: none;
+
     
 }
 .wordLink {
@@ -91,4 +102,8 @@
     text-decoration: none;
 }
     
+
+
+    color: var(--element-color);
+}
 
