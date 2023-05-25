@@ -1,3 +1,12 @@
+:root{
+    --element-color: black;
+    --element1-color:rgba(0, 0, 0, 0.5);
+    --element2-color:rgba(0, 0, 0, 0.8);
+
+
+}
+
+
 
 .sec1{
     height: 20vw;
@@ -66,5 +75,5 @@
 .s1part2 a{
     margin: 0 0.7vw;
     text-decoration: none;
-    color: rgb(250, 247, 247);
+    color: var(--element-color);
 }
