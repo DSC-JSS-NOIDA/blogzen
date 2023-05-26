@@ -25,13 +25,14 @@
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    
+    justify-content: center;
+    align-items: center;
 }
 .box1{
     /* border: 1px solid green; */
     padding-bottom: 2vw;
-    height: 27vw;
-    width: 25vw;
+    /* height: 27vw; */
+    /* width: 25vw; */
     margin: 0 2vw;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@
 }
 .box1>img{
     
-    height: 15vw;
+    /* height: 15vw; */
     width: 23vw;
     object-fit: fill;
     /* margin: 0 5vw; */
@@ -59,7 +60,7 @@
 
 .boxtext{
     /* border: 1px solid green; */
-    height: 11vw;
+    /* height: 11vw; */
     width: 20vw;
     margin-left: 1vw;
 }
