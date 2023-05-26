@@ -88,6 +88,11 @@ body{
     align-items: center;
     margin-right: 1vw;
 }
+.navs2 a{
+    text-decoration: none;
+    color: inherit;
+
+}
 .navs2>img{
     cursor: pointer;
     width: 2vw;
