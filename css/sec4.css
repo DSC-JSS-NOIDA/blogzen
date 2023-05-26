@@ -4,6 +4,10 @@
     align-items: center;
     background-color: #7333df;
     color: white;
+    position:relative;
+    width:70vh;
+     opacity:1.0;
+    
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box1{

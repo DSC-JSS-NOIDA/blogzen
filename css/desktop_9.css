@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+@media screen and (max-width: 420px) {
+    body {
+       background-color: lightblue;
+    }
+ }
 nav {
     height: 80px;
     display: flex;
