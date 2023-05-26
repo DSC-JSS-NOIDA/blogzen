@@ -104,10 +104,18 @@ body{
     border: 1px solid #2a95f6;
     background-color: white;
     font-size: 0.7em;
-    
-
 }
 .navbtn2{
+    cursor: pointer;
+    height: 2vw;
+    width: 7vw;
+    margin: 0 1vw;
+    margin-left: 0;
+    border-radius: 0.5vw;
+    border: 1px solid #2a95f6;
+    font-size: 0.7em;
+}
+.navbtn3{
     cursor: pointer;
     height: 2vw;
     width: 9vw;
@@ -119,12 +127,12 @@ body{
     align-items: center;
     justify-content: center;
 }
-.navbtn2>img{
+.navbtn3 img{
     border: 1px solid black;
     width: 1vw;
     height: 1vw;
     /* margin: 0 0.5vw; */
 }
-.navbtn2 span{
+.navbtn3 span{
     margin-left: 0.3vw;
 }
