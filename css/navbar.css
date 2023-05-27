@@ -82,7 +82,7 @@ body{
 /* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs2{
     /* border: 1px solid black; */
-    width: 25vw;
+    width: auto;
     height: 80px;
     display: flex;
     align-items: center;
@@ -97,20 +97,27 @@ body{
 }
 .navbtn1{
     cursor: pointer;
-    height: 2vw;
-    width: 7vw;
+    height: 30%;
+    width: auto;
     margin: 0 1vw;
     border-radius: 0.5vw;
     border: 1px solid #2a95f6;
     background-color: white;
     font-size: 0.7em;
+    float: left;
+    overflow:hidden;
+    text-align: center;
+    padding:5px 10px 5px 10px;
+    
+    text-decoration: none;
+
     
 
 }
-.navbtn2{
+ .navbtn2{
     cursor: pointer;
-    height: 2vw;
-    width: 9vw;
+    height: 30%;
+    width: auto;
     margin: 0 1vw;
     border-radius: 0.5vw;
     border: none;
@@ -118,13 +125,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:5px 10px 5px 10px;
 }
 .navbtn2>img{
     border: 1px solid black;
-    width: 1vw;
-    height: 1vw;
+    width: auto;
+    height: auto;
     /* margin: 0 0.5vw; */
 }
 .navbtn2 span{
     margin-left: 0.3vw;
-}
+} 

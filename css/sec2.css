@@ -12,21 +12,24 @@
 }
 
 .sec2buttons{
-    width: 20vw;
+    width: 60vw;
     margin-left: 9.5vw;
 }
 .sec2btn2{
     cursor: pointer;
-    height: 2.5vw;
-    width: 7.2vw;
+    height: 30%;
+    padding:10px 20px 10px 20px;
+    width: auto;
     margin: 0 1.3vw;
-    border-radius: 1vw;
+    border-radius: 15px;
     border: none;
     border: 1px solid #ff765d;
     background-color: white;
     margin: 0 1vw;
     font-size: 0.8em;
     color: black;
+    align-items: center;
+    
 }
 .sec2btn2-recent:hover{
     color: #fff;
