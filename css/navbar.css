@@ -21,6 +21,7 @@ body{
     top: 0px;
     display: flex;
     justify-content: space-between;
+    position:fixed;
 }
 
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
