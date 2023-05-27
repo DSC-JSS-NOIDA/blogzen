@@ -7,7 +7,7 @@
     width: 80vw;
     margin: 3.2vw auto;
     border-radius: 2vw;
-    background-color: #7D41E2;
+    background-color: #a081d4;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
 
 }
@@ -24,7 +24,7 @@
     width: 34vw;
     border-radius: 2vw;
     position: relative;
-    padding: 0 8px;
+    padding: 1px 8px;
     left: 33vw;
     top: -4.5vw;
     background-color: white;
