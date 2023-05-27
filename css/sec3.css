@@ -1,6 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+:root{
+    --element-color: black;
+    --element1-color:rgba(0, 0, 0, 0.5);
+    --element2-color:rgba(0, 0, 0, 0.8);
+}
+
+
 .sec3{
     /* border: 2px solid red; */
     height: 62vw;
+    display: flex;
+    justify-content: center;
 }
 .s3boxes{
     /* border: 1px solid black; */
@@ -10,10 +21,21 @@
     margin-left: 6vw;
     margin-bottom: 3vw;
 }
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
 .box1{
     /* border: 1px solid green; */
+
     
     height: 30vw;
+
+
     width: 25vw;
     background-color: rgb(241, 253, 249);
     margin: 1vw 1vw;
@@ -29,6 +51,7 @@
     transform: scale(0.9);
 }
 .box1>img{
+
     /* border: 1px solid green; */
     margin: 0.5vw;
     /* padding-top: 0; */
@@ -38,12 +61,17 @@
     padding-bottom: 0.2vw;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
  
+
+   
 }
+
 .flex{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 95%;
+    margin: auto;
 }
+
 
 .flex a{
     color: black;
@@ -65,14 +93,29 @@
     margin-bottom: 1.5vm;
 
     font-size: 0.8em;
-   
+
 }
 .boxtext h1{
     margin: 0.5vw 0;
-    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--element-color);
     width: 15vw;
     font-weight: bolder;
     font-size: 1em;
+}
+.boxContent{
+    font-size: 0.7em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--element2-color);
+
+
+
 }
 .author{
     display: flex;
@@ -90,21 +133,21 @@
     height: 2vw;
     width: 2vw;
     border-radius: 10vw;
+
     border: 1px solid rgb(10, 10, 9);
    
 }
-.boxauthor:hover{
-transform: scale(1);
-}
+
 .boxauthorsname{
     margin-left: 0.5vw;
     font-size: 0.8vw;
 }
+
 #tbody{
     /* margin-left: 50px; */
     display:flex;
 align-items: center;
 justify-content: center;
 box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
- 
+
 }
