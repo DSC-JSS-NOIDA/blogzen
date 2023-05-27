@@ -50,7 +50,8 @@
 .s1part2{
     /* border: 1px solid black; */
     height: 5vw;
-    width: 40vw;
+    width: 100%;
+    padding:10px 10px 10px 10px;
     position: relative;
     left: 33vw;
     bottom: 3vw;
