@@ -109,9 +109,10 @@ body{
 }
 .navbtn1{
     cursor: pointer;
-    height: 2vw;
-    width: 7vw;
+    height: 32px;
+    width: 19vw;
     margin: 0 1vw;
+    padding: 4px;
     border-radius: 0.5vw;
     border: 1px solid whitesmoke;
     background-color: #7D41E2;
