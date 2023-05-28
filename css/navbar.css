@@ -106,8 +106,8 @@ body{
     width: 7vw;
     margin: 0 1vw;
     border-radius: 0.5vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
+    border: 1px solid whitesmoke;
+    background-color: #7D41E2;
     font-size: 0.7em;
     
 
@@ -132,4 +132,8 @@ body{
 }
 .navbtn2 span{
     margin-left: 0.3vw;
+}
+
+.txtColor{
+    color: white;
 }

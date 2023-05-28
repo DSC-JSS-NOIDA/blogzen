@@ -25,6 +25,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    align-items: center;
+    justify-content: center;
     
 }
 .box1{
@@ -45,12 +47,14 @@
     /* margin: 0 5vw; */
     border-radius: 1vw;
 }
+
 .flex{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+    max-width: 95%;
+    margin: auto;
 }
+
 
 .flex a{
     color: black;
