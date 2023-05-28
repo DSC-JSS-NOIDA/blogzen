@@ -27,7 +27,6 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
 }
 .box1{
     /* border: 1px solid green; */
@@ -69,7 +68,7 @@
 }
 .boxdiv{
     margin: 1vw 0;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--element1-color);
     line-height: 18px;
     font-family: 'Poppins', sans-serif;
