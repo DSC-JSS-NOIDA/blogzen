@@ -1,3 +1,12 @@
+// title hover effect
+function expand(){
+  document.getElementsById('title-bg').style.width = '0px';
+} 
+function compress(){
+  document.getElementsById('title-bg').style.width = "20px";
+}
+
+
 // const dataArray = JSON.parse(jsonData);
 // console.log(dataArray)
 console.log("jsonData")
