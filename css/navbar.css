@@ -68,8 +68,12 @@ body{
     top: 0px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
 }
 
+  
+  
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs1{
     /* border: 1px solid black; */
