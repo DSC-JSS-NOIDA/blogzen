@@ -68,8 +68,81 @@ body{
     top: 0px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
 }
 
+.input-container {
+    position: relative;
+    display: flex;
+    margin-left: 400px;
+    align-items: right;
+  }
+  
+  .input {
+    margin-top:18.5px ;
+    width: 40px;
+    height: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 18px 16px;
+    margin-left: 400px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .75s ease-in-out;
+  }
+  
+  .input::placeholder {
+    margin-left: 420px;
+    color: transparent;
+  }
+  
+  .input:focus::placeholder {
+    margin-left: 420px;
+    color: rgb(131, 128, 128);
+  }
+  
+  .input:focus,.input:not(:placeholder-shown) {
+    background-color: #fff;
+    border: 1px solid #7D41E2;
+    width: 290px;
+    margin-left: 400px;
+    cursor: none;
+    padding: 18px 16px 18px 40px;
+  }
+  
+  .icon {
+    margin-top: 22.5px;
+    margin-left: 422px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: -1;
+    fill: #7D41E2;
+    border: 1px solid #9f71ee;
+  }
+  
+  .input:hover + .icon {
+    transform: rotate(-20deg);
+    margin-left: 400px;
+    transition: .2s ease-in-out;
+  }
+  
+  .input:focus + .icon,.input:not(:placeholder-shown) + .icon {
+    z-index: 0;
+    background-color: transparent;
+    margin-left: 400px;
+    border: none;
+  }
+  
+  
+  
+  
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs1{
     /* border: 1px solid black; */
