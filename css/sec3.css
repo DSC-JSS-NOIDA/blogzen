@@ -27,17 +27,16 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
 }
 .box1{
     /* border: 1px solid green; */
     padding-bottom: 2vw;
-    height: 27vw;
-    width: 25vw;
     margin: 0 2vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 2px solid black; */
 }
 .box1>img{
     
@@ -45,7 +44,7 @@
     width: 23vw;
     object-fit: fill;
     /* margin: 0 5vw; */
-    border-radius: 1vw;
+    border-radius: 0.5vw;
 }
 
 .flex{
@@ -68,12 +67,16 @@
     margin-left: 1vw;
 }
 .boxdiv{
-    margin: 0.4vw 0;
-    font-size: 0.8em;
+    margin: 1vw 0;
+    font-size: 0.7rem;
     color: var(--element1-color);
     line-height: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+}
+.box1:hover {
+    scale: 1.02;
+    transition: all 0.3s ease-in-out;
 }
 .boxtext h1{
     margin: 0.5vw 0;
@@ -82,19 +85,18 @@
     font-weight: 600;
     line-height: 27px;
     color: var(--element-color);
-    width: 15vw;
     font-size: 1em;
 }
 .boxContent{
     font-size: 0.7em;
-    font-family: 'Poppins';
+    height: 80px;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 500;
-    line-height: 21px;
     color: var(--element2-color);
-
-
-
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
 }
 .author{
     display: flex;
@@ -109,14 +111,16 @@
     height: 2vw;
     width: 2vw;
     border-radius: 10vw;
+    margin-top: 1rem;
     
 }
 .boxauthorsname{
     margin-left: 0.5vw;
     font-size: 0.8vw;
+    margin-top: 1rem;
 }
 .namestyle{
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.8vw;
@@ -124,11 +128,22 @@
     color: var(--element-color);
 }
 .datestyle{
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.5vw;
     line-height: 18px;
     color: var(--element1-color);
 
+}
+#tbody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.borderbox {
+    text-align: left;
+    margin-bottom: 7rem;
 }
