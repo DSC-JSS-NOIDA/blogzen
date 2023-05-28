@@ -1,3 +1,13 @@
+:root{
+    --element-color: black;
+    --element1-color:rgba(0, 0, 0, 0.5);
+    --element2-color:rgba(0, 0, 0, 0.8);
+
+
+}
+
+
+
 .sec1{
     height: 20vw;
 }
@@ -33,6 +43,12 @@
     /* color: rgba(148, 13, 13, 0.148); */
     color: rgb(52, 51, 51);
 }
+
+.search[placeholder]{
+    color: black;
+    padding-left: 1rem;
+}
+
 .s1part2{
     /* border: 1px solid black; */
     height: 5vw;
@@ -43,6 +59,11 @@
     display: flex;
     align-items: center;
 }
+
+.s1part2 a:hover{
+    text-decoration: underline;
+}
+
 .s1btn1{
     height: 2.4vw;
     width: 3.8vw;
@@ -56,5 +77,5 @@
 .s1part2 a{
     margin: 0 0.7vw;
     text-decoration: none;
-    color: black;
+    color: var(--element-color);
 }
