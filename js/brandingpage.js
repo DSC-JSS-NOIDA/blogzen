@@ -114,18 +114,21 @@ function td_fun(item) {
 
 
 function td_fun1(item) {
-  let data = item.blogs[0]
-  console.log("item-mini", item.blogs[0]);
-  console.log("item-mini", item ,item.index);
-  let div = document.createElement('div');
-  div.innerHTML = `
-     <div class="sec2content">
+    let data = item.blogs.find(blog => blog.id === "003");
+    
+    if (!data) {
+      return null; // Return null if item with ID "003" is not found
+    }
+  
+    let div = document.createElement('div');
+    div.innerHTML = `
+      <div class="sec2content">
         <img src=${data.imageurl} alt="" />
         <div class="s2text">
           <div class="div">${data.tags}</div>
           <h1>${data.title}</h1>
           <p">
-          ${data.content.slice(0, 500)}
+            ${data.content.slice(0, 500)}
           </p>
           <div class="author">
             <img src=${data.img0} alt="" class="authorimg" />
@@ -136,6 +139,7 @@ function td_fun1(item) {
           </div>
         </div>
       </div>
-  `;
-  return div;
-}
+    `;
+    return div;
+  }
+  
