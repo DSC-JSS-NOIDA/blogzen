@@ -105,8 +105,8 @@ body{
     border: 1.5px solid #7D41E2;
     background-color: white;
 /* ======= */
-    border: 1px solid whitesmoke;
-    background-color: #7D41E2;
+    /* border: 1px solid whitesmoke;
+    background-color: #7D41E2; */
 /* >>>>>>> d2fdd655a8acccf2a364ddc1ee222519bf37cfc3 */
     font-size: 0.7em;
 
@@ -146,7 +146,7 @@ body{
 }
 /* ======= */
 
-.txtColor{
+/* .txtColor{
     color: white;
-}
+} */
 /* >>>>>>> d2fdd655a8acccf2a364ddc1ee222519bf37cfc3 */
