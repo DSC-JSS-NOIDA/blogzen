@@ -16,7 +16,7 @@ section {
   background-image: url('/img/login.jpg');  
   background-size: cover;
   background-position: center;
-  animation: animateBg 20s linear infinite;
+  animation: animateBg 30s linear infinite;
 }
 
 @keyframes animateBg {
