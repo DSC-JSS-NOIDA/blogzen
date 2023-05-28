@@ -43,6 +43,17 @@ body{
     justify-content: space-between;
 }
 
+/* title-decoration */
+.titlebg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    margin: 20px 99px;
+    border-radius: 50px;
+    background-color: #ddcdf9;
+    z-index: -1;
+}
+
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs1{
     /* border: 1px solid black; */
