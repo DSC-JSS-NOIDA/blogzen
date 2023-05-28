@@ -13,7 +13,7 @@
 .box1{
     /* border: 1px solid green; */
     
-    height: 30vw;
+    height: 33vw;
     width: 25vw;
     /* background-color: rgb(241, 253, 249); */
     /* background-image: linear-gradient(80deg ,rgb(225, 144, 250),rgb(204, 156, 245),rgb(234, 185, 250),rgb(243, 239, 239)); */
@@ -38,7 +38,7 @@
     /* border: 3px solid whitesmoke; */
     margin: 0.5vw;
     /* padding-top: 0; */
-    height: 14vw;
+    height: 13vw;
     width: 22vw;
     border-radius: 0.7vw;
     padding-bottom: 0.2vw;
@@ -59,20 +59,23 @@
 .flex a{
     color: whitesmoke;
     text-decoration: none;
-    /* font-size: 55vm; */
+   font-size: 1vm;
 }
 
 .boxtext{
     /* border: 1px solid green; */
     padding-top: 0.5vw;
     height: 11vw;
+    color: black;
+    margin-top:1em;
     width: 20vw;
+    font-size: 0.86em;
     margin-left: 1vw;
 }
 .boxdiv{
 
     /* margin: 0.3vw 0; */
-    margin-top: 0.2vm;
+    margin-top: 1.2vm;
     margin-bottom: 1.5vm;
 
     font-size: 0.8em;
@@ -88,14 +91,17 @@
 .author{
     display: flex;
     align-items: center;
-    margin-top: 1.5vw;
+    /* margin-top: 1.5vw; */
 }
 .boxauthor{
     transition: 1s ease;
     display: flex;
     align-self: center;
     /* justify-content: center; */
-    margin-top: 1.2vw;
+    margin-top: 1vw;
+    /* padding-top: 0.8vm; */
+ margin-bottom: 2vm;
+ color: white;
 }
 .boxauthor>img{
     height: 2vw;

@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --element-color: black;
+    --element1-color: #808080;
+    --element2-color:#000000a8;
+
+}
+
+.darktheme{
+    --element-color:white;
+    --element1-color:#9DB2BF;
+    --element2-color: #DDE6ED;
+    background-color: black;
+    color: white;
+
+}
+#themeImg{
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 10px;
+}
+
 
 nav {
     height: 80px;
@@ -96,14 +118,14 @@ nav {
 }
 
 .category {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
 
 .title {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     width: 50%;
@@ -111,7 +133,7 @@ nav {
 }
 
 .info {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: lighter;
@@ -125,7 +147,7 @@ nav {
 }
 
 .other_details {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: lighter;
@@ -140,7 +162,7 @@ nav {
     width: 94%;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-top: 1px solid #808080;
+    border-top: 1px solid var(--element1-color);
 }
 
 .blog_content {
@@ -231,7 +253,7 @@ nav {
 
 .title_related_blogs {
     margin-top: 80px;
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
 }
@@ -248,14 +270,14 @@ nav {
 }
 
 .blog h4 {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     margin-left: 10px;
 }
 
 .blog h3 {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin-left: 10px;
@@ -263,7 +285,7 @@ nav {
 }
 
 .blog p {
-    color: #000000a8;
+    color: var(--element2-color);
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin-left: 10px;
@@ -290,13 +312,13 @@ nav {
 }
 
 .profile_details h4 {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
 
 .profile_details h5 {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
