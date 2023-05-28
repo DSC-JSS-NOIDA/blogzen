@@ -37,16 +37,16 @@
     /* border: 1px solid black; */
     width: 90vw;
     height: 25vw;
-    margin-top: 2.4vw;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-left: 5vw;
-    
 }
 .sec2content>img{
     height: 23vw;
     width: 29vw;
-    object-fit: fill;
+    object-fit: contain;
     margin: 0 5vw;
     border-radius: 2vw;
 }
@@ -64,11 +64,12 @@
     font-weight: 600;
     font-size: 0.9em;
     line-height: 30px;
-     color: var(--element1-color)}
+     color: var(--element1-color)
+}
 .s2text h1{
     margin: 1vw 0;
     font-size: 1.8em;
-    width: 30vw;
+    width: 50vw;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -76,10 +77,9 @@
     color: var(--element-color);
 }
 .s2text p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.2em;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
+    font-size: 0.9rem;
     line-height: 30px;
     color: var(--element-color);
 
