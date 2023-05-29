@@ -24,13 +24,7 @@
     border-radius: 80px; 
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    
-   
-  }
-  
-  
+  /* Handle on hover */  
 
 *{
     margin: 0;
@@ -102,7 +96,13 @@ body{
 }
 
 
-
+.Calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding: .2rem;
+}
 
 
 

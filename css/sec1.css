@@ -30,20 +30,22 @@
     color: white;
 }
 .search{
+    color: white;
     height: 3vw;
     width: 34vw;
     border-radius: 2vw;
     position: relative;
     left: 33vw;
     top: -4.5vw;
-    background-color: white;
+    background-color: #7D41E2;
+    margin-top: 1.2rem;
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
-    color: rgba(0, 0, 0, 0.148);
+   
 }
 
 .search[placeholder]{
-    color: black;
+    color:  white;
     padding-left: 1rem;
 }
 
