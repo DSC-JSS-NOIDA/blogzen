@@ -42,6 +42,7 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     /* background-color: black; */
+    background-image: linear-gradient(rgb(228, 188, 249), white) ;
     
 }
 .darktheme{
