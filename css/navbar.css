@@ -109,8 +109,8 @@ body{
 /* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs2{
     /* border: 1px solid black; */
-    width: 25vw;
-    height: 80px;
+    width: 35vw;
+    height: 70px;
     display: flex;
     align-items: center;
     margin-right: 1vw;
@@ -124,38 +124,56 @@ body{
 }
 .navbtn1{
     cursor: pointer;
-    height: 2vw;
-    width: 7vw;
+    height: 4vw;
+    width: 8vw;
     margin: 0 1vw;
     border-radius: 0.5vw;
-    border: 1px solid whitesmoke;
-    background-color: #7D41E2;
+/* <<<<<<< HEAD */
+    border: 1.5px solid #7D41E2;
+    background-color: white;
+/* ======= */
+    /* border: 1px solid whitesmoke;
+    background-color: #7D41E2; */
+/* >>>>>>> d2fdd655a8acccf2a364ddc1ee222519bf37cfc3 */
     font-size: 0.7em;
-    
 
+
+}
+.navbtn1:hover{
+    background: #7D41E2;
+    color: black;
 }
 .navbtn2{
     cursor: pointer;
-    height: 2vw;
-    width: 9vw;
+    height: 4vw;
+    width: 8vw;
     margin: 0 1vw;
     border-radius: 0.5vw;
-    border: none;
-    background-color: #2a95f6;
+    border: 1.5px solid #7D41E2;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 300;
+    margin-left: 1px;
+
 }
 .navbtn2>img{
     border: 1px solid black;
-    width: 1vw;
+    width: 1.1vw;
     height: 1vw;
     /* margin: 0 0.5vw; */
 }
 .navbtn2 span{
     margin-left: 0.3vw;
 }
-
-.txtColor{
-    color: white;
+/* <<<<<<< HEAD */
+.navbtn2:hover{
+    background: #7D41E2;
+    color: black;
 }
+/* ======= */
+
+/* .txtColor{
+    color: white;
+} */
+/* >>>>>>> d2fdd655a8acccf2a364ddc1ee222519bf37cfc3 */
