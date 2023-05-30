@@ -164,6 +164,28 @@ nav {
     margin-bottom: 40px;
     border-top: 1px solid var(--element1-color);
 }
+::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  
+  }
+  ::-webkit-scrollbar:hover {
+    background: white;
+    width:10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7D41E2;
+    
+    border-radius: 80px; 
+  }
+  
+   
 
 .blog_content {
     width: 85%;

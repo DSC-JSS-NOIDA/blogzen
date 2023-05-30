@@ -3,7 +3,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
-
+::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  
+  }
+  ::-webkit-scrollbar:hover {
+    background: white;
+    width:10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7D41E2;
+    
+    border-radius: 80px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    
+   
+  }
+  
+  
 
 *{
     margin: 0;
@@ -101,8 +128,8 @@ body{
     width: 7vw;
     margin: 0 1vw;
     border-radius: 0.5vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
+    border: 1px solid whitesmoke;
+    background-color: #7D41E2;
     font-size: 0.7em;
 }
 .navbtn2{
@@ -135,4 +162,8 @@ body{
 }
 .navbtn3 span{
     margin-left: 0.3vw;
+}
+
+.txtColor{
+    color: white;
 }
