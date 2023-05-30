@@ -134,6 +134,10 @@ body{
     
 
 }
+
+.navbtn1:hover{
+    background-color: black;
+}
 .navbtn2{
     cursor: pointer;
     height: 2vw;

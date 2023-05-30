@@ -1,0 +1,67 @@
+body{
+    background-color: #c9ecec;
+}
+h1{
+    color: #66bfbf;
+}
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Submit button styles */
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 480px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  
