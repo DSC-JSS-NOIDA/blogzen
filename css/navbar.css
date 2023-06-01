@@ -14,7 +14,7 @@
   
   }
   ::-webkit-scrollbar:hover {
-    background: white;
+    background: rgb(101, 54, 54);
     width:10px;
   }
   /* Handle */
@@ -117,21 +117,21 @@ body{
 }
 .navs2>img{
     cursor: pointer;
-    width: 2vw;
-    height: 2vw;
+    width: 5px;
+    height: 5px;
     margin: 0 0.5vw;
 
 }
 .navbtn1{
     cursor: pointer;
-    height: 2vw;
-    width: 7vw;
-    margin: 0 1vw;
+    height: 30px;
+    width: 100px;
+    margin: 7px;
     border-radius: 0.5vw;
     border: 1px solid whitesmoke;
     background-color: #7D41E2;
-    font-size: 0.7em;
-    
+    font-size: 0.9 em;
+    padding: 4px;
 
 }
 .navbtn2{
