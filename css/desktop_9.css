@@ -349,7 +349,7 @@ nav {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url(../assests//footer_bg.png);
+    background-image: url(../assests//footer.png);
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 80px;
@@ -379,18 +379,18 @@ nav {
     border: none;
     height: 30px;
     padding-left: 10px;
-    border: 1px solid #AA77FF;
+    border: 1px solid #ffffff;
     background-color: transparent;
     color: #ffffff;
 }
 
 ::placeholder {
-    color: #AA77FF;
+    color: #ffffff;
 }
 
 .newsletter form button {
     width: 30%;
-    background-color: #AA77FF;
+    background-color: #bd1b1b;
     border: none;
     height: 30px;
     color: #ffffff;
