@@ -3,7 +3,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
-
+::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  
+  }
+  ::-webkit-scrollbar:hover {
+    background: white;
+    width:10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7D41E2;
+    
+    border-radius: 80px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    
+   
+  }
+  
+  
 
 *{
     margin: 0;
@@ -27,10 +54,12 @@ body{
 }
 
 #themeImg{
+    cursor: pointer;
     width: 25px;
     height: 25px;
     border: none;
 }
+
 
 .navbar {
     width: 100vw;
@@ -55,6 +84,10 @@ body{
     width: 3vw;
     height: 3vw;
     border-radius: 10vw;
+}
+.navs1 a{
+    text-decoration: none;
+    color: #7D41E2;
 }
 .span1{
     margin-left: 1vw;
@@ -83,28 +116,29 @@ body{
     margin-right: 1vw;
 }
 .navs2>img{
-    border: 1px solid black;
-    width: 1.5vw;
-    height: 1.5vw;
+    cursor: pointer;
+    width: 2vw;
+    height: 2vw;
     margin: 0 0.5vw;
 
 }
 .navbtn1{
-    height: 1.5vw;
-    width: 4vw;
-    margin: 0 0.5vw;
-    border: none;
-    border-radius: 0.3vw;
-    border: 1px solid #2a95f6;
-    background-color: white;
+    cursor: pointer;
+    height: 2vw;
+    width: 7vw;
+    margin: 0 1vw;
+    border-radius: 0.5vw;
+    border: 1px solid whitesmoke;
+    background-color: #7D41E2;
     font-size: 0.7em;
     
 
 }
 .navbtn2{
+    cursor: pointer;
     height: 2vw;
-    width: 7vw;
-    margin: 0 1.3vw;
+    width: 9vw;
+    margin: 0 1vw;
     border-radius: 0.5vw;
     border: none;
     background-color: #2a95f6;
@@ -120,4 +154,8 @@ body{
 }
 .navbtn2 span{
     margin-left: 0.3vw;
+}
+
+.txtColor{
+    color: white;
 }

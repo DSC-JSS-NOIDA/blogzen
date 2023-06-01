@@ -16,6 +16,7 @@
     margin-left: 9.5vw;
 }
 .sec2btn2{
+    cursor: pointer;
     height: 2.5vw;
     width: 7.2vw;
     margin: 0 1.3vw;
@@ -26,6 +27,10 @@
     margin: 0 1vw;
     font-size: 0.8em;
     color: black;
+}
+.sec2btn2-recent:hover{
+    color: #fff;
+    background-color: #ff765d;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{
