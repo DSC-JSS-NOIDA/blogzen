@@ -9,7 +9,7 @@
 
 
 .sec1{
-    height: 20vw;
+    height: 30vh;
 }
 
 .s1part1{
@@ -40,6 +40,9 @@
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
+    font-size: 18px;
+    outline: none;
+    
 }
 
 .search[placeholder]{
@@ -52,25 +55,28 @@
     height: 5vw;
     width: 40vw;
     position: relative;
-    left: 33vw;
-    bottom: 3vw;
+    left: 30vw;
+    bottom: 4vw;
     display: flex;
     align-items: center;
 }
 
 .s1part2 a:hover{
-    text-decoration: underline;
+    background-color: #ff765d;
+    color: white;
+    border-radius: 3px;
+    margin: 10px;
 }
 
 .s1btn1{
-    height: 2.4vw;
-    width: 3.8vw;
-    margin: 0 0.7vw;
+    margin: 5px;
+    padding: 5px;
+    background: #ff765d;
+    height: 4vh;
+    width: 5vh;
     border: none;
-    border-radius: 1vw;
-    background-color: #ff765d;
-    color: white;
-    
+    border-radius: 5px;
+    color:white;
 }
 .s1part2 a{
     margin: 0 0.7vw;
