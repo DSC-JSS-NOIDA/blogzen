@@ -19,20 +19,21 @@
     border-radius: 2vw;
     background-color: #7D41E2;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
-
 }
 .s1part1 span{
     position: relative;
     top: 1.3vw;
     left: 37vw;
-    font-size: 2.7em;
+    font-size: 2.7rem;
     font-weight: bold;
     color: white;
 }
 .search{
     height: 3vw;
-    width: 34vw;
+    width: 35vw;
+    text-align: center;
     border-radius: 2vw;
+    margin-top: 3rem;
     position: relative;
     left: 33vw;
     right: 33vw;
