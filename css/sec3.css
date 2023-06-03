@@ -16,36 +16,53 @@
 .s3boxes{
     /* border: 1px solid black; */
     height: 26vw;
-    width: 90vw;
+    width: 40rem;
     display: flex;
     margin-left: 6vw;
     margin-bottom: 3vw;
+    
 }
 .mainContainer{
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    flex-shrink: 1.5;
     align-items: center;
     justify-content: center;
+   
     
+}
+@media(max-width:1200px)
+{
+    .mainContainer
+    {
+        width: 30rem;    }
 }
 .box1{
     /* border: 1px solid green; */
-    padding-bottom: 2vw;
-    height: 27vw;
-    width: 25vw;
-    margin: 0 2vw;
+    padding-bottom: 2rem;
+    height: 35rem;
+    width: 30rem;
+    margin: 3rem 2rem;
     display: flex;
+    flex-shrink: 1.5;
     flex-direction: column;
     align-items: center;
+    border: solid gray;
+    border-radius: 30px;
+}
+.box1:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 12px lightslategray;
 }
 .box1>img{
     
-    height: 15vw;
-    width: 23vw;
+    height: 15rem;
+    width: 25rem;
     object-fit: fill;
     /* margin: 0 5vw; */
-    border-radius: 1vw;
+    border-radius: 20px;
+    margin-top: 1rem;
 }
 
 .flex{
@@ -53,6 +70,7 @@
     flex-wrap: wrap;
     max-width: 95%;
     margin: auto;
+    
 }
 
 
@@ -63,12 +81,12 @@
 
 .boxtext{
     /* border: 1px solid green; */
-    height: 11vw;
-    width: 20vw;
-    margin-left: 1vw;
+    height: 11rem;
+    width: 27rem;
+    margin-left: 0.5rem;
 }
 .boxdiv{
-    margin: 0.4vw 0;
+    margin: 0.5rem 0;
     font-size: 0.8em;
     color: var(--element1-color);
     line-height: 18px;
@@ -76,17 +94,17 @@
     font-weight: 600;
 }
 .boxtext h1{
-    margin: 0.5vw 0;
+    margin: 0.5rem 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: 27px;
     color: var(--element-color);
-    width: 15vw;
+    width: 25rem;
     font-size: 1em;
 }
 .boxContent{
-    font-size: 0.7em;
+    font-size: 1em;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -103,23 +121,24 @@
 }
 .boxauthor{
     display: flex;
-    margin-top: 0.5vw;
+    margin-top: 0.5rem;
+    flex-shrink: 1.5;
 }
 .boxauthor>img{
-    height: 2vw;
-    width: 2vw;
-    border-radius: 10vw;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
     
 }
 .boxauthorsname{
     margin-left: 0.5vw;
-    font-size: 0.8vw;
+    font-size: 1rem;
 }
 .namestyle{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.8vw;
+    font-size: 1rem;
     line-height: 15px;
     color: var(--element-color);
 }
@@ -127,8 +146,41 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.5vw;
+    font-size: 1rem;
     line-height: 18px;
     color: var(--element1-color);
 
+}
+
+@media(max-width:470px)
+{
+    .box1{
+        width: 25rem;
+        margin: 1rem 1rem;
+        
+    }
+    .box1:hover{
+        scale: 1.03;
+    }
+
+    .box1>img{
+        width: 20rem;
+    }
+    .boxdiv{
+        width:20rem;
+        margin-left: 1.7rem;
+    }
+    .boxContent
+    {
+        margin-left: 1.5rem;
+        width: 23rem;
+    }
+    .boxtext h1{
+        width: 24rem;
+        margin-left: 1.7rem;
+    }
+    .boxauthor{
+        width: fit-content;
+        margin-left: 1.7rem;
+    }
 }

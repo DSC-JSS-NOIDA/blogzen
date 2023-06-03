@@ -8,19 +8,22 @@
 
 .sec2{
     /* border: 2px solid red; */
-    height: 34vw;
+    height: 50rem;
+    
 }
 
 .sec2buttons{
-    width: 20vw;
-    margin-left: 9.5vw;
+    width: 20rem;
+    margin-left: 9rem;
+    
+
 }
 .sec2btn2{
     cursor: pointer;
-    height: 2.5vw;
-    width: 7.2vw;
-    margin: 0 1.3vw;
-    border-radius: 1vw;
+    height: 3rem;
+    width: 7rem;
+    margin: 0 1.5rem;
+    border-radius: 20px;
     border: none;
     border: 1px solid #ff765d;
     background-color: white;
@@ -36,39 +39,45 @@
 .sec2content{
     /* border: 1px solid black; */
     width: 90vw;
-    height: 25vw;
-    margin-top: 2.4vw;
+    height: 35rem;
+    margin-top: 3.5rem;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    flex-direction: row;
     margin-left: 5vw;
     
 }
 .sec2content>img{
-    height: 23vw;
-    width: 29vw;
+    height: 23rem;
+    width: 29rem;
     object-fit: fill;
-    margin: 0 5vw;
-    border-radius: 2vw;
+    margin: 2rem 5rem;
+    border-radius: 30px;
 }
 
 .s2text{
     /* border: 1px solid green; */
     height: 23vw;
     width: 45vw;
+    margin-top: 1.5rem;
     /* margin: 0 3vw; */
 }
 .div{
-    margin: 1.3vw 0;
+    margin: 1rem 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 0.9em;
     line-height: 30px;
      color: var(--element1-color)}
+
+   .s2text{
+      overflow: scroll;
+   }  
 .s2text h1{
     margin: 1vw 0;
     font-size: 1.8em;
-    width: 30vw;
+    width: 30rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -90,10 +99,60 @@
     margin-top: 1.5vw;
 }
 .author>img{
-    height: 3vw;
-    width: 3vw;
-    border-radius: 10vw;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
 }
 .authorsname{
     margin-left: 1vw;
+}
+
+
+
+@media(max-width:1000px)
+{
+    
+    .sec2content>img{
+        height: 30rem;
+        width: 30rem;
+    }
+}
+
+@media(max-width:1250px)
+{
+    .sec2content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s2text
+    {
+        height: 20rem;
+        width: 30rem;
+
+    }
+    div.name.namestyle{
+        font-size: 1rem;
+    }
+    div.date.datestyle{
+        font-size: 1rem;
+    }
+    .sec2content>img{
+        height: 20rem;
+        width: 30rem;
+    }
+}
+
+@media(max-width:700px)
+{
+    .sec2content>img{
+        height: 20rem;
+        width: 20rem;
+    }
+    .s2text
+    {
+        height: 30rem;
+        width: 20rem;
+
+    }
+   
 }

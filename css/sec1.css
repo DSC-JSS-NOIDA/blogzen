@@ -9,34 +9,59 @@
 
 
 .sec1{
-    height: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     align-items: center;
+    height: 20rem;
 }
 
 .s1part1{
-    height: 7vw;
-    width: 80vw;
-    margin: 3.2vw auto;
-    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    width: 90rem;
+    margin: 3rem auto;
+    border-radius: 20px;
     background-color: #7D41E2;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
 
 }
+
+@media(max-width:1500px)
+{
+    .s1part1{
+        width: 40rem;
+        height: 5rem;
+    }
+
+    
+    
+}
+
+@media(max-width:700px)
+{
+    .s1part1{
+        width: 20rem;
+        height: 3.5rem;
+    }
+    /* section 1 part 2 */
+
+
+    
+}
 .s1part1 span{
-    position: relative;
-    top: 1.3vw;
-    left: 37vw;
+    
     font-size: 2.7em;
     font-weight: bold;
     color: white;
 }
 .search{
-    height: 3vw;
-    width: 34vw;
-    border-radius: 2vw;
-    position: relative;
-    left: 33vw;
-    right: 33vw;
-    top: -4.5vw;
+    height: 7rem;
+    width: 50rem;
+    border-radius: 20px;
+    
     background-color: white;
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
@@ -46,35 +71,74 @@
 .search[placeholder]{
     color: black;
     padding-left: 1rem;
+    font-size: 1rem;
+
 }
 
 .s1part2{
     /* border: 1px solid black; */
-    height: 5vw;
-    width: 40vw;
+    height: 9rem;
+    width: 70rem;
     position: relative;
-    left: 33vw;
-    bottom: 3vw;
+    
+    justify-content: center;
+    
+    bottom: 3.5rem;
     display: flex;
-    align-items: center;
+     align-items: center;
+    flex-direction: column;
+    
+   
+}
+.s1part2 .category-links
+{
+    margin: 1rem;
 }
 
 .s1part2 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    scale: 1.1;
+    color: #7D41E2;
+
 }
 
 .s1btn1{
-    height: 2.4vw;
-    width: 3.8vw;
-    margin: 0 0.7vw;
+    height: 2.5rem;
+    width: 4.5rem;
+    margin: 0 0.75rem;
     border: none;
-    border-radius: 1vw;
+    border-radius: 15px;
     background-color: #ff765d;
     color: white;
     
 }
 .s1part2 a{
-    margin: 0 0.7vw;
+    margin: 0 0.5rem;
     text-decoration: none;
     color: var(--element-color);
+}
+
+@media(max-width:1500px)
+{
+    .search{
+        width: 30rem;
+        height: 4rem;
+        
+    }
+}
+
+@media(max-width:700px)
+{
+    .search{
+        width: 15rem;
+        height: 2rem;
+        
+    }
+    .category-links
+    {
+        width: 25rem;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 }
