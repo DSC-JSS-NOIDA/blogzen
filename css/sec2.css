@@ -1,21 +1,22 @@
-:root{
+:root {
     --element-color: black;
-    --element1-color:rgba(0, 0, 0, 0.5);
-    --element2-color:rgba(0, 0, 0, 0.8);
+    --element1-color: rgba(0, 0, 0, 0.5);
+    --element2-color: rgba(0, 0, 0, 0.8);
 
 }
 
 
-.sec2{
+.sec2 {
     /* border: 2px solid red; */
     height: 34vw;
 }
 
-.sec2buttons{
+.sec2buttons {
     width: 20vw;
     margin-left: 9.5vw;
 }
-.sec2btn2{
+
+.sec2btn2 {
     cursor: pointer;
     height: 2.5vw;
     width: 7.2vw;
@@ -28,12 +29,14 @@
     font-size: 0.8em;
     color: black;
 }
-.sec2btn2-recent:hover{
+
+.sec2btn2-recent:hover {
     color: #fff;
     background-color: #ff765d;
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.sec2content{
+.sec2content {
     /* border: 1px solid black; */
     width: 90vw;
     height: 25vw;
@@ -41,9 +44,10 @@
     display: flex;
     align-items: center;
     margin-left: 5vw;
-    
+
 }
-.sec2content>img{
+
+.sec2content>img {
     height: 23vw;
     width: 29vw;
     object-fit: fill;
@@ -51,21 +55,24 @@
     border-radius: 2vw;
 }
 
-.s2text{
+.s2text {
     /* border: 1px solid green; */
     height: 23vw;
     width: 45vw;
     /* margin: 0 3vw; */
 }
-.div{
+
+.div {
     margin: 1.3vw 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 0.9em;
     line-height: 30px;
-     color: var(--element1-color)}
-.s2text h1{
+    color: var(--element1-color)
+}
+
+.s2text h1 {
     margin: 1vw 0;
     font-size: 1.8em;
     width: 30vw;
@@ -75,7 +82,8 @@
     line-height: 42px;
     color: var(--element-color);
 }
-.s2text p{
+
+.s2text p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -84,16 +92,19 @@
     color: var(--element-color);
 
 }
-.author{
+
+.author {
     display: flex;
     align-items: center;
     margin-top: 1.5vw;
 }
-.author>img{
+
+.author>img {
     height: 3vw;
     width: 3vw;
     border-radius: 10vw;
 }
-.authorsname{
+
+.authorsname {
     margin-left: 1vw;
 }

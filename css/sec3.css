@@ -1,19 +1,20 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
-:root{
+
+:root {
     --element-color: black;
-    --element1-color:rgba(0, 0, 0, 0.5);
-    --element2-color:rgba(0, 0, 0, 0.8);
+    --element1-color: rgba(0, 0, 0, 0.5);
+    --element2-color: rgba(0, 0, 0, 0.8);
 }
 
 
-.sec3{
+.sec3 {
     /* border: 2px solid red; */
     height: 62vw;
     display: flex;
     justify-content: center;
 }
-.s3boxes{
+
+.s3boxes {
     /* border: 1px solid black; */
     height: 26vw;
     width: 90vw;
@@ -21,15 +22,17 @@
     margin-left: 6vw;
     margin-bottom: 3vw;
 }
-.mainContainer{
+
+.mainContainer {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    
+
 }
-.box1{
+
+.box1 {
     /* border: 1px solid green; */
     padding-bottom: 2vw;
     height: 27vw;
@@ -39,8 +42,9 @@
     flex-direction: column;
     align-items: center;
 }
-.box1>img{
-    
+
+.box1>img {
+
     height: 15vw;
     width: 23vw;
     object-fit: fill;
@@ -48,7 +52,7 @@
     border-radius: 1vw;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
     max-width: 95%;
@@ -56,18 +60,19 @@
 }
 
 
-.flex a{
+.flex a {
     color: black;
     text-decoration: none;
 }
 
-.boxtext{
+.boxtext {
     /* border: 1px solid green; */
     height: 11vw;
     width: 20vw;
     margin-left: 1vw;
 }
-.boxdiv{
+
+.boxdiv {
     margin: 0.4vw 0;
     font-size: 0.8em;
     color: var(--element1-color);
@@ -75,7 +80,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-.boxtext h1{
+
+.boxtext h1 {
     margin: 0.5vw 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -85,7 +91,8 @@
     width: 15vw;
     font-size: 1em;
 }
-.boxContent{
+
+.boxContent {
     font-size: 0.7em;
     font-family: 'Poppins';
     font-style: normal;
@@ -96,26 +103,31 @@
 
 
 }
-.author{
+
+.author {
     display: flex;
     align-items: center;
     margin-top: 1.5vw;
 }
-.boxauthor{
+
+.boxauthor {
     display: flex;
     margin-top: 0.5vw;
 }
-.boxauthor>img{
+
+.boxauthor>img {
     height: 2vw;
     width: 2vw;
     border-radius: 10vw;
-    
+
 }
-.boxauthorsname{
+
+.boxauthorsname {
     margin-left: 0.5vw;
     font-size: 0.8vw;
 }
-.namestyle{
+
+.namestyle {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -123,7 +135,8 @@
     line-height: 15px;
     color: var(--element-color);
 }
-.datestyle{
+
+.datestyle {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
