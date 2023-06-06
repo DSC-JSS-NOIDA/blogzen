@@ -109,6 +109,11 @@
     height: 30px;
     padding-left: 10px;
     border: 1px solid #AA77FF;
+    border-style: solid;
+    border-top-color: #ff765d;
+    border-bottom-color: #ff765d;
+    border-left-color: #ff765d;
+    border-right-color: #ff765d;
     background-color: transparent;
     color: #ffffff;
 }
@@ -120,7 +125,11 @@
 .newsletter form button {
     width: 30%;
     background-color: #AA77FF;
-    border: none;
+    border-style: solid;
+    border-top-color: #ff765d;
+    border-bottom-color: #ff765d;
+    border-left-color: #ff765d;
+    border-right-color: #ff765d;
     height: 30px;
     color: #ffffff;
     cursor: pointer;

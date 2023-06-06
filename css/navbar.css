@@ -129,11 +129,14 @@ body{
     width: 7vw;
     margin: 0 1vw;
     border-radius: 0.5vw;
-    border: 1px solid whitesmoke;
+    /*border: 1px solid whitesmoke;*/
+    border-top-color: #ff765d;
+    border-bottom-color: #ff765d;
+    border-left-color: #ff765d;
+    border-right-color: #ff765d;
     background-color: #7D41E2;
+    border-style: solid;
     font-size: 0.7em;
-    
-
 }
 .navbtn2{
     cursor: pointer;
@@ -159,4 +162,7 @@ body{
 
 .txtColor{
     color: white;
+}
+.navs2 :hover{
+    text-decoration: underline;
 }

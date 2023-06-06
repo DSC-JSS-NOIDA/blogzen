@@ -18,6 +18,11 @@
     margin: 3.2vw auto;
     border-radius: 2vw;
     background-color: #7D41E2;
+    border-style: solid;
+    border-top-color: #ff765d;
+    border-bottom-color: #ff765d;
+    border-left-color: #ff765d;
+    border-right-color: #ff765d;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
 
 }
@@ -39,6 +44,11 @@
     top: -4.5vw;
     background-color: white;
     border: none;
+    border-style: solid;
+    border-top-color: #ff765d;
+    border-bottom-color: #ff765d;
+    border-left-color: #ff765d;
+    border-right-color: #ff765d;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
 }
@@ -49,7 +59,6 @@
 }
 
 .s1part2{
-    /* border: 1px solid black; */
     height: 5vw;
     width: 40vw;
     position: relative;
@@ -61,6 +70,8 @@
 
 .s1part2 a:hover{
     text-decoration: underline;
+    text-decoration-color: #ff765d;
+    text-decoration-thickness: 0.5vh;
 }
 
 .s1btn1{
