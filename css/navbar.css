@@ -50,6 +50,7 @@ body{
     --element2-color: #DDE6ED;
     background-color: black;
     color: white;
+    transition: all 1s;
 
 }
 
