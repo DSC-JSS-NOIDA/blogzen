@@ -13,8 +13,8 @@
     --element-color:white;
     --element1-color:#9DB2BF;
     --element2-color: #DDE6ED;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }
 #themeImg{
@@ -42,6 +42,7 @@ nav {
 }
 
 .logo_image img {
+    width: 60px;
     height: 56px;
     margin-left: 40px;
     margin-top: 5px;
@@ -50,6 +51,7 @@ nav {
 .logo_container a {
     display: flex;
     text-decoration: none;
+    
 }
 
 .logo_text img {
@@ -63,8 +65,8 @@ nav {
     align-items: center;
     justify-content: center;
     margin-left: auto;
+    /* color: #7D41E2; */
 }
-
 .profile img {
     margin-left: 5px;
 }
@@ -89,7 +91,7 @@ nav {
     margin-left: 60px;
     margin-right: 40px;
     height: 30px;
-    background-color: #208FF4;
+    background-color: #7233dfad;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -117,7 +119,7 @@ nav {
     margin-top: 30px;
 }
 
-.category {
+.category{
     color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -128,8 +130,10 @@ nav {
     color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
-    width: 50%;
+    width: 80%;
     font-weight: 600;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .info {
@@ -159,7 +163,7 @@ nav {
 }
 
 .title_container hr {
-    width: 94%;
+    width: 83%;
     margin-top: 40px;
     margin-bottom: 40px;
     border-top: 1px solid var(--element1-color);
@@ -190,33 +194,39 @@ nav {
 .blog_content {
     width: 85%;
     margin: 0 auto;
+    /* color: #000000; */
+    color: var(--element-color);
 }
 
 .text_section p {
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 90%;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .text_section img {
     border-radius: 15px;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .video_section img {
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 15px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 85%;
+    height: 85%;
+    /* object-fit: cover; */
 }
-
+.videle{
+    width: 90%;
+}
 .buttons_l_c {
     float: right;
     display: flex;
@@ -226,13 +236,15 @@ nav {
 }
 
 .like_comment_section hr {
-    width: auto;
+    margin-top: 20px;
+    width: 90%;
+    
 }
 
 .buttons_l_c {
     display: flex;
     color: #7233dfad;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .below {
@@ -244,7 +256,7 @@ nav {
 }
 
 .other_blogs{
-    margin-left: 6.5%;
+    margin-left: 7.5%;
 }
 
 .comment_icon {
@@ -259,7 +271,7 @@ nav {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    height: 620px;
+    height: 600px;
     overflow-x: auto;
 }
 
@@ -277,20 +289,35 @@ nav {
     margin-top: 80px;
     color: var(--element-color);
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .blog {
     margin-right: 80px;
-    width: 380px;
-    height: 580px;
+    width: 275px;
+    height: 300px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.blog img {
+#bimg{
+    width: 275px;
+    height: 200px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
+#bimg:hover{
+    border:5px solid #7233dfad;
+    border-radius: 30px;
+}
+#aimg{
+    /* background-color: #208FF4; */
+}
+/* .blog:hover{
+    background-color: #208FF4;
+} */
 .blog h4 {
     color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
@@ -396,6 +423,10 @@ nav {
     color: #ffffff;
     cursor: pointer;
 }
+.newsletter form button:hover{
+    background-color: #ffffff;
+    color: black;
+}
 
 .contact h2 {
     color: #ffffff;
@@ -417,7 +448,6 @@ nav {
     width: 60%;
     margin-top: 10px;
 }
-
 .video{
     margin-left: 4rem;
      width: 90%;
