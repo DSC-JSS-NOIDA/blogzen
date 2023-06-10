@@ -24,10 +24,10 @@
 }
 
 /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  /* ::-webkit-scrollbar-thumb:hover {
 
 
-  }
+  } */
 
   
 
@@ -143,15 +143,19 @@ body{
 
 .navbtn1 {
     cursor: pointer;
-    height: 2vw;
-    width: 7vw;
+    height: 2.6vw;
+    /* width: 20vw; */
     margin: 0 1vw;
     border-radius: 0.5vw;
     border: 1px solid whitesmoke;
     background-color: #7D41E2;
-    font-size: 0.7em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 1em;
+}
 
-
+.navbtn1:hover{
+    background-color: rgb(23, 1, 43);
 }
 
 .navbtn2 {

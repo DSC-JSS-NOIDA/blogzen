@@ -109,8 +109,10 @@
     height: 30px;
     padding-left: 10px;
     border: 1px solid #AA77FF;
+    border-radius: 2rem;
     background-color: transparent;
     color: #ffffff;
+    font-size: 1rem;
 }
 
 ::placeholder {
@@ -124,6 +126,8 @@
     height: 30px;
     color: #ffffff;
     cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1rem;
 }
 .contact h2 {
     color: #ffffff;

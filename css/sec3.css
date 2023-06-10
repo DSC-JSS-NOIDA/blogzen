@@ -31,14 +31,22 @@
 }
 .box1{
     /* border: 1px solid green; */
-    padding-bottom: 2vw;
-    height: 27vw;
+    /* padding-bottom: 2vw; */
+    height: 30vw;
     width: 25vw;
-    margin: 0 2vw;
+    /* margin: 0 2vw; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid rgba(125, 124, 124, 0.5);
+    border-radius: 4%;
+    padding: 2vw 1vw;
 }
+
+.box1:hover{
+    box-shadow: 0 0rem 0.8rem rgba(125, 124, 124, 0.5);
+}
+
 .box1>img{
     
     height: 15vw;
@@ -53,6 +61,7 @@
     flex-wrap: wrap;
     max-width: 95%;
     margin: auto;
+    gap: 3rem 0;
 }
 
 
@@ -68,9 +77,12 @@
     margin-left: 1vw;
 }
 .boxdiv{
-    margin: 0.4vw 0;
+    /* margin: 0.4vw 0;
     font-size: 0.8em;
-    color: var(--element1-color);
+    color: var(--element1-color); */
+    margin: 1vw 0 0.5vw;
+    font-size: 0.9em;
+    color: rgb(26 122 246);
     line-height: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -82,20 +94,18 @@
     font-weight: 600;
     line-height: 27px;
     color: var(--element-color);
-    width: 15vw;
-    font-size: 1em;
+    font-size: 1.2em;
 }
+
 .boxContent{
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     line-height: 21px;
     color: var(--element2-color);
-
-
-
 }
+
 .author{
     display: flex;
     align-items: center;
@@ -108,12 +118,13 @@
 .boxauthor>img{
     height: 2vw;
     width: 2vw;
-    border-radius: 10vw;
-    
+    /* border-radius: 10vw; */
+    border-radius: 50%;
+    border: 1px solid rgb(169, 166, 166);
 }
 .boxauthorsname{
     margin-left: 0.5vw;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
 }
 .namestyle{
     font-family: 'Poppins';
@@ -121,14 +132,14 @@
     font-weight: 500;
     font-size: 0.8vw;
     line-height: 15px;
-    color: var(--element-color);
+    color: black;
 }
 .datestyle{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     line-height: 18px;
     color: var(--element1-color);
-
+    margin-top: 0.2vw;
 }

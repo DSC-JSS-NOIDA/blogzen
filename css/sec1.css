@@ -44,6 +44,12 @@
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+input:focus{
+    outline: none;
 }
 
 .search[placeholder] {
@@ -53,17 +59,23 @@
 
 .s1part2 {
     /* border: 1px solid black; */
-    height: 5vw;
-    width: 40vw;
-    position: relative;
+    /* height: 5vw;
+    width: 40vw; */
+    /* position: relative;
     left: 33vw;
-    bottom: 3vw;
+    bottom: 3vw; */
+    height: 2.4vw;
+    width: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
 }
 
 .s1part2 a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
 }
 
 .s1btn1 {
@@ -74,11 +86,12 @@
     border-radius: 1vw;
     background-color: #ff765d;
     color: white;
-
+    font-size: 0.9em;
+    padding: 0 1em;
 }
 
 .s1part2 a {
-    margin: 0 0.7vw;
+    margin: 0 2.5vw;
     text-decoration: none;
     color: var(--element-color);
 }
