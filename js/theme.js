@@ -7,6 +7,7 @@ themeBtn.addEventListener('click',function(){
     }
     else{
         themeBtn.src ="assests/moon.png"
+        document.body.style.transition="1s"
     }
 
 })

@@ -1,75 +1,73 @@
-.sec4{
-    height: 13vw;
+/* .footer {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../assests//footer_bg.png);
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 80px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    background-color: #7333df;
-    color: white;
+    height: 260px;
+    background-repeat: no-repeat, repeat;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box1{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 20vw;
-    margin-left: 7vw;
+
+.footer_title {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.newsletter form {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
 }
-.icons img{
-    height: 1.5vw;
-    width: 1.5vw;
-    cursor: pointer;
-}
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box2{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 24vw;
-    margin: 0 10vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.email{
-    border: 1px solid rgba(255, 255, 255, 0.258);
-    background-color: #7333df;
-    height: 1.5vw;
-    border-radius: 0.2vw;
-}
-.email[placeholder]{
-    padding-left: 0.3rem;
-}
-.box2btn{
-    background-color: #aa77ff;
+
+.newsletter form input {
+    width: 60%;
     border: none;
-    font-size: 0.7em;
-    height: 1.5vw;
-    width: 5vw;
-    border-radius: 0.2vw;
-    margin-left: 0.4vw;
-    color: rgba(0, 0, 0, 0.53);
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #AA77FF;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #AA77FF;
+}
+
+.newsletter form button {
+    width: 30%;
+    background-color: #AA77FF;
+    border: none;
+    height: 30px;
+    color: #ffffff;
     cursor: pointer;
-    position: relative;
-    bottom: 0.1rem;
-}
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box3{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.s4box3 a{
+.contact h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.contact h2 a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
-.s4box3 a:hover{
-    text-decoration: underline;
-}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+} */
