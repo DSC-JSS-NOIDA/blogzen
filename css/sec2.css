@@ -46,7 +46,7 @@
     
 }
 .sec2content>img{
-    height: 28vw;
+    height: 26vw;
     width: 35vw;
     object-fit: fill;
     margin: 0 5vw;
@@ -55,7 +55,7 @@
 
 .s2text{
     /* border: 1px solid green; */
-    height: 23vw;
+    /* height: 23vw; */
     width: 45vw;
     /* margin: 0 3vw; */
 }
