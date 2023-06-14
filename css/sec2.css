@@ -35,9 +35,9 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{
     /* border: 1px solid black; */
-    width: 90vw;
-    height: 25vw;
-    margin-top: 2.4vw;
+    /* width: 90vw;
+    height: 25vw; */
+    margin-top: 3vw;
     display: flex;
     align-items: center;
     margin-left: 5vw;
