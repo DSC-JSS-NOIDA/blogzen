@@ -8,7 +8,7 @@
 
 .sec2{
     /* border: 2px solid red; */
-    height: 34vw;
+    /* height: 34vw; */
 }
 
 .sec2buttons{
@@ -40,12 +40,14 @@
     margin-top: 3vw;
     display: flex;
     align-items: center;
-    margin-left: 5vw;
+    justify-content: center;
+    margin-bottom: 3vw;
+    /* margin-left: 5vw; */
     
 }
 .sec2content>img{
-    height: 23vw;
-    width: 29vw;
+    height: 28vw;
+    width: 35vw;
     object-fit: fill;
     margin: 0 5vw;
     border-radius: 2vw;
