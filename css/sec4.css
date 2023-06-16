@@ -1,81 +1,4 @@
-.sec4{
-    height: 13vw;
-    display: flex;
-    align-items: center;
-    background-color: #7333df;
-    color: white;
-}
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box1{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 20vw;
-    margin-left: 7vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-}
-.icons img{
-    height: 1.5vw;
-    width: 1.5vw;
-    cursor: pointer;
-}
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box2{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 24vw;
-    margin: 0 10vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.email{
-    border: 1px solid rgba(255, 255, 255, 0.258);
-    background-color: #7333df;
-    height: 1.5vw;
-    border-radius: 0.2vw;
-}
-.email[placeholder]{
-    padding-left: 0.3rem;
-}
-.box2btn{
-    background-color: #aa77ff;
-    border: none;
-    font-size: 0.7em;
-    height: 1.5vw;
-    width: 5vw;
-    border-radius: 0.2vw;
-    margin-left: 0.4vw;
-    color: rgba(0, 0, 0, 0.53);
-    cursor: pointer;
-    position: relative;
-    bottom: 0.1rem;
-}
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.s4box3{
-    /* border: 1px solid black; */
-    height: 7vw;
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.s4box3 a{
-    text-decoration: none;
-    color: white;
-}
-
-.s4box3 a:hover{
-    text-decoration: underline;
-}
-
-.footer {
+/* .footer {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -95,7 +18,9 @@
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
+    font-weight: 500;
 }
+
 .newsletter form {
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +50,7 @@
     color: #ffffff;
     cursor: pointer;
 }
+
 .contact h2 {
     color: #ffffff;
     font-size: 20px;
@@ -142,6 +68,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 70%;
+    width: 60%;
     margin-top: 10px;
-}
+} */
