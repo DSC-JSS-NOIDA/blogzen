@@ -356,6 +356,94 @@
                     "content": "This post does a great job of explaining the benefits of interactive animation, especially how it can improve engagement and conversions. I'm definitely going to look into incorporating more interactive elements into my designs."
                 }
             ]
+        },
+        {
+            "id": "016", 
+            "title": "React Hooks Complete Guide | useState() | useEffect() | Rules for React Hooks ",
+            "author": "CronJ",
+            "imageurl":"https://i.pinimg.com/564x/b8/b0/94/b8b094d897ac458e6bb1bb1e04c7fc6d.jpg",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content": "React Hooks is a feature introduced in React 16.8 that revolutionized the way developers write components. With React Hooks, developers can now add state, lifecycle methods, and other React features to functional components, eliminating the need for class components.React Hooks provides a set of predefined hooks such as useState, useEffect, useContext, and more, which can be easily integrated into functional components. The useState hook allows for managing local component state, enabling dynamic rendering and interactive behavior. The useEffect hook enables handling side effects, such as fetching data from an API or subscribing to events. With useContext, components can access global state and share data without prop drillingOne of the significant advantages of React Hooks is that it simplifies component logic and promotes code reusability. Developers can extract custom hooks, encapsulating stateful logic, and share them across multiple components.React Hooks also promotes cleaner code by reducing the nesting of higher-order components and making it easier to reason about the component's behavior. It enhances the readability and maintainability of the codebase, leading to faster development cycles and fewer bugs.In conclusion, React Hooks has transformed the way developers write components in React, providing a more elegant and functional approach. It offers improved code organization, better reusability, and a simpler mental model for understanding and managing stateful behavior in functional components.",
+            "tags": ["React", "useState", "UseEffect","Hooks"],
+            "comments": [
+                {
+                    "author": "Harry",
+                    "date": "2023-05-08",
+                    "content": "I love reading the React tutorials on this blog. They are beginner-friendly and take a hands-on approach, guiding you step-by-step through building real-world applications. The code snippets and explanations make it easy to follow along and grasp the concepts quickly."
+                },
+                {
+                    "author": "Jenny",
+                    "date": "2023-05-09",
+                    "content": "The React blog has a great mix of tutorials, case studies, and opinion pieces. It's refreshing to read articles that tackle real-world challenges and share insights from experienced React developers. The blog fosters a sense of community and encourages discussion and collaboration among readers."
+                }
+            ]
+        },
+        {
+            "id": "017", 
+            "title": "JavaScript Array Group",
+            "author": "David Walsh",
+            "imageurl":"https://i.pinimg.com/564x/eb/22/48/eb2248728fbdf271a3047f42d7bd2b87.jpg",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content": "Array grouping is a fundamental concept in JavaScript that allows developers to organize and manipulate data efficiently. Whether you're working with large datasets, building complex applications, or performing data analysis, understanding how to effectively group arrays can greatly enhance your coding capabilities. In this blog post, we will explore the ins and outs of array grouping in JavaScript and provide you with valuable insights and techniques to level up your programming skills.Array grouping involves categorizing elements in an array based on certain criteria, such as a shared property or value. This process allows you to organize data into logical groups, making it easier to access, process, and display information. By leveraging array grouping techniques, you can streamline your code, improve performance, and create more robust applications.We will dive into various techniques for array grouping, starting with the basics such as grouping by a single property or multiple properties. You will learn how to use built-in JavaScript methods like reduce and forEach to efficiently group arrays. Additionally, we will explore advanced concepts like nested grouping, key transformation, and custom grouping logic, empowering you to handle complex data structures with easeEfficient array grouping becomes crucial when dealing with large datasets. We will discuss strategies to optimize performance, including using hash maps, memoization, and implementing algorithms with lower time complexity. These techniques will enable you to process and group arrays quickly and effectively, even with substantial amounts of data.To demonstrate the practicality of array grouping, we will showcase real-world use cases. From e-commerce applications to task management systems, you will see how array grouping can be applied to solve common programming challenges. By understanding these practical examples, you'll gain a deeper appreciation for the versatility and power of array grouping.Mastering array grouping in JavaScript opens up a world of possibilities for organizing and manipulating data. By learning the various techniques and strategies covered in this blog post, you will become a more proficient JavaScript developer, equipped with the tools to tackle complex projects and optimize performance. So, let's embark on this journey together and unlock the full potential of array grouping in JavaScript. Happy coding!",
+            "tags": ["Javascript", "Arrays", "Data Structure","Grouping"],
+            "comments": [
+                {
+                    "author": "Lima",
+                    "date": "2023-05-08",
+                    "content": "The blog post was incredibly informative and well-written. It provided a comprehensive overview of the topic and explained the concepts in a clear and concise manner. The examples and code snippets were particularly helpful in understanding the implementation. Overall, a great resource for anyone looking to learn about JavaScript array grouping"
+                },
+                {
+                    "author": "Divine",
+                    "date": "2023-05-09",
+                    "content": "The blog post on JavaScript array grouping exceeded my expectations. The author not only explained the basic grouping techniques but also delved into more advanced concepts like nested grouping and key transformation. The inclusion of real-world use cases and practical scenarios made it easy to see the relevance and application of the concepts. I thoroughly enjoyed reading this post and gained valuable knowledge from it."
+                }
+            ]
+        },
+        {
+            "id": "018", 
+            "title": "CSS in real life",
+            "author": "Michelle Barker",
+            "imageurl":"https://i.pinimg.com/564x/8e/95/47/8e95479da2c5e493b835c8533c2d5ba5.jpg",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content": "It’s been a while since my last article on here (well, a month is a while for me, anyway 😅), as I’ve been busy with my head down preparing for my talk on modern CSS layout at Beyond Tellerand, which is (checks notes) tomorrow!Although I haven’t had much time for blogging, it has given me a chance to delve once again into messaging about with CSS layout and the :has() pseudo-class, or “parent selector”. I’ve already written about :has() in a previous post, and you can read an in-depth guide by Jen Simmons on the Webkit blog. But to recap, :has() allows us to select a parent or sibling of an element by taking a relative selector list as its argument (to paraphrase MDN).But what I’m realising as I continue to play around with :has() is that in practice, we can select any element in the DOM relative to another, as long as they share a common ancestor — which they should, right? As any element that we want to select is going to have the <body> as its ancestor. This makes it pretty powerful.So here a couple of demos to that effect. (You’ll need to view these in a browser that supports :has(), e.g. Chrome or Safari.) In this one, hovering on a list item on the left animates our grid tracks on the right. They share a common wrapper element as their ancestor, but they don’t necessarily have to.In this second demo, we’re adding a background colour to the <section> element targeted by a link in another <section> on hover or click. This is perhaps a bit of a silly demo, but I can see some potential use cases, such as providing a visual clue for users as to the targeted section of a document.Lastly, this demo (best viewed on desktop) opens a panel (using animated grid tracks) when the user clicks the link on the left. The link’s target is hidden within the collapsed panel. (It also combines container queries for the content on the right.) Hiding and revealing content is often something that should be done with JS, and there are likely some accessibility issues here — I’m not suggesting you should do anything like this in production. But it’s interesting to see the power of CSS today!",
+            "tags": ["CSS", "Life", "User Interface","Styling"],
+            "comments": [
+                {
+                    "author": "David",
+                    "date": "2023-05-08",
+                    "content": "I stumbled upon the 'CSS in Real Life' blog while searching for CSS resources, and I must say it's been a game-changer for me. The blog posts are filled with practical examples and tutorials that have helped me improve my CSS skills significantly. The explanations are clear, concise, and easy to follow, making it a valuable resource for both beginners and experienced developers. The author's attention to detail and focus on real-life scenarios make the content relatable and applicable to real-world projects. I highly recommend the 'CSS in Real Life' blog to anyone looking to level up their CSS game."
+                },
+                {
+                    "author": "Monty",
+                    "date": "2023-05-09",
+                    "content": "I've been a fan of the 'CSS in Real Life' blog for quite some time now, and it never fails to impress me. The blog consistently delivers high-quality content that goes beyond the basics of CSS. The author dives deep into various CSS techniques and covers topics like responsive design, flexbox, and grid layout in a practical and engaging manner. What sets this blog apart is the inclusion of real-life examples and code snippets that allow readers to see the concepts in action. The 'CSS in Real Life' blog has become my go-to resource for staying up-to-date with the latest CSS trends and techniques"
+                }
+            ]
+        },
+        {
+            "id": "019", 
+            "title": "Figma for Beginners: The Basics",
+            "author": "cPrime",
+            "imageurl":"https://i.pinimg.com/564x/cb/6d/79/cb6d79547234e4ecebdb898b4078ce65.jpg",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content": "Figma is an online design and prototyping tool. It’s also a collaborative design tool for teams and designers. It’s free to use, but it also has a paid professional and organizational plan. You can use Figma for UI/UX designs, graphics design, wireframing, diagramming, brainstorming, and remote designs.To get started with Figma, visit figma.com and sign up for a free account. The free plan covers three design files, one project, unlimited Figma drafts, and FigJam. As your project scales up with more collaborators and files, you might need a paid plan. But for this tutorial, the free plan is enough.After signing up for an account, you’ll get a pop-up that prompts you to create a team for your project.Next, select a design type. The options are Figma or FigJam. For the purpose of this post, select the Figma type because you’ll design and prototype your designs. Then, select a blank canvas to begin your design from scratch.The Figma editor is where you create your design files, prototype, and collaborate with your team.After opening up the editor, edit the filename by clicking on the word “Untitled” in the center of the top bar. Let’s briefly go over the editor’s panels.The panel on the left side of the Figma editor contains the layers tab and assets tab.The layers tab contains your design file pages. You can create more pages, but under the free plan, you can have a maximum of three pages. The layers tab is also where you can see your design layers, which allow you to edit and rearrange each component of your design.The basis for your design relies on how well you can use the tools panel to create a complete and meaningful design. The tools panel contains all the building blocks for your designs.An arrow icon represents tools you can use to move design components. There are two tools hereThe move tool is used to move your designs in the editor without editing the design itself.The scale tool is used to scale objects in the canvas either larger or smaller.The region tools are used specify any region on the design canvasThe frame panel, located on the left side of your editor, is where you can find different frames. These frames include phone, tablet, desktop, paper, watch, presentation, and social media.The slice tool can slice an object in the design canvas.The shape tool contains the most important building blocks for your design. These shapes serve as the foundation for your designs. In it, you’ll find the rectangle, line, arrow, eclipses, polygon, and star tools.The remaining tools, like the comment, share, and play buttons, are for collaboration and prototyping.In this post, you learned how to get started with Figma. You created a design using the design tools in the Figma editor. If you’re interested in getting started with UI/UX design, you can check out the Cprime course on Figma for UX/UI Design.",
+            "tags": ["Figma", "User Experience", "User Interface","Prototyping"," UI/UX Design","Graphic Design"],
+            "comments": [
+                {
+                    "author": "Hardwell",
+                    "date": "2023-05-08",
+                    "content": "The 'Figma for Beginners: The Basics' blog post was incredibly helpful in introducing me to the world of Figma. As someone new to design tools, I found the step-by-step explanations and visuals to be clear and easy to follow. The author did a great job covering the essential features of Figma, from creating artboards to working with layers and components. This blog post provided a solid foundation for me to start exploring Figma and gave me the confidence to design my own projects. I highly recommend this blog post to anyone looking to get started with Figma"
+                },
+                {
+                    "author": "chris",
+                    "date": "2023-05-09",
+                    "content": "The 'Figma for Beginners: The Basics' blog post exceeded my expectations. The author's writing style is engaging and concise, making it easy to grasp the fundamentals of Figma quickly. The step-by-step tutorials were particularly useful, as they allowed me to follow along and practice what I learned. I appreciated the inclusion of tips and shortcuts, which showed me how to work efficiently in Figma. Whether you're a designer or a developer looking to learn Figma, this blog post is a fantastic starting point. It covers all the essential aspects and empowers you to create beautiful designs."
+                }
+            ]
         }
     
     ] 

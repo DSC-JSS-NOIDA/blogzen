@@ -1,34 +1,32 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 ::-webkit-scrollbar {
     width: 10px;
-  
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: white;
-  
-  }
-  ::-webkit-scrollbar:hover {
+
+}
+::-webkit-scrollbar:hover {
     background: white;
     width:10px;
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #7D41E2;
-    
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7D41E2;    
     border-radius: 80px; 
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  /* ::-webkit-scrollbar-thumb:hover {
     
    
-  }
+  } */
   
   
 
@@ -42,7 +40,10 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     /* background-color: black; */
-    
+
+}
+:root{
+    --txtColor1: #000000a8;
 }
 .darktheme{
     --element-color:white;
@@ -50,28 +51,42 @@ body{
     --element2-color: #DDE6ED;
     background-color: black;
     color: white;
+    transition: all 1s;
 
 }
 
-#themeImg{
+#themeImg {
     cursor: pointer;
     width: 25px;
     height: 25px;
     border: none;
 }
 
+.themechangebtn {
+    background-color: transparent;
+    border: transparent;
+}
+
+.navbar.dark {
+    background-color: black;
+}
 
 .navbar {
+
     width: 100vw;
     height: 80px;
     left: 0px;
     top: 0px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    transition: background-color 1s ease;
+    z-index: 9999;
+    position: fixed;
 }
 
 /* Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.navs1{
+.navs1 {
     /* border: 1px solid black; */
     width: 15vw;
     height: 80px;
@@ -79,23 +94,27 @@ body{
     align-items: center;
     margin-left: 3.5vw;
 }
-.navs1 img{
+
+.navs1 img {
     /* border: 1px solid black; */
     width: 3vw;
     height: 3vw;
     border-radius: 10vw;
 }
-.navs1 a{
+
+.navs1 a {
     text-decoration: none;
     color: #7D41E2;
 }
-.span1{
+
+.span1 {
     margin-left: 1vw;
     font-size: 2em;
     font-weight: bold;
     color: #7D41E2;
 }
-.span2{
+
+.span2 {
     font-size: 2em;
     font-weight: bolder;
     color: #7D41E2;
@@ -107,22 +126,41 @@ body{
 
 
 /* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.navs2{
+.navs2 {
     /* border: 1px solid black; */
-    width: 25vw;
+    /* width: 25vw; */
     height: 80px;
     display: flex;
     align-items: center;
     margin-right: 1vw;
 }
-.navs2>img{
+
+.navs2>img {
     cursor: pointer;
     width: 2vw;
     height: 2vw;
     margin: 0 0.5vw;
 
 }
-.navbtn1{
+.button_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    height: 30px;
+    background-color: #208FF4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+}
     cursor: pointer;
     height: 2vw;
     width: 7vw;
@@ -131,10 +169,11 @@ body{
     border: 1px solid whitesmoke;
     background-color: #7D41E2;
     font-size: 0.7em;
-    
+
 
 }
-.navbtn2{
+
+.navbtn2 {
     cursor: pointer;
     height: 2vw;
     width: 9vw;
@@ -146,16 +185,21 @@ body{
     align-items: center;
     justify-content: center;
 }
-.navbtn2>img{
+
+.navbtn2>img {
     border: 1px solid black;
     width: 1vw;
     height: 1vw;
     /* margin: 0 0.5vw; */
 }
-.navbtn2 span{
+
+.navbtn2 span {
     margin-left: 0.3vw;
 }
 
-.txtColor{
+.txtColor {
     color: white;
+}
+.txtColor1{
+    color: var(--txtColor1);
 }

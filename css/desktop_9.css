@@ -6,10 +6,11 @@
     --element-color: black;
     --element1-color: #808080;
     --element2-color:#000000a8;
-
+    --txtColor1: #000000a8;
 }
 
 .darktheme{
+    --txtColor1: white;
     --element-color:white;
     --element1-color:#9DB2BF;
     --element2-color: #DDE6ED;
@@ -361,10 +362,11 @@ nav {
     background-repeat: no-repeat, repeat;
 }
 
-.footer_title {
+.footer_titles{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
+    font-weight: 600 !important;
 }
 
 .newsletter form {
@@ -397,15 +399,15 @@ nav {
     cursor: pointer;
 }
 
-.contact h2 {
+.footer a .mail{
     color: #ffffff;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 600 !important;
     margin-top: 10px;
 }
 
-.contact h2 a{
+.contact a{
     text-decoration: none;
     color: #ffffff;
 }

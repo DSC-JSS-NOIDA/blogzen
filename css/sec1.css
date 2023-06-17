@@ -1,18 +1,17 @@
-:root{
+:root {
     --element-color: black;
     --element1-color:rgba(0, 0, 0, 0.5);
     --element2-color:rgba(0, 0, 0, 0.8);
-
-
 }
 
 
 
-.sec1{
+.sec1 {
     height: 20vw;
+    margin-top: 110px;
 }
 
-.s1part1{
+.s1part1 {
     height: 7vw;
     width: 80vw;
     margin: 3.2vw auto;
@@ -21,7 +20,8 @@
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.199);
 
 }
-.s1part1 span{
+
+.s1part1 span {
     position: relative;
     top: 1.3vw;
     left: 37vw;
@@ -29,12 +29,14 @@
     font-weight: bold;
     color: white;
 }
-.search{
+
+.search {
     height: 3vw;
     width: 34vw;
     border-radius: 2vw;
     position: relative;
     left: 33vw;
+    right: 33vw;
     top: -4.5vw;
     background-color: white;
     border: none;
@@ -42,12 +44,12 @@
     color: rgba(0, 0, 0, 0.148);
 }
 
-.search[placeholder]{
+.search[placeholder] {
     color: black;
     padding-left: 1rem;
 }
 
-.s1part2{
+.s1part2 {
     /* border: 1px solid black; */
     height: 5vw;
     width: 40vw;
@@ -58,11 +60,11 @@
     align-items: center;
 }
 
-.s1part2 a:hover{
+.s1part2 a:hover {
     text-decoration: underline;
 }
 
-.s1btn1{
+.s1btn1 {
     height: 2.4vw;
     width: 3.8vw;
     margin: 0 0.7vw;
@@ -70,9 +72,10 @@
     border-radius: 1vw;
     background-color: #ff765d;
     color: white;
-    
+
 }
-.s1part2 a{
+
+.s1part2 a {
     margin: 0 0.7vw;
     text-decoration: none;
     color: var(--element-color);
