@@ -35,7 +35,7 @@
     /* border: 1px solid rgb(170, 171, 172); */
     border-radius: 0.8rem;
     padding: 1vw;
-    height: 35vw;
+    height: 32vw;
     width: 27vw;
     /* margin: 0 2vw; */
     display: flex;
@@ -49,7 +49,7 @@
 
 .box1>img{
     
-    height: 18vw;
+    height: 14vw;
     width: 27vw;
     object-fit: fill;
     /* margin: 0 5vw; */
