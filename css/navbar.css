@@ -162,18 +162,6 @@ body{
     border: none;
     cursor: pointer;
 }
-    cursor: pointer;
-    height: 30px;
-    width: 100px;
-    margin: 7px;
-    border-radius: 0.5vw;
-    border: 1px solid whitesmoke;
-    background-color: #7D41E2;
-    font-size: 0.7 em;
-    padding: 4px;
-
-}
-
 .navbtn2 {
     cursor: pointer;
     height: 2vw;
@@ -204,4 +192,7 @@ body{
 
 .txtColor1{
     color: var(--txtColor1);
+}
+.darktheme .txtColor1{
+    color: rgba(0, 0, 0, 0.7);
 }

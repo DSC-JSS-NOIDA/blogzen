@@ -3,7 +3,7 @@ let themeBtn = document.getElementById("themeImg");
 themeBtn.addEventListener('click',function(){
     body.classList.toggle("darktheme");
     if(body.classList.contains("darktheme")){
-        themeBtn.src ="assests/sun.png"
+        themeBtn.src ="assests/sunblack.png"
     }
     else{
         themeBtn.src ="assests/moon.png"
