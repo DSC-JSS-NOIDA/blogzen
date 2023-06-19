@@ -48,13 +48,9 @@
     flex-shrink: 1.5;
     flex-direction: column;
     align-items: center;
-    border: solid gray;
-    border-radius: 30px;
+   
 }
-.box1:hover{
-    scale: 1.1;
-    box-shadow: 10px 10px 12px lightslategray;
-}
+
 .box1>img{
     
     height: 15rem;
