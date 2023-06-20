@@ -67,16 +67,48 @@
 .s1btn1 {
     height: 2.4vw;
     width: 3.8vw;
-    margin: 0 0.7vw;
-    border: none;
+    margin: 0 0.7vw; 
+    border: none; 
     border-radius: 1vw;
-    background-color: #ff765d;
-    color: white;
+    color: black;
 
 }
 
+.s1btn1:hover {
+    background-color: #ff765d;
+    text-decoration: underline;
+}
 .s1part2 a {
     margin: 0 0.7vw;
     text-decoration: none;
     color: var(--element-color);
 }
+#tech{
+    width : 7vw;
+}
+
+/* #tech:hover {
+    background-color: #ff765d;
+} */
+#brand{
+    width : 5vw;
+}
+/*
+#brand:hover{
+    background-color: #ff765d;
+} */
+/* #news:hover{
+    background-color: #ff765d;
+} */
+/* #ai:hover{
+    background-color: #ff765d;
+} */
+#manage{
+    width : 7vw;
+}
+/* #manage:hover{
+    background-color: #ff765d;
+} */
+/* #design:hover{
+    background-color: #ff765d;
+} */
