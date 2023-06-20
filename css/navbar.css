@@ -161,6 +161,11 @@ body{
     border: none;
     cursor: pointer;
 }
+.button_nav:hover{
+    background-color:rebeccapurple;
+    transform: scale(1.2);
+    transition: all ease-in-out 0.2s;
+}
 
 .navbtn2 {
     cursor: pointer;
