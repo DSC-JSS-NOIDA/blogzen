@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&family=Ubuntu:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(180, 179, 179, 0.8);
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+}
+
+/* ------------------------------------ */
+.modal-overlay {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(228, 227, 227, 0.9);
+  }
+  
+  .modal-content {
+    position: relative;
+    font-family: 'Poppins' ,sans-serif;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease all;
+    padding: 20px;
+    width: 541px;
+    text-align: center;
+  }
+
+.modal-content button{
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    font-weight:500;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    background: #fff;
+    color: rgba(44, 44, 44, 0.71);
+    border: 1px solid #B3B3B3;
+    border-radius: 40px;
+    padding: 10px 0px;
+    margin: 15px auto;
+    outline: none;
+    font-size: 13px;
+    line-height: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.modal-content .btn-link:hover{
+    background:#f4f3f3;
+}
+.modal-content h1{
+    font-size: 26px;
+    line-height: 36px;
+    margin:28px;
+    font-weight:500;  
+}
+
+.modal-content button img{
+    width: 18px;
+    margin-right: 5px;
+}
+.modal-content p {
+    font-size: 12px;
+    line-height: 15px;
+}
+.modal-content p a{
+    text-decoration: none;
+    color: #7333DF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+.modal-content p a:hover{
+    text-decoration: underline;
+}
+
+.modal-content input{
+    width: 35%;
+    display: block;
+    border: 1px solid #B3B3B3;
+    border-radius: 40px;
+    padding: 8px 25px;
+    margin: 15px auto;
+    outline: none;
+    font-size: 15px;
+}
+.modal-content .login-btn, .signup-btn{
+    background-color: #7333DF;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 25%;
+}
+.modal-content .login-btn:hover,.signup-btn:hover{
+    background-color: #5e33aa;
+}
+.modal-content input::placeholder{
+    font-family: 'Poppins',sans-serif;
+        font-weight:bold;
+        color: #555555;  
+        font-weight: 500;
+}
+.modal-content .text span{
+    color: #7333DF;
+}
+
