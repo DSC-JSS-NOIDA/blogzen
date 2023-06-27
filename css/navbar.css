@@ -10,10 +10,11 @@
 /* Track */
 ::-webkit-scrollbar-track {
     background: white;
+  }
 
-}
-::-webkit-scrollbar:hover {
-    background: white;
+  ::-webkit-scrollbar:hover {
+    background: rgb(101, 54, 54);
+  }
     width:10px;
 }
 /* Handle */
@@ -137,8 +138,8 @@ body{
 
 .navs2>img {
     cursor: pointer;
-    width: 2vw;
-    height: 2vw;
+    width: 5px;
+    height: 5px;
     margin: 0 0.5vw;
 
 }
@@ -161,7 +162,6 @@ body{
     border: none;
     cursor: pointer;
 }
-
 .navbtn2 {
     cursor: pointer;
     height: 2vw;
@@ -189,6 +189,7 @@ body{
 .txtColor {
     color: white;
 }
+
 .txtColor1{
     color: var(--txtColor1);
 }
