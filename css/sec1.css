@@ -64,14 +64,21 @@
     text-decoration: underline;
 }
 
+
+.s1btn1{
+    padding:4px;
 .s1btn1 {
+
     height: 2.4vw;
     width: 3.8vw;
     margin: 0 0.7vw;
     border: none;
-    border-radius: 1vw;
+    border-radius: 5px;
     background-color: #ff765d;
     color: white;
+
+    cursor:pointer;
+
 
 }
 
