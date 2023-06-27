@@ -444,8 +444,117 @@
                     "content": "The 'Figma for Beginners: The Basics' blog post exceeded my expectations. The author's writing style is engaging and concise, making it easy to grasp the fundamentals of Figma quickly. The step-by-step tutorials were particularly useful, as they allowed me to follow along and practice what I learned. I appreciated the inclusion of tips and shortcuts, which showed me how to work efficiently in Figma. Whether you're a designer or a developer looking to learn Figma, this blog post is a fantastic starting point. It covers all the essential aspects and empowers you to create beautiful designs."
                 }
             ]
+        },
+        {
+            "id": "020", 
+            "title": "Adobe XD:Getting Started",
+            "author": "Arden",
+            "imageurl":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=400/uploads/users/16/courses/1316/preview_image/beginner-to-advanced-with-adobe-xd-auto-animate-400x277.png",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content": "Adobe XD is a leading design and prototyping tool that has gained popularity among UI/UX designers. With its comprehensive set of features and intuitive interface, XD empowers designers to create interactive prototypes, wireframes, and user interfaces for various digital products. The software enables designers to seamlessly collaborate, iterate, and share their designs with team members and stakeholders. From its powerful design tools to responsive design capabilities and integration with other Adobe products, Adobe XD offers a robust platform for designers to bring their creative visions to life and streamline the design-to-development process.",
+            "tags": ["Adobe XD", "User Experience", "User Interface","Prototyping"," UI/UX Design","Graphic Design"],
+            "comments": [
+                {
+                    "author": "Max",
+                    "date": "2023-05-08",
+                    "content": "Prototype complex interactions and animations effortlessly with Adobe XD's auto-animate and voice interaction features."
+                },
+                {
+                    "author": "Tim",
+                    "date": "2023-05-09",
+                    "content": "Design and prototype with ease using Adobe XD's intuitive interface and comprehensive feature set."
+                }
+            ] 
+        },
+        {
+            "id": "021", 
+            "title": "Bootstrap: A poweful front-end framework",
+            "author": "Marry",
+            "imageurl":"https://tuhoclaptrinh.edu.vn/upload/post/16/00/35/hoc-bootstrap-co-ban-787640.jpg",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content":"Bootstrap is a powerful framework for web development that offers rapid development capabilities, responsiveness, cross-browser compatibility, customization options, and a supportive community. It provides pre-designed components and a flexible grid system, allowing developers to quickly prototype and launch websites that look great on different devices. With Bootstrap, you can ensure consistency in design and easily customize and extend its functionality. Its active community and comprehensive documentation make it an excellent choice for developers of all levels. Embrace Bootstrap to simplify your web development process and create visually appealing, user-friendly websites.",
+            "tags": ["Bootstrap", "User Experience", "CSS","Prototyping","Styling","Web design"],
+            "comments": [
+                {
+                    "author": "Ally",
+                    "date": "2023-05-08",
+                    "content": "Simplify your front-end development with Bootstrap's pre-designed components."
+                },
+                {
+                    "author": "Harley",
+                    "date": "2023-05-09",
+                    "content": "Harnessing the power of Bootstrap for rapid prototyping and development."
+                }
+            ] 
+        },
+        {
+            "id": "022", 
+            "title": "Tailwind CSS: Utility Framework",
+            "author": "Allen",
+            "imageurl":"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310132857/TailwindCSS.jpg",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content":"Tailwind CSS is a utility-first CSS framework that has gained significant popularity among web developers. Unlike traditional frameworks that focus on pre-defined components, Tailwind CSS takes a different approach by providing a comprehensive set of utility classes that can be directly applied to HTML elements. These utility classes offer a wide range of styling options, such as margin, padding, typography, colors, and more. With Tailwind CSS, developers have granular control over every aspect of their website's design. The framework promotes a rapid and efficient development process, allowing developers to quickly build and customize unique user interfaces without the need for writing custom CSS. By utilizing Tailwind CSS's utility classes, developers can create clean and maintainable code while still achieving a highly customized and visually appealing design. ",
+            "tags": ["Tailwind","CSS","Prototyping","Styling","Web design"],
+            "comments": [
+                {
+                    "author": "Hardin",
+                    "date": "2023-05-08",
+                    "content": "Streamline your styling process with Tailwind's extensive utility class library."
+                },
+                {
+                    "author": "Rose",
+                    "date": "2023-05-09",
+                    "content": "Develop responsive websites faster with Tailwind's utility-first methodology."
+                }
+            ] 
+        },
+        {
+            "id": "023", 
+            "title": "Next.js: Getting started",
+            "author": "Molly",
+            "imageurl":"https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content":"Next.js is a powerful and popular React framework for building modern web applications. It provides a comprehensive set of tools and features that streamline the development process and enable developers to create high-performance and scalable applications. Next.js offers server-side rendering (SSR) and static site generation (SSG) capabilities, allowing websites to load quickly and be easily indexed by search engines. The framework also includes features like automatic code splitting, prefetching, and caching, which optimize the performance and user experience. Next.js simplifies routing with its built-in routing system and offers a wide range of plugins and extensions for added functionality. It seamlessly integrates with popular technologies and tools, such as React, TypeScript, and CSS-in-JS libraries. With Next.js, developers can build robust applications with ease, taking advantage of its efficiency, performance optimization, and excellent developer experience. Whether you're creating a small personal project or a large-scale enterprise application, Next.js provides the tools and flexibility to bring your ideas to life in a fast and efficient manner.",
+            "tags": ["Next.js","Framework","Prototyping","Hooks","Web design"],
+            "comments": [
+                {
+                    "author": "Shaby",
+                    "date": "2023-05-08",
+                    "content": "Efficiency meets performance with Next.js's optimized rendering and caching capabilities."
+                },
+                {
+                    "author": "Tessa",
+                    "date": "2023-05-09",
+                    "content": "Next.js: Bridging the gap between React and server-side rendering for enhanced UX."
+                }
+            ] 
+        },
+        {
+            "id": "024", 
+            "title": "Angular: Type-script based framework",
+            "author": "Joe",
+            "imageurl":"https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2020/06/angular.png?fit=1024%2C538&ssl=1",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content":"Angular is a comprehensive and widely used JavaScript framework for building web applications. Developed and maintained by Google, Angular provides developers with a structured approach to creating dynamic and feature-rich applications. It follows the Model-View-Controller (MVC) architectural pattern and offers a plethora of tools and features that simplify the development process. Angular's powerful data binding capabilities enable seamless synchronization between the application's data and the UI, enhancing the user experience. The framework also includes a robust dependency injection system, allowing for efficient management of components and services. Angular's declarative syntax, combined with its extensive library of reusable components, streamlines the creation of complex user interfaces. It also provides excellent support for testing, making it easier to ensure the reliability and stability of the application. With its large and active community, Angular offers extensive documentation, tutorials, and support resources, facilitating the learning and adoption of the framework. ",
+            "tags": ["Angular","Framework","Prototyping","Typescript","Web design"],
+            "comments": [
+                {
+                    "author": "Paul",
+                    "date": "2023-05-08",
+                    "content": "Streamline application development with Angular's structured approach and MVC architecture."
+                },
+                {
+                    "author": "Steave",
+                    "date": "2023-05-09",
+                    "content": "Angular: Enhancing developer productivity with its comprehensive set of tools and features."
+                }    
+            ] 
         }
-    
-    ] 
-    
+    ]  
+      
 }
