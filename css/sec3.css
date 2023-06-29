@@ -16,21 +16,46 @@
 .mainContainer{
     display: flex;
     flex-wrap: wrap;
+    /*  addd? */
+    margin: 1rem ;
     flex-grow: 1;
-    
+    position: relative;
+    background-color: rgba(136, 112, 112, 0.2);
+    border-radius: 5px;
+
+
+
+}
+  
+  .mainContainer:hover:before,
+  .mainContainer:hover:after {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .mainContainer:hover::before {
+    background-color: rgba(14, 0, 0, 0.2);
+  
 }
 .box1{
     /* border: 1px solid green; */
     padding-bottom: 2vw;
     height: 27vw;
-    width: 25vw;
+    width: max-content;
     margin: 0 2vw;
+    margin-bottom: 7rem;   /*  addd? */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .box1>img{
-    
+    margin-top: 1rem;
     height: 15vw;
     width: 23vw;
     object-fit: fill;
@@ -41,12 +66,16 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
     justify-content: center;
+
 }
 
 .flex a{
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    
 }
 
 .boxtext{
@@ -70,8 +99,9 @@
     font-weight: 600;
     line-height: 27px;
     color: #000000;
-    width: 15vw;
+    width: 25vw;
     font-size: 1em;
+    
 }
 .boxContent{
     font-size: 0.7em;
@@ -80,18 +110,17 @@
     font-weight: 500;
     line-height: 21px;
     color: rgba(0, 0, 0, 0.8);
-
-
-
+position: absolute;
 }
 .author{
     display: flex;
+
     align-items: center;
     margin-top: 1.5vw;
 }
 .boxauthor{
     display: flex;
-    margin-top: 0.5vw;
+    margin-top: 7vw;
 }
 .boxauthor>img{
     height: 2vw;
@@ -120,3 +149,4 @@
     color: rgba(0, 0, 0, 0.5);
 
 }
+
