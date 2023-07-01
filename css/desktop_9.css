@@ -434,3 +434,13 @@ nav {
 .icon:hover{
 border-bottom: 2px solid rgb(255, 255, 255);
 }
+
+#subs{
+   background-color: #5922b7;
+   border-radius: 4px;
+box-shadow: 1px 1px 2px rgb(86, 24, 133);
+}
+
+#subs:hover{
+    background-color: #321a5c;
+}
