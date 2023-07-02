@@ -9,6 +9,11 @@
     --txtColor1: #000000a8;
 }
 
+#blog{
+    margin-top: 100px;
+}
+
+
 .darktheme{
     --txtColor1: white;
     --element-color:white;

@@ -91,13 +91,13 @@ function td_fun(item) {
   let div = document.createElement('div');
   div.className = "mainContainer";
   div.innerHTML = `
-    <div class="box1" key="item.id">
+    <div class="box1" key="item.id" style="margin-bottom: 6.25rem;">
       <img src=${item.imageurl} alt="" />
       <div class="boxtext">
         <div class="boxdiv">${item.tags}</div>
         <a href="../blog.html?id=${item.id}"><h1>${item.title}</h1></a>
         <a href="../blog.html?id=${item.id}"><p class="boxContent">
-        ${item.content.slice(0,180)}
+        ${item.content.slice(0,180) + "..."}
         </p></a>
         <div class="boxauthor">
           <img src=${item.img0} alt="" class="boxauthorimg" />
@@ -125,7 +125,7 @@ function td_fun1(item) {
           <div class="div">${data.tags}</div>
           <h1>${data.title}</h1>
           <p">
-          ${data.content.slice(0, 500)}
+          ${data.content.slice(0, 500) + "..."}
           </p>
           <div class="author">
             <img src=${data.img0} alt="" class="authorimg" />

@@ -43,9 +43,7 @@ function td_blog(item) {
         </div>
         <div class="video_section">
             <div class="title">Watch a video</div>
-            <video src="https://www.youtube.com/watch?v=nJZcbidTutE" controls class="video">
-                Your browser does not support the video tag.
-              </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nJZcbidTutE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="like_comment_section">
             <hr>
