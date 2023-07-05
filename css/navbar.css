@@ -198,3 +198,14 @@ body{
 .darktheme .txtColor1{
     color: rgba(0, 0, 0, 0.7);
 }
+#emailId{
+    border: 1.2px solid rgb(225, 153, 243);
+border-radius: 5px;
+box-shadow: 1px 1px 2px rgb(121, 46, 121);
+}
+#emailId::placeholder{
+color: rgb(205, 175, 228);
+}
+#emailId:hover{
+    border: 1.2px solid rgb(247, 239, 247);
+}
