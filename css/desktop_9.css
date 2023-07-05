@@ -359,29 +359,35 @@ nav {
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 80px;
-    display: flex;
-    flex-wrap: wrap;
+    display:grid;
+   
     justify-content: space-between;
     align-items: center;
-    height: 260px;
+    height: 340px;
     background-repeat: no-repeat, repeat;
 }
 
 .footer_titles{
-    color: #ffffff;
+       color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 600 !important;
 }
+.newsletter{
+
+   padding-left: 140vh;
+}
 
 .newsletter form {
-    display: flex;
+    padding-left: 1vh;
+    display:flexbox;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
 }
 
 .newsletter form input {
+    padding-left: 280vh;
     width: 60%;
     border: none;
     height: 30px;
@@ -418,10 +424,11 @@ nav {
 }
 
 .icons {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 60%;
+   margin-left: 20px;
+    width: 30%;
+    justify-content: space-between ;
     margin-top: 10px;
 }
 
