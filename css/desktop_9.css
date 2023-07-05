@@ -2,6 +2,29 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --element-color: black;
+    --element1-color: #808080;
+    --element2-color:#000000a8;
+    --txtColor1: #000000a8;
+}
+
+.darktheme{
+    --txtColor1: white;
+    --element-color:white;
+    --element1-color:#9DB2BF;
+    --element2-color: #DDE6ED;
+    background-color: black;
+    color: white;
+
+}
+#themeImg{
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 10px;
+}
+
 
 nav {
     height: 80px;
@@ -88,6 +111,11 @@ nav {
     margin-left: 5px;
 }
 
+.calendar_container:hover {
+  background-color: rgb(148, 173, 227);
+  border: 1px solid #208FF4;
+}
+
 .title_container {
     width: 90%;
     margin: 0 auto;
@@ -96,14 +124,14 @@ nav {
 }
 
 .category {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
 
 .title {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     width: 50%;
@@ -111,7 +139,7 @@ nav {
 }
 
 .info {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: lighter;
@@ -125,7 +153,7 @@ nav {
 }
 
 .other_details {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: lighter;
@@ -140,8 +168,30 @@ nav {
     width: 94%;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-top: 1px solid #808080;
+    border-top: 1px solid var(--element1-color);
 }
+::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  
+  }
+  ::-webkit-scrollbar:hover {
+    background: white;
+    width:10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7D41E2;
+    
+    border-radius: 80px; 
+  }
+  
+   
 
 .blog_content {
     width: 85%;
@@ -231,7 +281,7 @@ nav {
 
 .title_related_blogs {
     margin-top: 80px;
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
 }
@@ -248,14 +298,14 @@ nav {
 }
 
 .blog h4 {
-    color: #808080;
+    color: var(--element1-color);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     margin-left: 10px;
 }
 
 .blog h3 {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin-left: 10px;
@@ -263,7 +313,7 @@ nav {
 }
 
 .blog p {
-    color: #000000a8;
+    color: var(--element2-color);
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin-left: 10px;
@@ -290,13 +340,13 @@ nav {
 }
 
 .profile_details h4 {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
 
 .profile_details h5 {
-    color: #000000;
+    color: var(--element-color);
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
@@ -317,10 +367,11 @@ nav {
     background-repeat: no-repeat, repeat;
 }
 
-.footer_title {
+.footer_titles{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
+    font-weight: 600 !important;
 }
 
 .newsletter form {
@@ -353,15 +404,15 @@ nav {
     cursor: pointer;
 }
 
-.contact h2 {
+.footer a .mail{
     color: #ffffff;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 600 !important;
     margin-top: 10px;
 }
 
-.contact h2 a{
+.contact a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -379,4 +430,7 @@ nav {
      width: 90%;
      height: 50%;
      border-radius: 2rem;
+}
+.icon:hover{
+border-bottom: 2px solid rgb(255, 255, 255);
 }
