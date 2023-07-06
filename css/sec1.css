@@ -37,10 +37,10 @@
     position: relative;
     left: 33vw;
     right: 33vw;
-    top: -4.5vw;
+    top: -2.5vw;
     background-color: white;
     border: none;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.155);
+    box-shadow:  2px 2px 4px 3px rgba(0, 0, 0, 0.155);
     color: rgba(0, 0, 0, 0.148);
 }
 
@@ -61,7 +61,10 @@
 }
 
 .s1part2 a:hover {
-    text-decoration: underline;
+    background-color: #ff765d;
+    padding: 0.2rem;
+    border-radius: 1vw;
+    color: white;
 }
 
 .s1btn1 {
@@ -71,10 +74,10 @@
     border: none;
     border-radius: 1vw;
     background-color: #ff765d;
+    padding:8px;
     color: white;
 
 }
-
 .s1part2 a {
     margin: 0 0.7vw;
     text-decoration: none;
