@@ -7,7 +7,7 @@
 
 
 .sec2{
-    /* border: 2px solid red; */
+    
     height: 34vw;
 }
 
@@ -42,7 +42,7 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{
-    /* border: 1px solid black; */
+    
     width: 90vw;
     height: 25vw;
     margin-top: 2.4vw;
@@ -60,10 +60,10 @@
 }
 
 .s2text{
-    /* border: 1px solid green; */
+    
     height: 23vw;
     width: 45vw;
-    /* margin: 0 3vw; */
+    
 }
 .div{
     margin: 1.3vw 0;
