@@ -431,6 +431,17 @@ nav {
      height: 50%;
      border-radius: 2rem;
 }
-.icon:hover{
+/* .icon:hover{
 border-bottom: 2px solid rgb(255, 255, 255);
+} */
+
+
+#subscribeId:hover{
+    border: 1px solid #d0d9e0;
+    background-color: transparent;
+    color: #0b0c0e;
+}
+.mail:hover{
+    border-bottom: 2px solid #d0d9e0;
+    
 }
