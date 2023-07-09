@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
 }
-.icons img{
+/*    .icons img{
     height: 1.5vw;
     width: 1.5vw;
     cursor: pointer;
@@ -34,7 +34,7 @@
 }
 .email{
     border: 1px solid rgba(255, 255, 255, 0.258);
-    background-color: #7333df;
+    background-color: white;
     height: 1.5vw;
     border-radius: 0.2vw;
 }
@@ -42,9 +42,9 @@
     padding-left: 0.3rem;
 }
 .box2btn{
-    background-color: #aa77ff;
+    background-color: #f8f7f9;
     border: none;
-    font-size: 0.7em;
+    font-size: 0.8em;
     height: 1.5vw;
     width: 5vw;
     border-radius: 0.2vw;
@@ -53,6 +53,11 @@
     cursor: pointer;
     position: relative;
     bottom: 0.1rem;
+}
+
+.box2btn:hover{
+    background-color: rgb(196, 163, 248);
+    transition: 0.5s;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .s4box3{
@@ -65,11 +70,112 @@
     justify-content: center;
 }
 
-.s4box3 a{
-    text-decoration: none;
-    color: white;
+.s4box3 .contact-email a{
+    text-decoration: none;    
+    color: white; 
+    
 }
 
-.s4box3 a:hover{
-    text-decoration: underline;
+.s4box3 .contact-email a:hover{
+ /*   text-decoration: none;    */
+    transition: 0.5s;
+    color: rgb(196, 163, 248);
+    
 }
+
+#media{
+    transition: 0.5s;
+    /*font-size: 40px;  */
+}
+
+#media:hover{
+    transform: translateY(-10px);
+}
+
+.wrapper .icon {
+    position: relative;
+    background-color: #2796ff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .wrapper .spotify:hover,
+  .wrapper .spotify:hover .tooltip,
+  .wrapper .spotify:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+  
+  #media{
+    padding-left: 13px;
+  }
+  
