@@ -291,6 +291,18 @@ nav {
     width: 380px;
     height: 580px;
 }
+/*hover a blog img*/
+.blog-img img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.blog-img:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1.2);
+}
+/*end hover img*/
 
 .blog img {
     margin-top: 30px;
