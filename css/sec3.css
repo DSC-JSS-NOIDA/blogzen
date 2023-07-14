@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+:root{
+    --element-color: black;
+    --element1-color:rgba(0, 0, 0, 0.5);
+    --element2-color:rgba(0, 0, 0, 0.8);
+}
+
+
+.sec3{
+    /* border: 2px solid red; */
+    height: 62vw;
+    display: flex;
+    justify-content: center;
+}
+.s3boxes{
+    /* border: 1px solid black; */
+    height: 26vw;
+    width: 90vw;
+    display: flex;
+    margin-left: 6vw;
+    margin-bottom: 3vw;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1{
+    /* border: 1px solid green; */
+    padding-bottom: 2vw;
+    height: 27vw;
+    width: 25vw;
+    margin: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1>img{
+    
+    height: 15vw;
+    width: 23vw;
+    object-fit: fill;
+    /* margin: 0 5vw; */
+    border-radius: 1vw;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin: auto;
+}
+
+
+.flex a{
+    color: black;
+    text-decoration: none;
+}
+
+.boxtext{
+    /* border: 1px solid green; */
+    height: 11vw;
+    width: 20vw;
+    margin-left: 1vw;
+}
+.boxdiv{
+    margin: 0.4vw 0;
+    font-size: 0.8em;
+    color: var(--element1-color);
+    line-height: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.boxtext h1{
+    margin: 0.5vw 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--element-color);
+    width: 15vw;
+    font-size: 1em;
+}
+.boxContent{
+    font-size: 0.7em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--element2-color);
+
+
+
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+.boxauthor{
+    display: flex;
+    margin-top: 0.5vw;
+}
+.boxauthor>img{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 10vw;
+    
+}
+.boxauthorsname{
+    margin-left: 0.5vw;
+    font-size: 0.8vw;
+}
+.namestyle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8vw;
+    line-height: 15px;
+    color: var(--element-color);
+}
+.datestyle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5vw;
+    line-height: 18px;
+    color: var(--element1-color);
+
+}

@@ -1,0 +1,99 @@
+:root{
+    --element-color: black;
+    --element1-color:rgba(0, 0, 0, 0.5);
+    --element2-color:rgba(0, 0, 0, 0.8);
+
+}
+
+
+.sec2{
+    /* border: 2px solid red; */
+    height: 34vw;
+}
+
+.sec2buttons{
+    width: 20vw;
+    margin-left: 9.5vw;
+}
+.sec2btn2{
+    cursor: pointer;
+    height: 2.5vw;
+    width: 7.2vw;
+    margin: 0 1.3vw;
+    border-radius: 1vw;
+    border: none;
+    border: 1px solid #ff765d;
+    background-color: white;
+    margin: 0 1vw;
+    font-size: 0.8em;
+    color: black;
+}
+.sec2btn2-recent:hover{
+    color: #fff;
+    background-color: #ff765d;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.sec2content{
+    /* border: 1px solid black; */
+    width: 90vw;
+    height: 25vw;
+    margin-top: 2.4vw;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    
+}
+.sec2content>img{
+    height: 23vw;
+    width: 29vw;
+    object-fit: fill;
+    margin: 0 5vw;
+    border-radius: 2vw;
+}
+
+.s2text{
+    /* border: 1px solid green; */
+    height: 23vw;
+    width: 45vw;
+    /* margin: 0 3vw; */
+}
+/* .div{
+    margin: 1.3vw 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 30px;
+     color: var(--element1-color)} */
+.s2text h1{
+    margin: 1vw 0;
+    font-size: 1.8em;
+    width: 30vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    color: var(--element-color);
+}
+.s2text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 30px;
+    color: var(--element-color);
+
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+.author>img{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 10vw;
+}
+.authorsname{
+    margin-left: 1vw;
+}

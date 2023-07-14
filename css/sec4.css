@@ -1,0 +1,74 @@
+/* .footer {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../assests//footer_bg.png);
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 260px;
+    background-repeat: no-repeat, repeat;
+}
+
+.footer_title {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.newsletter form input {
+    width: 60%;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #AA77FF;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #AA77FF;
+}
+
+.newsletter form button {
+    width: 30%;
+    background-color: #AA77FF;
+    border: none;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contact h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.contact h2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+} */
+
