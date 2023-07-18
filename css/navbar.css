@@ -60,6 +60,12 @@ body{
     width: 25px;
     height: 25px;
     border: none;
+    transition: filter 0.3s;
+}
+
+#themeImg:hover{
+    filter: brightness(10%);
+
 }
 
 .themechangebtn {

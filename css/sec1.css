@@ -47,6 +47,11 @@
 .search[placeholder] {
     color: black;
     padding-left: 1rem;
+    transition: filter 0.3s;
+}
+
+.search:hover{
+    filter: brightness(80%);
 }
 
 .s1part2 {
@@ -75,8 +80,17 @@
 
 }
 
+.s1btn1:hover{
+    color: black;
+    background-color: #f7aea1;
+}
+
 .s1part2 a {
     margin: 0 0.7vw;
     text-decoration: none;
     color: var(--element-color);
+}
+
+.s1part2 a:hover{
+    color: rgb(133, 123, 123);
 }
