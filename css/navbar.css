@@ -120,6 +120,12 @@ body{
     color: #7D41E2;
 }
 
+#log:hover{
+    border: 1px solid #208FF4;
+    background-color: transparent;
+    color: #2a95f6;
+}
+
 
 #signup:hover{
     border: 1px solid #208FF4;
