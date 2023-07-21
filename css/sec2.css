@@ -8,7 +8,7 @@
 
 .sec2{
     /* border: 2px solid red; */
-    height: 34vw;
+    /* height: 34vw; */
 }
 
 .sec2buttons{
@@ -35,17 +35,19 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .sec2content{
     /* border: 1px solid black; */
-    width: 90vw;
-    height: 25vw;
-    margin-top: 2.4vw;
+    /* width: 90vw;
+    height: 25vw; */
+    margin-top: 3vw;
     display: flex;
     align-items: center;
-    margin-left: 5vw;
+    justify-content: center;
+    margin-bottom: 3vw;
+    /* margin-left: 5vw; */
     
 }
 .sec2content>img{
-    height: 23vw;
-    width: 29vw;
+    height: 26vw;
+    width: 35vw;
     object-fit: fill;
     margin: 0 5vw;
     border-radius: 2vw;
@@ -53,7 +55,7 @@
 
 .s2text{
     /* border: 1px solid green; */
-    height: 23vw;
+    /* height: 23vw; */
     width: 45vw;
     /* margin: 0 3vw; */
 }

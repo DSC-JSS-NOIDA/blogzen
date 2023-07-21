@@ -87,7 +87,7 @@ nav {
     align-items: center;
     justify-content: center;
     margin: auto 0;
-    margin-left: 60px;
+    margin-left: 5px;
     margin-right: 40px;
     height: 30px;
     background-color: #208FF4;
@@ -358,12 +358,12 @@ nav {
     background-image: url(../assests//footer_bg.png);
     padding-left: 80px;
     padding-right: 80px;
-    margin-top: 80px;
+    margin-top: 2vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 260px;
+    height: 15vw;
     background-repeat: no-repeat, repeat;
 }
 
