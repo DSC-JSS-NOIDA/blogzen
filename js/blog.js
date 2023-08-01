@@ -1,27 +1,31 @@
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 
-document.addEventListener("DOMContentLoaded", function () {
-  var tbody = document.getElementById("blog");
+document.addEventListener("DOMContentLoaded", function() {
+    var tbody = document.getElementById("blog");
 
-  // fetch function
-  fetch("../database/jsonData.json")
-    .then((res) => res.json())
-    .then((json) => {
-      json.blogs.map((data, idx) => {
-        if (data.id === id) tbody.innerHTML = td_blog(data).innerHTML;
+    // fetch function
+    fetch("../database/jsonData.json")
+      .then(res => res.json())
+      .then(json => {
+        json.blogs.map(data => {
+          console.log("data1", data);
+          // tbody.innerHTML += td_fun(data);
+          // tbody.append(td_blog(data));
+         if (data.id === id) tbody.innerHTML = td_blog(data).innerHTML;
+        });
+      })
+      .catch(error => {
+        console.error('Error:', error);
       });
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
-});
+  });
 
-// create td
-function td_blog(item) {
-  let loading = window.location.href.split("=")[1];
-  if (item.id == loading) {
-    let div = document.createElement("div");
+  // create td
+  function td_blog(item) {
+    console.log("item000", item ,item.id);
+    let loading =window.location.href.split("=")[1];
+    if (item.id==loading){
+      let div = document.createElement('div');
     div.innerHTML = `
         <div class="title_container">
         <div class="category">${item.tags}</div>

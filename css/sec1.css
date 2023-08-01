@@ -69,7 +69,8 @@
 
 .s1btn1 {
     height: 2.4vw;
-    width: 3.8vw;
+    width:fit-content;
+    padding: 2px;
     margin: 0 0.7vw;
     border: none;
     border-radius: 1vw;
