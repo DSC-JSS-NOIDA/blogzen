@@ -80,7 +80,7 @@
   max-width: 75%;
   font-size: 0.95rem;
   white-space: pre-wrap;
-  color: #202020;
+  color:white;
   background-color: #019ef9;
   border-radius: 10px 10px 0 10px;
   padding: 12px 16px;
@@ -129,7 +129,7 @@
   max-height: 80px;
   font-size: 0.95rem;
   padding: 16px 15px 16px 0;
-  color: #202020;
+  color: white;
   border: none;
   outline: none;
   resize: none;
@@ -141,7 +141,7 @@
 }
 .chatbot__input-box span {
   font-size: 1.75rem;
-  color: #202020;
+  color: white;
   cursor: pointer;
   visibility: hidden;
 }
