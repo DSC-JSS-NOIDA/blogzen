@@ -1,9 +1,49 @@
 // const dataArray = JSON.parse(jsonData);
 // console.log(dataArray)
 console.log("jsonData")
+console.log("FucY")
+//Adding color function on click by Priyas32
+  function buttonClick(ele) {
+    NavBar= document.getElementsByClassName("s1btn1");
+    console.log("Hi")
+    for(i=0; i<NavBar.length; i++)
+    {
+      NavBar[i].style.backgroundColor="white";
+      NavBar[i].style.color="black";
+    }
+    document.getElementById(ele).style.backgroundColor="#ff765d"
+    document.getElementById(ele).style.color="white";
+    //
+    var tbody = document.getElementById("tbody");
+    let get = Array.from(document.getElementsByClassName('mainContainer'));
+    get.forEach(element => {
+    element.remove(); 
+    });
+  const john = document.getElementById(ele);
+  // fetch function
+  fetch("../database/jsonData.json")
+  // fetch("http://localhost:3000/blogs")
+    .then(res => res.json())
+    .then(json => {
+      console.log("data1", json);
+      console.log(String(john.innerHTML), "Hello sir bro ")
+      const jack = json.blogs.filter(item => {
+        return item.tags.includes(String(john.innerHTML))
+      })
+      console.log(jack, "jack")
+      jack.map(data => {
+        console.log("data1", data);
+        // tbody.innerHTML += td_fun(data);
+        tbody.append(td_fun(data));
+        
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+  }
 
-
-
+//Changes by priya
 
 // let tbody = document.getElementById("tbody")
 
@@ -89,20 +129,21 @@ document.addEventListener("DOMContentLoaded", function() {
 function td_fun(item) {
   // console.log("item", item);
   let div = document.createElement('div');
+  div.className = "mainContainer";
   div.innerHTML = `
     <div class="box1" key="item.id">
       <img src=${item.imageurl} alt="" />
       <div class="boxtext">
-        <div class="boxdiv">${item.tags}</div></a>
+        <div class="boxdiv">${item.tags}</div>
         <a href="../blog.html?id=${item.id}"><h1>${item.title}</h1></a>
-        <a href="../blog.html?id=${item.id}"><p style="font-size: 0.7em;">
+        <a href="../blog.html?id=${item.id}"><p class="boxContent">
         ${item.content.slice(0,180)}
         </p></a>
         <div class="boxauthor">
           <img src=${item.img0} alt="" class="boxauthorimg" />
           <div class="boxauthorsname">
-            <div class="name">${item.author}</div>
-            <div class="date" style="color: grey;">${item.date}</div>
+            <div class="name namestyle">${item.author}</div>
+            <div class="date datestyle" style="color: grey;">${item.date}</div>
           </div>
         </div>
       </div>
@@ -123,14 +164,14 @@ function td_fun1(item) {
         <div class="s2text">
           <div class="div">${data.tags}</div>
           <h1>${data.title}</h1>
-          <p>
+          <p">
           ${data.content.slice(0, 500)}
           </p>
           <div class="author">
             <img src=${data.img0} alt="" class="authorimg" />
             <div class="authorsname">
-              <div class="name">${data.author}</div>
-              <div class="date" style="color: grey;">${data.date}</div>
+              <div class="name namestyle">${data.author}</div>
+              <div class="date datestyle" style="color: grey;">${data.date}</div>
             </div>
           </div>
         </div>

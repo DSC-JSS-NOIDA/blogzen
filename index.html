@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogzen</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./chatBot/style.css">
+  <script src="https://kit.fontawesome.com/d1c523657e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/sec1.css" />
+  <link rel="stylesheet" href="css/sec2.css" />
+  <link rel="stylesheet" href="css/sec3.css" />
+  <!-- <link rel="stylesheet" href="css/sec4.css" /> -->
+  <!-- material -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="css/desktop_9.css">
+  <script src="./js/Landingpage.js"></script>
+  <script>
+    function toggleTheme() {
+      var navbar = document.getElementById("navbar");
+      navbar.classList.toggle("dark");
+    }
+    
+    
+  </script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <!-- Navbar ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+  <div class="navbar" id="navbar">
+    <div class="navs1">
+      <a href="index.html"><img src="img/final logo 1.png" alt="" /></a>
+      <div class="span1"><a href="index.html">Blogzen</a></div>
+      <!-- <div class="span2"><a href="index.html">zen</a></div> -->
+    </div>
+
+    <div class="navs2">
+      <!-- <img src="img/final logo 1.png" alt="" /> -->
+      <img src="assests/moon.png" alt="image" id="themeImg">
+      <button onclick="click" id="loginButton" class="button_nav txtColor1" style="border: 1px solid #f6f8f9; background-color:#208FF4 ; color: white;">Log
+        In</button>
+      <button id="signup" class="button_nav txtColor">Sign Up</button>
+      <div class="calendar_container">
+        <a href="">
+          <div class="calendar_icon"><img src="/assests/calender_icon.svg" alt=""></div>
+          <div id="cal" class="calendar_text">Calendar</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="popup">
+      <div class="option">
+        <img src="email_icon.png" alt="Email">
+        <div>Sign in with Email</div>
+      </div>
+      <div class="option">
+        <img src="facebook_icon.png" alt="Facebook">
+        <div>Sign in with Facebook</div>
+      </div>
+      <div class="option">
+        <img src="google_icon.png" alt="Google">
+        <div>Sign in with Google</div>
+      </div>
+      <div class="option">
+        <img src="yahoo_icon.png" alt="Yahoo">
+        <div>Sign in with Yahoo</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sec-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <div class="sec1">
+    <div class="s1part1">
+
+
+      <span class="auto-type"></span>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["Blogzen!!"],
+          typeSpeed: 150,
+          backspeed: 150,
+          loop: true
+        })
+      </script>
+    </div>
+    <input class="search" placeholder="Search"></input>
+    <button class="s1btn1" >All</button>
+        <button class="s1btn1" style="background-color: white;color:black;" id = 'Tech' onclick="buttonClick('Tech')">Technology</button>
+        <button class="s1btn1"style="background-color: white;color:black;" id = 'branding' onclick="buttonClick('branding')">Branding </button>
+          <button class="s1btn1"style="background-color: white;color:black" id = 'news' onclick="buttonClick('news')" >News</button>
+            <button class="s1btn1"style="background-color: white;color:black"  id = 'AI' onclick="buttonClick('AI')" > AI</button>
+              <button class="s1btn1"style="background-color: white;color:black" id = 'Management' onclick="buttonClick('Management')" >Management</button>
+                <button class="s1btn1"style="background-color: white;color:black" id = 'Design' onclick="buttonClick('Design')">Design</button>
+  </div>
+  <!-- Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+  <div class="sec2buttons">
+    <button class="sec2btn2" style="background-color: #ff765d; color: white">
+      Trending
+    </button>
+    <button class="sec2btn2 sec2btn2-recent">Recent</button>
+  </div>
+  <div class="sec2" id="sec2">
+
+
+
+  </div>
+
+  <!-- Sec-3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+  <div id="tbody" class="flex">
+
+  </div>
+
+
+  </div>
+  <!-- Sec-4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+  <div class="footer">
+    <div class="socials">
+      <div class="footer_titles">Follow us on our socials</div>
+      <div class="icons">
+        <div class="icon"><a href=""><img src="assests/instagram.svg" alt=""></a></div>
+        <div class="icon"><a href=""><img src="assests/twitter.svg" alt=""></a></div>
+
+        <div class="icon"><a href=""><img src="assests/spotify.svg" alt=""></a></div>
+      </div>
+    </div>
+    <div class="newsletter">
+      <div class="footer_titles">Subscribe to our newsletter</div>
+      <form>
+        <input type="text" id="emailId" name="email" placeholder="Your Email">
+        <button  type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="contact">
+      <div class="footer_titles">Contact Us</div>
+      <a href="mailto:Blogzen@gmail.com"><div class="mail">Blogzen@gmail.com</div></a>
+    </div>
+  </div>
+
+   <!--   Chat bot   -->
+  <button class="chatbot__button">
+    <span class="material-symbols-outlined">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+    <div class="chatbot__header">
+      <h3 class="chatbox__title">Blogzen 24/7</h3>
+      <span class="material-symbols-outlined">close</span>
+    </div>
+    <ul class="chatbot__box">
+      <li class="chatbot__chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Welcome !</p>
+      </li>
+      <li class="chatbot__chat outgoing">
+        <!-- <p>...</p> -->
+      </li>
+    </ul>
+    <div class="chatbot__input-box">
+      <textarea class="chatbot__textarea" placeholder="Enter a message..." required></textarea>
+      <span id="send-btn" class="material-symbols-outlined">send</span>
+    </div>
+  </div>
+  <!--  chat bot finish  -->
+
+  <script src="./chatBot/script.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+
+</html>
