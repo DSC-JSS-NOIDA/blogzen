@@ -164,7 +164,15 @@ body{
     border: none;
     cursor: pointer;
 }
-
+.nav-btn{
+    background-color: #208FF4 !important;
+    color: #ffffff !important;
+}
+.nav-btn:hover{
+    color: #208FF4 !important;
+    background-color: transparent !important;
+    border: 1px solid #208FF4;
+}
 .navbtn2 {
     cursor: pointer;
     height: 2vw;
