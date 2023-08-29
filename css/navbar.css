@@ -127,6 +127,11 @@ body{
     color: #2a95f6;
 }
 
+#signin:hover{
+    border: 1px solid #208FF4;
+    background-color: transparent;
+    color: #2a95f6;
+}
 
 /* Sec-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navs2 {
@@ -193,7 +198,7 @@ body{
     color: white;
 }
 .txtColor1{
-    color: var(--txtColor1);
+    color: white;
 }
 .darktheme .txtColor1{
     color: rgba(0, 0, 0, 0.7);
