@@ -2,23 +2,25 @@
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     --element-color: black;
     --element1-color: #808080;
-    --element2-color:#000000a8;
+    --element2-color: #000000a8;
     --txtColor1: #000000a8;
 }
 
-.darktheme{
+.darktheme {
     --txtColor1: white;
-    --element-color:white;
-    --element1-color:#9DB2BF;
+    --element-color: white;
+    --element1-color: #9DB2BF;
     --element2-color: #DDE6ED;
     background-color: black;
     color: white;
 
 }
-#themeImg{
+
+#themeImg {
     width: 25px;
     height: 25px;
     border: none;
@@ -112,8 +114,8 @@ nav {
 }
 
 .calendar_container:hover {
-  background-color: rgb(148, 173, 227);
-  border: 1px solid #208FF4;
+    background-color: rgb(148, 173, 227);
+    border: 1px solid #208FF4;
 }
 
 .title_container {
@@ -170,28 +172,31 @@ nav {
     margin-bottom: 40px;
     border-top: 1px solid var(--element1-color);
 }
+
 ::-webkit-scrollbar {
     width: 10px;
-  
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: white;
-  
-  }
-  ::-webkit-scrollbar:hover {
+
+}
+
+::-webkit-scrollbar:hover {
     background: white;
-    width:10px;
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #7D41E2;
-    
-    border-radius: 80px; 
-  }
-  
-   
+
+    border-radius: 80px;
+}
+
+
 
 .blog_content {
     width: 85%;
@@ -249,7 +254,7 @@ nav {
     margin-top: 40px;
 }
 
-.other_blogs{
+.other_blogs {
     margin-left: 6.5%;
 }
 
@@ -329,6 +334,7 @@ nav {
     margin-top: 20px;
     margin-left: 10px;
     height: 44px;
+
 }
 
 .profile_details {
@@ -367,7 +373,7 @@ nav {
     background-repeat: no-repeat, repeat;
 }
 
-.footer_titles{
+.footer_titles {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
@@ -404,7 +410,7 @@ nav {
     cursor: pointer;
 }
 
-.footer a .mail{
+.footer a .mail {
     color: #ffffff;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -412,7 +418,7 @@ nav {
     margin-top: 10px;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -425,12 +431,23 @@ nav {
     margin-top: 10px;
 }
 
-.video{
+.video {
     margin-left: 4rem;
-     width: 90%;
-     height: 50%;
-     border-radius: 2rem;
+    width: 90%;
+    height: 50%;
+    border-radius: 2rem;
 }
-.icon:hover{
-border-bottom: 2px solid rgb(255, 255, 255);
+
+form button:hover {
+    background-color: red;
+}
+
+.icon:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.icon:hover img {
+    background-color: #a69a9a;
+    border-radius: 2px;
+    padding: 1px;
 }
